@@ -1,0 +1,43 @@
+{
+  "name": "playwright-test-automation-framework",
+  "version": "1.0.0",
+  "description": "UI Test Automation Framework using Playwright with JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "test:chrome": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "test:dev": "ENV=dev playwright test",
+    "test:staging": "ENV=staging playwright test",
+    "test:prod": "ENV=prod playwright test",
+    "test:parallel": "playwright test --workers=4",
+    "test:serial": "playwright test --workers=1",
+    "report": "playwright show-report",
+    "codegen": "playwright codegen"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "testing",
+    "javascript",
+    "e2e"
+  ],
+  "author": "Automation Test Engineer",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "dotenv": "^16.4.5",
+    "allure-playwright": "^3.0.0"
+  },
+  "dependencies": {
+    "faker": "^5.5.3",
+    "mysql2": "^3.11.5",
+    "pg": "^8.13.1",
+    "mongodb": "^6.10.0",
+    "winston": "^3.15.0"
+  }
+}
