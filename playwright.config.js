@@ -10,7 +10,7 @@ module.exports = defineConfig({
   fullyParallel: true,
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 2 : 0,
-  workers: process.env.CI ? 2 : undefined,
+  workers: process.env.CI ? 2 : 4,
   reporter: [
     ['html', { outputFolder: 'reports/html-report', open: 'never' }],
     ['json', { outputFile: 'reports/test-results.json' }],
@@ -24,7 +24,7 @@ module.exports = defineConfig({
     trace: 'retain-on-failure',
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
-    headless: false,
+    headless: true,
     viewport: { width: 1920, height: 1080 },
     actionTimeout: 30000,
     navigationTimeout: 60000
@@ -37,7 +37,7 @@ module.exports = defineConfig({
         ...devices['Desktop Chrome'],
         launchOptions: {
           args: ['--start-maximized'],
-          slowMo: 1000
+          //slowMo: 1000
         }
       },
     },

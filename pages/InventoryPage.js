@@ -23,6 +23,14 @@ class InventoryPage extends BasePage {
     this.inventoryItemPrice = '[data-test="inventory-item-price"]';
     this.inventoryItemImg = '.inventory_item_img';
     
+    // Sorting locators
+    this.sortDropdown = '[data-test="product-sort-container"]';
+    this.activeOption = '[data-test="active-option"]';
+    
+    // Cart locators
+    this.shoppingCartBadge = '.shopping_cart_badge';
+    this.shoppingCartLink = '[data-test="shopping-cart-link"]';
+    
     // Product-specific locators (by item ID)
     this.productLinks = {
       backpack: {
@@ -149,6 +157,34 @@ class InventoryPage extends BasePage {
   }
 
   /**
+   * Remove product from cart by index
+   * @param {number} index - Index of the product (0-based)
+   */
+  async removeFromCartByIndex(index) {
+    const removeButtons = await this.page.locator('button[data-test^="remove"]').all();
+    await removeButtons[index].click();
+  }
+
+  /**
+   * Remove product from cart by product name
+   * @param {string} productName - Name of the product
+   */
+  async removeFromCartByName(productName) {
+    const items = await this.page.locator(this.inventoryItems).all();
+    
+    for (const item of items) {
+      const name = await item.locator(this.inventoryItemName).textContent();
+      if (name === productName) {
+        const removeButton = item.locator('button[data-test^="remove"]');
+        await removeButton.click();
+        return;
+      }
+    }
+    
+    throw new Error(`Product with name "${productName}" not found or not in cart`);
+  }
+
+  /**
    * Add Sauce Labs Backpack to cart
    */
   async addBackpackToCart() {
@@ -192,10 +228,18 @@ class InventoryPage extends BasePage {
 
   /**
    * Click on product title by data-test attribute
-   * @param {string} productDataTest - Product data-test identifier (e.g., 'item-4-title-link')
+   * @param {string} productName - Product name (e.g., 'Sauce Labs Backpack')
    */
-  async clickProductTitle(productDataTest) {
-    await this.click(`[data-test="${productDataTest}"]`);
+  async clickProductTitle(productName) {
+    const items = await this.page.locator(this.inventoryItems).all();
+    
+    for (const item of items) {
+      const name = await item.locator(this.inventoryItemName).textContent();
+      if (name === productName) {
+        await item.locator(this.inventoryItemName).click();
+        return;
+      }
+    }
   }
 
   /**
@@ -261,6 +305,157 @@ class InventoryPage extends BasePage {
   async isProductDisplayed(productName) {
     const names = await this.getAllProductNames();
     return names.includes(productName);
+  }
+
+  /**
+   * Get the currently active sort option text
+   * @returns {Promise<string>} Currently active sort option
+   */
+  async getActiveSortOption() {
+    return await this.getText(this.activeOption);
+  }
+
+  /**
+   * Select a sort option from the dropdown
+   * @param {string} sortValue - Sort value ('az', 'za', 'lohi', 'hilo')
+   */
+  async selectSortOption(sortValue) {
+    await this.page.locator(this.sortDropdown).selectOption(sortValue);
+  }
+
+  /**
+   * Sort products by Name (A to Z)
+   */
+  async sortByNameAtoZ() {
+    await this.selectSortOption('az');
+  }
+
+  /**
+   * Sort products by Name (Z to A)
+   */
+  async sortByNameZtoA() {
+    await this.selectSortOption('za');
+  }
+
+  /**
+   * Sort products by Price (low to high)
+   */
+  async sortByPriceLowToHigh() {
+    await this.selectSortOption('lohi');
+  }
+
+  /**
+   * Sort products by Price (high to low)
+   */
+  async sortByPriceHighToLow() {
+    await this.selectSortOption('hilo');
+  }
+
+  /**
+   * Verify if products are sorted by name A to Z
+   * @returns {Promise<boolean>} True if sorted correctly
+   */
+  async isSortedByNameAtoZ() {
+    const names = await this.getAllProductNames();
+    const sortedNames = [...names].sort((a, b) => a.localeCompare(b));
+    return JSON.stringify(names) === JSON.stringify(sortedNames);
+  }
+
+  /**
+   * Verify if products are sorted by name Z to A
+   * @returns {Promise<boolean>} True if sorted correctly
+   */
+  async isSortedByNameZtoA() {
+    const names = await this.getAllProductNames();
+    const sortedNames = [...names].sort((a, b) => b.localeCompare(a));
+    return JSON.stringify(names) === JSON.stringify(sortedNames);
+  }
+
+  /**
+   * Verify if products are sorted by price low to high
+   * @returns {Promise<boolean>} True if sorted correctly
+   */
+  async isSortedByPriceLowToHigh() {
+    const prices = await this.getAllProductPrices();
+    const numericPrices = prices.map(price => parseFloat(price.replace('$', '')));
+    const sortedPrices = [...numericPrices].sort((a, b) => a - b);
+    return JSON.stringify(numericPrices) === JSON.stringify(sortedPrices);
+  }
+
+  /**
+   * Verify if products are sorted by price high to low
+   * @returns {Promise<boolean>} True if sorted correctly
+   */
+  async isSortedByPriceHighToLow() {
+    const prices = await this.getAllProductPrices();
+    const numericPrices = prices.map(price => parseFloat(price.replace('$', '')));
+    const sortedPrices = [...numericPrices].sort((a, b) => b - a);
+    return JSON.stringify(numericPrices) === JSON.stringify(sortedPrices);
+  }
+
+  /**
+   * Check if sort dropdown is visible
+   * @returns {Promise<boolean>} True if dropdown is visible
+   */
+  async isSortDropdownVisible() {
+    return await this.isVisible(this.sortDropdown);
+  }
+
+  /**
+   * Get shopping cart badge count
+   * @returns {Promise<number>} Cart item count (0 if badge not visible)
+   */
+  async getCartBadgeCount() {
+    const isBadgeVisible = await this.isVisible(this.shoppingCartBadge);
+    if (!isBadgeVisible) {
+      return 0;
+    }
+    const badgeText = await this.getText(this.shoppingCartBadge);
+    return parseInt(badgeText, 10);
+  }
+
+  /**
+   * Check if cart badge is visible
+   * @returns {Promise<boolean>} True if badge is visible
+   */
+  async isCartBadgeVisible() {
+    return await this.isVisible(this.shoppingCartBadge);
+  }
+
+  /**
+   * Get button text for a product by index
+   * @param {number} index - Index of the product (0-based)
+   * @returns {Promise<string>} Button text
+   */
+  async getProductButtonTextByIndex(index) {
+    const buttons = await this.page.locator('button[data-test^="add-to-cart"], button[data-test^="remove"]').all();
+    return await buttons[index].textContent();
+  }
+
+  /**
+   * Get button text for a specific product
+   * @param {string} productName - Name of the product
+   * @returns {Promise<string>} Button text ('Add to cart' or 'Remove')
+   */
+  async getProductButtonText(productName) {
+    const items = await this.page.locator(this.inventoryItems).all();
+    
+    for (const item of items) {
+      const name = await item.locator(this.inventoryItemName).textContent();
+      if (name === productName) {
+        const button = item.locator('button[data-test^="add-to-cart"], button[data-test^="remove"]');
+        return await button.textContent();
+      }
+    }
+    
+    throw new Error(`Product with name "${productName}" not found`);
+  }
+
+  /**
+   * Click shopping cart icon to navigate to cart page
+   */
+  async clickCartIcon() {
+    await this.click(this.shoppingCartLink);
   }
 }
 
