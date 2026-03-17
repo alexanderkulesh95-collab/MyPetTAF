@@ -1,0 +1,2322 @@
+{
+  "config": {
+    "configFile": "/Users/runner/work/MyPetTAF/MyPetTAF/playwright.config.js",
+    "rootDir": "/Users/runner/work/MyPetTAF/MyPetTAF/tests",
+    "forbidOnly": true,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "ci": {
+        "commitHref": "https://github.com/alexanderkulesh95-collab/MyPetTAF/commit/4a49719447c44513fa0261806bbcd2e94443a6b6",
+        "commitHash": "4a49719447c44513fa0261806bbcd2e94443a6b6",
+        "buildHref": "https://github.com/alexanderkulesh95-collab/MyPetTAF/actions/runs/23198535355"
+      },
+      "gitCommit": {
+        "shortHash": "4a49719",
+        "hash": "4a49719447c44513fa0261806bbcd2e94443a6b6",
+        "subject": "Add permissions to Playwright workflow",
+        "body": "Add permissions to Playwright workflow",
+        "author": {
+          "name": "AlexKuleshCitation",
+          "email": "157604608+AlexKuleshCitation@users.noreply.github.com",
+          "time": 1773756723000
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "time": 1773756723000
+        },
+        "branch": "main"
+      },
+      "actualWorkers": 2
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "reports/html-report",
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "reports/test-results.json"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "reports/junit-results.xml"
+        }
+      ],
+      [
+        "list",
+        null
+      ],
+      [
+        "/Users/runner/work/MyPetTAF/MyPetTAF/node_modules/allure-playwright/dist/cjs/index.js",
+        {
+          "outputFolder": "reports/allure-results"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/Users/runner/work/MyPetTAF/MyPetTAF/test-results",
+        "repeatEach": 1,
+        "retries": 2,
+        "metadata": {
+          "ci": {
+            "commitHref": "https://github.com/alexanderkulesh95-collab/MyPetTAF/commit/4a49719447c44513fa0261806bbcd2e94443a6b6",
+            "commitHash": "4a49719447c44513fa0261806bbcd2e94443a6b6",
+            "buildHref": "https://github.com/alexanderkulesh95-collab/MyPetTAF/actions/runs/23198535355"
+          },
+          "gitCommit": {
+            "shortHash": "4a49719",
+            "hash": "4a49719447c44513fa0261806bbcd2e94443a6b6",
+            "subject": "Add permissions to Playwright workflow",
+            "body": "Add permissions to Playwright workflow",
+            "author": {
+              "name": "AlexKuleshCitation",
+              "email": "157604608+AlexKuleshCitation@users.noreply.github.com",
+              "time": 1773756723000
+            },
+            "committer": {
+              "name": "GitHub",
+              "email": "noreply@github.com",
+              "time": 1773756723000
+            },
+            "branch": "main"
+          },
+          "actualWorkers": 2
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/Users/runner/work/MyPetTAF/MyPetTAF/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.57.0",
+    "workers": 2,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "auth/login.spec.js",
+      "file": "auth/login.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Authentication - Login Tests",
+          "file": "auth/login.spec.js",
+          "line": 11,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC-001: Verify successful login with valid credentials",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 890,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[2026-03-17 14:12:29] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Login Test ==========\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:29] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:29] \u001b[32MINFO\u001b[39M: Test Case: TC-001 - Successful login\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:29] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:29] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:29] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:29] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: User successfully logged in\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:29] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Login Test - Completed ==========\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-17T14:12:28.458Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "626483fc77c4bb72c38c-c934a433b84fd23fcfc8",
+              "file": "auth/login.spec.js",
+              "line": 24,
+              "column": 3
+            },
+            {
+              "title": "TC-002: Verify login fails with invalid username",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 1900,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[2026-03-17 14:12:29] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Login Test ==========\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:29] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:29] \u001b[32MINFO\u001b[39M: Test Case: TC-002 - Login with invalid username\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:29] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: invalid_user\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:29] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:29] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:29] \u001b[32MINFO\u001b[39M: STEP: Waiting for 1000ms\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:30] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: .error-message-container\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:30] \u001b[32MINFO\u001b[39M: Text from .error-message-container: Epic sadface: Username and password do not match any user in this service\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:30] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: .error-message-container\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:30] \u001b[32MINFO\u001b[39M: Text from .error-message-container: Epic sadface: Username and password do not match any user in this service\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:30] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Error message displayed for invalid username\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:30] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Login Test - Completed ==========\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-17T14:12:28.452Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "626483fc77c4bb72c38c-09037c7f141ca6f8c8c6",
+              "file": "auth/login.spec.js",
+              "line": 42,
+              "column": 3
+            },
+            {
+              "title": "TC-003: Verify login fails with invalid password",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1450,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[2026-03-17 14:12:29] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Login Test ==========\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:29] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:29] \u001b[32MINFO\u001b[39M: Test Case: TC-003 - Login with invalid password\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:29] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:30] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: wrong_password\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:30] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:30] \u001b[32MINFO\u001b[39M: STEP: Waiting for 1000ms\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:31] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: .error-message-container\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:31] \u001b[32MINFO\u001b[39M: Text from .error-message-container: Epic sadface: Username and password do not match any user in this service\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:31] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: .error-message-container\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:31] \u001b[32MINFO\u001b[39M: Text from .error-message-container: Epic sadface: Username and password do not match any user in this service\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:31] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Error message displayed for invalid password\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:31] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Login Test - Completed ==========\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-17T14:12:29.784Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "626483fc77c4bb72c38c-d57f541bb48fc4ad367c",
+              "file": "auth/login.spec.js",
+              "line": 62,
+              "column": 3
+            },
+            {
+              "title": "TC-004: Verify login fails with empty username",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 1387,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[2026-03-17 14:12:30] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Login Test ==========\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:30] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:30] \u001b[32MINFO\u001b[39M: Test Case: TC-004 - Login with empty username\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:30] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:30] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:31] \u001b[32MINFO\u001b[39M: STEP: Waiting for 1000ms\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:32] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: .error-message-container\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:32] \u001b[32MINFO\u001b[39M: Text from .error-message-container: Epic sadface: Username is required\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:32] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: .error-message-container\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:32] \u001b[32MINFO\u001b[39M: Text from .error-message-container: Epic sadface: Username is required\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:32] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Error message displayed for empty username\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:32] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Login Test - Completed ==========\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-17T14:12:30.792Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "626483fc77c4bb72c38c-fb30a77aea4f38661aed",
+              "file": "auth/login.spec.js",
+              "line": 82,
+              "column": 3
+            },
+            {
+              "title": "TC-005: Verify login fails with empty password",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1366,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[2026-03-17 14:12:31] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Login Test ==========\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:31] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:31] \u001b[32MINFO\u001b[39M: Test Case: TC-005 - Login with empty password\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:31] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:31] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:31] \u001b[32MINFO\u001b[39M: STEP: Waiting for 1000ms\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:32] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: .error-message-container\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:32] \u001b[32MINFO\u001b[39M: Text from .error-message-container: Epic sadface: Password is required\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:32] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: .error-message-container\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:32] \u001b[32MINFO\u001b[39M: Text from .error-message-container: Epic sadface: Password is required\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:32] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Error message displayed for empty password\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:32] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Login Test - Completed ==========\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-17T14:12:31.243Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "626483fc77c4bb72c38c-15958ef144193ffaa268",
+              "file": "auth/login.spec.js",
+              "line": 99,
+              "column": 3
+            },
+            {
+              "title": "TC-006: Verify successful logout",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 982,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[2026-03-17 14:12:32] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Login Test ==========\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:32] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:32] \u001b[32MINFO\u001b[39M: Test Case: TC-006 - Successful logout\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:32] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:32] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:32] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:32] \u001b[32MINFO\u001b[39M: STEP: Clicking element: #react-burger-menu-btn\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:32] \u001b[32MINFO\u001b[39M: STEP: Waiting for 500ms\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:33] \u001b[32MINFO\u001b[39M: STEP: Clicking element: #logout_sidebar_link\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:33] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: User successfully logged out\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:33] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Login Test - Completed ==========\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-17T14:12:32.187Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "626483fc77c4bb72c38c-a49d3a4bed63b73b4bbb",
+              "file": "auth/login.spec.js",
+              "line": 116,
+              "column": 3
+            },
+            {
+              "title": "TC-007: Verify locked out user cannot login",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1475,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[2026-03-17 14:12:32] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Login Test ==========\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:32] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:32] \u001b[32MINFO\u001b[39M: Test Case: TC-007 - Locked out user login attempt\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:32] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: locked_out_user\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:32] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:32] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:32] \u001b[32MINFO\u001b[39M: STEP: Waiting for 1000ms\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:33] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: .error-message-container\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:33] \u001b[32MINFO\u001b[39M: Text from .error-message-container: Epic sadface: Sorry, this user has been locked out.\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:33] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: .error-message-container\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:33] \u001b[32MINFO\u001b[39M: Text from .error-message-container: Epic sadface: Sorry, this user has been locked out.\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:33] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Locked out user error message displayed\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:33] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Login Test - Completed ==========\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-17T14:12:32.616Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "626483fc77c4bb72c38c-4e2f55be5a7356eadd5c",
+              "file": "auth/login.spec.js",
+              "line": 138,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "cart/cart.spec.js",
+      "file": "cart/cart.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Cart - Cart Tests",
+          "file": "cart/cart.spec.js",
+          "line": 10,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC-001: Verify cart displays correct product details (name, description, price, quantity)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 525,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[2026-03-17 14:12:33] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:33] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:33] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:33] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:33] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Cart Test ==========\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:33] \u001b[32MINFO\u001b[39M: Test Case: TC-001 - Verify cart displays correct product details (name, description, price, quantity)\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:33] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Inventory container is visible\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:33] \u001b[32MINFO\u001b[39M: Selected random product: Sauce Labs Bike Light (index: 1)\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:33] \u001b[32MINFO\u001b[39M: Product details from inventory - Name: Sauce Labs Bike Light, Price: $9.99\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:33] \u001b[32MINFO\u001b[39M: Product description: A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:33] \u001b[32MINFO\u001b[39M: Added Sauce Labs Bike Light to cart\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:33] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"shopping-cart-link\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:33] \u001b[32MINFO\u001b[39M: Clicked cart icon\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:33] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"cart-contents-container\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:33] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart page is displayed\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:33] \u001b[32MINFO\u001b[39M: Text from [data-test=\"title\"]: Your Cart\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:33] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart page title is \"Your Cart\"\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:33] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Quantity label (QTY) is displayed\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:33] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Description label is displayed\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:33] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Product \"Sauce Labs Bike Light\" is present in cart\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:33] \u001b[32MINFO\u001b[39M: Product details from cart - Name: Sauce Labs Bike Light, Price: $9.99, Quantity: 1\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:33] \u001b[32MINFO\u001b[39M: Product description in cart: A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:33] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Product name matches: \"Sauce Labs Bike Light\"\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:33] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Product description matches\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:33] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Product price matches: $9.99\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:33] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Product quantity is 1\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:33] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart contains 1 item\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:33] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Cart Test - Completed ==========\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-17T14:12:33.180Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "42ab22ee77e4814bcd80-c618a159f483d127cc3b",
+              "file": "cart/cart.spec.js",
+              "line": 21,
+              "column": 5
+            },
+            {
+              "title": "TC-002: Verify removing product from cart using \"Remove\" button",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 1326,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[2026-03-17 14:12:33] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:33] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:34] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:34] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:34] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Cart Test ==========\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:34] \u001b[32MINFO\u001b[39M: Test Case: TC-002 - Verify removing product from cart using \"Remove\" button\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:34] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Inventory container is visible\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:34] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Initial cart badge count is 0\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:34] \u001b[32MINFO\u001b[39M: Clicked on product title: Sauce Labs Backpack\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:34] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"inventory-container\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:34] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"add-to-cart-sauce-labs-backpack\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:34] \u001b[32MINFO\u001b[39M: Added Sauce Labs Backpack to cart\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:34] \u001b[32MINFO\u001b[39M: Text from .shopping_cart_badge: 1\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:34] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart badge count is 1 after adding product\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:34] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"shopping-cart-link\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:34] \u001b[32MINFO\u001b[39M: Clicked cart icon to navigate to cart page\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:34] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"cart-contents-container\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:34] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart page is displayed\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:34] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Product \"Sauce Labs Backpack\" is in cart before removal\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:34] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart contains 1 item before removal\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:34] \u001b[32MINFO\u001b[39M: Clicked Remove button for Sauce Labs Backpack\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:34] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Product \"Sauce Labs Backpack\" is removed from cart\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:34] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart contains 0 items after removal\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:34] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart is empty after removing all items\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:34] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Cart Test - Completed ==========\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-17T14:12:33.718Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "42ab22ee77e4814bcd80-cab7b94a730aa77ca940",
+              "file": "cart/cart.spec.js",
+              "line": 104,
+              "column": 5
+            },
+            {
+              "title": "TC-003: Verify \"Continue Shopping\" button navigates back to inventory page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 609,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[2026-03-17 14:12:34] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:34] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:34] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:34] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:34] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Cart Test ==========\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:34] \u001b[32MINFO\u001b[39M: Test Case: TC-003 - Verify \"Continue Shopping\" button navigates back to inventory page\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:34] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Inventory container is visible\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:34] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Initial cart badge count is 0\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:34] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"shopping-cart-link\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:34] \u001b[32MINFO\u001b[39M: Clicked cart icon to navigate to cart page (empty cart)\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:34] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"cart-contents-container\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:34] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart page is displayed\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:34] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart is empty\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:34] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Continue Shopping button is visible\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:34] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"continue-shopping\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:34] \u001b[32MINFO\u001b[39M: Clicked Continue Shopping button\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:34] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"inventory-container\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:34] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: URL contains inventory.html\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:34] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Successfully navigated back to inventory page\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:34] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart badge count is still 0\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:34] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Cart Test - Completed ==========\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-17T14:12:34.103Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "42ab22ee77e4814bcd80-da9df7cd39bf5a376a6a",
+              "file": "cart/cart.spec.js",
+              "line": 182,
+              "column": 5
+            },
+            {
+              "title": "TC-004: Verify \"Checkout\" button navigates to checkout page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 731,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[2026-03-17 14:12:34] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:34] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:34] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:34] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Cart Test ==========\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: Test Case: TC-004 - Verify \"Checkout\" button navigates to checkout page\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Inventory container is visible\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: Adding product to cart: Sauce Labs Backpack\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: Added Sauce Labs Backpack to cart\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: Text from .shopping_cart_badge: 1\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart badge count is 1 after adding product\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"shopping-cart-link\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: Clicked cart icon to navigate to cart page\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"cart-contents-container\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart page is displayed\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Product \"Sauce Labs Backpack\" is in cart\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Checkout button is visible\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"checkout\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: Clicked Checkout button\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"checkout-info-container\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: URL contains checkout-step-one.html\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Checkout page is displayed\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Cart Test - Completed ==========\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-17T14:12:34.721Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "42ab22ee77e4814bcd80-083e4e2612daae220df0",
+              "file": "cart/cart.spec.js",
+              "line": 241,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "checkout/checkout-overview.spec.js",
+      "file": "checkout/checkout-overview.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Checkout - Checkout Overview Page Tests",
+          "file": "checkout/checkout-overview.spec.js",
+          "line": 10,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC-001: Verify product details and complete order",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 917,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Checkout Overview Page Test ==========\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: Selected product: Sauce Labs Backpack, Price: $29.99\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"shopping-cart-link\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"checkout\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"checkout-info-container\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"firstName\"] with: John\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"lastName\"] with: Doe\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"postalCode\"] with: 12345\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"continue\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"checkout-summary-container\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: Test Case: TC-001 - Verify product details and complete order\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Checkout overview contains 1 item\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: Overview item details - Name: Sauce Labs Backpack, Price: $29.99, Quantity: 1\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Product name matches: \"Sauce Labs Backpack\"\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Product description matches\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Product price matches: $29.99\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Product quantity is 1\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"finish\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: Clicked finish button\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Navigated to checkout complete page\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Checkout complete page is displayed\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Success header is displayed\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: Text from [data-test=\"complete-header\"]: Thank you for your order!\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Success message contains \"Thank you for your order\"\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Checkout Overview Page Test - Completed ==========\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-17T14:12:35.055Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cb4a99a8942adefc5880-debb77bfc3c4d18287c9",
+              "file": "checkout/checkout-overview.spec.js",
+              "line": 40,
+              "column": 5
+            },
+            {
+              "title": "TC-002: Verify cancel button navigation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1226,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:35] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:36] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Checkout Overview Page Test ==========\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:36] \u001b[32MINFO\u001b[39M: Selected product: Sauce Labs Backpack, Price: $29.99\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:36] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"shopping-cart-link\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:36] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"checkout\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:36] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"checkout-info-container\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:36] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"firstName\"] with: John\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:36] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"lastName\"] with: Doe\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:36] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"postalCode\"] with: 12345\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:36] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"continue\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:36] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"checkout-summary-container\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:36] \u001b[32MINFO\u001b[39M: Test Case: TC-002 - Verify cancel button navigation\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:36] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"cancel\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:36] \u001b[32MINFO\u001b[39M: Clicked cancel button\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:36] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Navigated to inventory page\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:36] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"inventory-container\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:36] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Inventory page is displayed\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:36] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Checkout Overview Page Test - Completed ==========\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-17T14:12:35.461Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cb4a99a8942adefc5880-b6df7e2d1682d5037724",
+              "file": "checkout/checkout-overview.spec.js",
+              "line": 95,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "checkout/checkout.spec.js",
+      "file": "checkout/checkout.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Checkout - Checkout Page Tests",
+          "file": "checkout/checkout.spec.js",
+          "line": 10,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC-001: Verify filling checkout form with valid data and continue to checkout overview",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 904,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[2026-03-17 14:12:36] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:36] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:36] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:36] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:36] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Checkout Page Test ==========\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:36] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"shopping-cart-link\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:36] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"checkout\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:36] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"checkout-info-container\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:36] \u001b[32MINFO\u001b[39M: Test Case: TC-001 - Verify filling checkout form with valid data and continue to checkout overview\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:36] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"firstName\"] with: John\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:36] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"lastName\"] with: Doe\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:36] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"postalCode\"] with: 12345\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:36] \u001b[32MINFO\u001b[39M: Filled checkout form with: John Doe, 12345\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:36] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: First name field contains correct value\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:36] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Last name field contains correct value\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:36] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Postal code field contains correct value\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:36] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"continue\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:36] \u001b[32MINFO\u001b[39M: Clicked continue button\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:36] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Navigated to checkout overview page\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:36] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Checkout Page Test - Completed ==========\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-17T14:12:35.989Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "a2664365e8b8350ee616-ae36e59e0d29136aab96",
+              "file": "checkout/checkout.spec.js",
+              "line": 26,
+              "column": 5
+            },
+            {
+              "title": "TC-002: Verify cancel button returns to cart page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 722,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[2026-03-17 14:12:36] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:36] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:36] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:36] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Checkout Page Test ==========\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"shopping-cart-link\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"checkout\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"checkout-info-container\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: Test Case: TC-002 - Verify cancel button returns to cart page\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"cancel\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: Clicked cancel button\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Navigated back to cart page\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart page is displayed\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart still contains 1 item\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Checkout Page Test - Completed ==========\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-17T14:12:36.701Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "a2664365e8b8350ee616-761de76e44d390fb7fa3",
+              "file": "checkout/checkout.spec.js",
+              "line": 63,
+              "column": 5
+            },
+            {
+              "title": "TC-003: Verify error messages for empty required fields",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 1211,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[2026-03-17 14:12:36] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Checkout Page Test ==========\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"shopping-cart-link\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"checkout\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"checkout-info-container\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: Test Case: TC-003 - Verify error messages for empty required fields\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: Testing validation for empty first name\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"lastName\"] with: Doe\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"postalCode\"] with: 12345\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"continue\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: Clicked continue button with empty first name\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Error message is displayed for empty first name\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: Text from [data-test=\"error\"]: Error: First Name is required\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Error message contains \"First Name is required\"\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"checkout-info-container\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: Testing validation for empty last name\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"firstName\"] with: John\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"postalCode\"] with: 12345\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"continue\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: Clicked continue button with empty last name\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Error message is displayed for empty last name\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: Text from [data-test=\"error\"]: Error: Last Name is required\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Error message contains \"Last Name is required\"\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"checkout-info-container\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: Testing validation for empty postal code\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"firstName\"] with: John\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"lastName\"] with: Doe\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"continue\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:38] \u001b[32MINFO\u001b[39M: Clicked continue button with empty postal code\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:38] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Error message is displayed for empty postal code\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:38] \u001b[32MINFO\u001b[39M: Text from [data-test=\"error\"]: Error: Postal Code is required\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:38] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Error message contains \"Postal Code is required\"\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:38] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Checkout Page Test - Completed ==========\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-17T14:12:36.903Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "a2664365e8b8350ee616-d35d9d5c14f2531ae571",
+              "file": "checkout/checkout.spec.js",
+              "line": 87,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "inventory/inventory.spec.js",
+      "file": "inventory/inventory.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Inventory - Inventory Tests",
+          "file": "inventory/inventory.spec.js",
+          "line": 11,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC-001: Verify all items are present in inventory page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 564,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Inventory Test ==========\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: Test Case: TC-001 - All items are present in inventory page\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Inventory container is visible\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Sauce Labs Backpack is displayed\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Sauce Labs Bike Light is displayed\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Sauce Labs Bolt T-Shirt is displayed\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Sauce Labs Fleece Jacket is displayed\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Sauce Labs Onesie is displayed\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Test.allTheThings() T-Shirt (Red) is displayed\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:37] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Inventory Test - Completed ==========\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-17T14:12:37.433Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8dec45bd54f527c4efd7-95adac9c887be2f2b0c7",
+              "file": "inventory/inventory.spec.js",
+              "line": 22,
+              "column": 5
+            },
+            {
+              "title": "TC-002: Verify all navigation in inventory page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1277,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[2026-03-17 14:12:38] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:38] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:38] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:38] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:38] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Inventory Test ==========\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:38] \u001b[32MINFO\u001b[39M: Test Case: TC-002 - All navigation in inventory page\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:38] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Inventory container is visible\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:38] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Sauce Labs Backpack name is displayed on product details page\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:38] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"back-to-products\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:38] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Sauce Labs Bike Light name is displayed on product details page\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:38] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"back-to-products\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:38] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Sauce Labs Bolt T-Shirt name is displayed on product details page\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:38] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"back-to-products\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:38] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Sauce Labs Fleece Jacket name is displayed on product details page\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:38] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"back-to-products\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:38] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Sauce Labs Onesie name is displayed on product details page\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:38] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"back-to-products\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:39] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Test.allTheThings() T-Shirt (Red) name is displayed on product details page\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:39] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"back-to-products\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:39] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Inventory Test - Completed ==========\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-17T14:12:38.009Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8dec45bd54f527c4efd7-57a80f43408aa1b5bb05",
+              "file": "inventory/inventory.spec.js",
+              "line": 49,
+              "column": 5
+            },
+            {
+              "title": "TC-003: Verify sorting products by Name (A to Z)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 692,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[2026-03-17 14:12:38] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:38] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:38] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:38] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:38] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Inventory Test ==========\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:38] \u001b[32MINFO\u001b[39M: Test Case: TC-003 - Verify sorting products by Name (A to Z)\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:38] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Inventory container is visible\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:38] \u001b[32MINFO\u001b[39M: Text from [data-test=\"active-option\"]: Name (A to Z)\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:38] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Default active sort option is \"Name (A to Z)\"\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:38] \u001b[32MINFO\u001b[39M: Products before sort: Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket, Sauce Labs Onesie, Test.allTheThings() T-Shirt (Red)\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:38] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Products are sorted by name A to Z by default\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:38] \u001b[32MINFO\u001b[39M: Text from [data-test=\"active-option\"]: Name (A to Z)\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:38] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Active sort option displays \"Name (A to Z)\"\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:38] \u001b[32MINFO\u001b[39M: Products after sort: Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket, Sauce Labs Onesie, Test.allTheThings() T-Shirt (Red)\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:38] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Products are sorted by name A to Z\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:38] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Inventory Test - Completed ==========\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-17T14:12:38.127Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8dec45bd54f527c4efd7-01530630bcdc55296165",
+              "file": "inventory/inventory.spec.js",
+              "line": 103,
+              "column": 5
+            },
+            {
+              "title": "TC-004: Verify sorting products by Name (Z to A)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 610,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[2026-03-17 14:12:38] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:39] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:39] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:39] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:39] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Inventory Test ==========\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:39] \u001b[32MINFO\u001b[39M: Test Case: TC-004 - Verify sorting products by Name (Z to A)\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:39] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Inventory container is visible\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:39] \u001b[32MINFO\u001b[39M: Products before sort: Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket, Sauce Labs Onesie, Test.allTheThings() T-Shirt (Red)\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:39] \u001b[32MINFO\u001b[39M: Text from [data-test=\"active-option\"]: Name (Z to A)\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:39] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Active sort option displays \"Name (Z to A)\"\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:39] \u001b[32MINFO\u001b[39M: Products after sort: Test.allTheThings() T-Shirt (Red), Sauce Labs Onesie, Sauce Labs Fleece Jacket, Sauce Labs Bolt T-Shirt, Sauce Labs Bike Light, Sauce Labs Backpack\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:39] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Products are sorted by name Z to A\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:39] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Inventory Test - Completed ==========\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-17T14:12:38.828Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8dec45bd54f527c4efd7-437643bc3a8d5758e2ca",
+              "file": "inventory/inventory.spec.js",
+              "line": 144,
+              "column": 5
+            },
+            {
+              "title": "TC-005: Verify sorting products by Price (low to high)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 606,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[2026-03-17 14:12:39] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:39] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:39] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:39] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:39] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Inventory Test ==========\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:39] \u001b[32MINFO\u001b[39M: Test Case: TC-005 - Verify sorting products by Price (low to high)\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:39] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Inventory container is visible\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:39] \u001b[32MINFO\u001b[39M: Product prices before sort: $29.99, $9.99, $15.99, $49.99, $7.99, $15.99\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:39] \u001b[32MINFO\u001b[39M: Text from [data-test=\"active-option\"]: Price (low to high)\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:39] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Active sort option displays \"Price (low to high)\"\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:39] \u001b[32MINFO\u001b[39M: Product prices after sort: $7.99, $9.99, $15.99, $15.99, $29.99, $49.99\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:39] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Products are sorted by price low to high\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:39] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Inventory Test - Completed ==========\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-17T14:12:39.301Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8dec45bd54f527c4efd7-97be320a92d352f1a84f",
+              "file": "inventory/inventory.spec.js",
+              "line": 175,
+              "column": 5
+            },
+            {
+              "title": "TC-006: Verify sorting products by Price (high to low)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 645,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[2026-03-17 14:12:39] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:39] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:39] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:39] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:39] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Inventory Test ==========\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:39] \u001b[32MINFO\u001b[39M: Test Case: TC-006 - Verify sorting products by Price (high to low)\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:39] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Inventory container is visible\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:39] \u001b[32MINFO\u001b[39M: Product prices before sort: $29.99, $9.99, $15.99, $49.99, $7.99, $15.99\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:39] \u001b[32MINFO\u001b[39M: Text from [data-test=\"active-option\"]: Price (high to low)\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:39] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Active sort option displays \"Price (high to low)\"\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:39] \u001b[32MINFO\u001b[39M: Product prices after sort: $49.99, $29.99, $15.99, $15.99, $9.99, $7.99\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:39] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Products are sorted by price high to low\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:39] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Inventory Test - Completed ==========\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-17T14:12:39.445Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8dec45bd54f527c4efd7-8e62f58501dfcbb49882",
+              "file": "inventory/inventory.spec.js",
+              "line": 206,
+              "column": 5
+            },
+            {
+              "title": "TC-007: Verify \"Add to cart\" button changes to \"Remove\" and cart badge updates",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 705,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[2026-03-17 14:12:39] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:40] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:40] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:40] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:40] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Inventory Test ==========\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:40] \u001b[32MINFO\u001b[39M: Test Case: TC-007 - Verify \"Add to cart\" button changes to \"Remove\" and cart badge updates\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:40] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Inventory container is visible\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:40] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Initial cart badge count is 0\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:40] \u001b[32MINFO\u001b[39M: Selected random product: Sauce Labs Bike Light (index: 1)\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:40] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Initial button text is \"Add to cart\" for Sauce Labs Bike Light\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:40] \u001b[32MINFO\u001b[39M: Added Sauce Labs Bike Light to cart\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:40] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Button text changed to \"Remove\" for Sauce Labs Bike Light\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:40] \u001b[32MINFO\u001b[39M: Text from .shopping_cart_badge: 1\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:40] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart badge count updated to 1\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:40] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Inventory Test - Completed ==========\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-17T14:12:39.916Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8dec45bd54f527c4efd7-943a7d20a70810f0cd12",
+              "file": "inventory/inventory.spec.js",
+              "line": 237,
+              "column": 5
+            },
+            {
+              "title": "TC-008: Verify removing product from inventory page decreases cart count",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 699,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[2026-03-17 14:12:40] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:40] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:40] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:40] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:40] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Inventory Test ==========\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:40] \u001b[32MINFO\u001b[39M: Test Case: TC-008 - Verify removing product from inventory page decreases cart count\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:40] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Inventory container is visible\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:40] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Initial cart badge count is 0\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:40] \u001b[32MINFO\u001b[39M: Selected random product: Sauce Labs Onesie (index: 4)\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:40] \u001b[32MINFO\u001b[39M: Added Sauce Labs Onesie to cart\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:40] \u001b[32MINFO\u001b[39M: Text from .shopping_cart_badge: 1\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:40] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart badge count is 1 after adding product\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:40] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Button text is \"Remove\" for Sauce Labs Onesie\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:40] \u001b[32MINFO\u001b[39M: Removed Sauce Labs Onesie from cart\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:40] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Button text changed back to \"Add to cart\" for Sauce Labs Onesie\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:40] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart badge count decreased to 0\n"
+                        },
+                        {
+                          "text": "[2026-03-17 14:12:40] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Inventory Test - Completed ==========\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-17T14:12:40.099Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8dec45bd54f527c4efd7-e6867804393f76fc52e1",
+              "file": "inventory/inventory.spec.js",
+              "line": 278,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-03-17T14:12:27.805Z",
+    "duration": 13032.221,
+    "expected": 24,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
