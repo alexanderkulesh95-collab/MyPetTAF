@@ -44,7 +44,7 @@ jobs:
         ENV: demo
     
     - name: Debug Allure results after tests
-        if: always()
+      if: always()
         run: |
           echo "PWD=$(pwd)"
           echo "Playwright version:"
