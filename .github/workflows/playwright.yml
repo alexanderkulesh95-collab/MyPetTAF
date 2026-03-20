@@ -51,18 +51,18 @@ jobs:
         npx playwright --version || true
 
         echo "List reports folder:"
-        if [[ "$RUNNER_OS" == "Windows" ]]; then
+        if ($env:RUNNER_OS -eq 'Windows') {
           Get-ChildItem reports | Format-List || true
-        else
+        } else {
           ls -la reports || true
-        fi
+        }
 
         echo "List reports/allure-results folder:"
-        if [[ "$RUNNER_OS" == "Windows" ]]; then
+        if ($env:RUNNER_OS -eq 'Windows') {
           Get-ChildItem reports/allure-results | Format-List || true
-        else
+        } else {
           ls -la reports/allure-results || true
-        fi
+        }
 
     - name: Upload test results
       uses: actions/upload-artifact@v4
