@@ -45,24 +45,24 @@ jobs:
     
     - name: Debug Allure results after tests
       if: always()
-        run: |
-          echo "PWD=$(pwd)"
-          echo "Playwright version:"
-          npx playwright --version || true
+      run: |
+        echo "PWD=$(pwd)"
+        echo "Playwright version:"
+        npx playwright --version || true
 
-          echo "List reports folder:"
-          if [[ "$RUNNER_OS" == "Windows" ]]; then
-            Get-ChildItem reports | Format-List || true
-          else
-            ls -la reports || true
-          fi
+        echo "List reports folder:"
+        if [[ "$RUNNER_OS" == "Windows" ]]; then
+          Get-ChildItem reports | Format-List || true
+        else
+          ls -la reports || true
+        fi
 
-          echo "List reports/allure-results folder:"
-          if [[ "$RUNNER_OS" == "Windows" ]]; then
-            Get-ChildItem reports/allure-results | Format-List || true
-          else
-            ls -la reports/allure-results || true
-          fi
+        echo "List reports/allure-results folder:"
+        if [[ "$RUNNER_OS" == "Windows" ]]; then
+          Get-ChildItem reports/allure-results | Format-List || true
+        else
+          ls -la reports/allure-results || true
+        fi
 
     - name: Upload test results
       uses: actions/upload-artifact@v4
