@@ -16,7 +16,7 @@ module.exports = defineConfig({
     ['json', { outputFile: 'reports/test-results.json' }],
     ['junit', { outputFile: 'reports/junit-results.xml' }],
     ['list'],
-    ['allure-playwright', { outputFolder: 'allure-results' }]
+    ['allure-playwright', { outputFolder: 'reports/allure-results' }]
   ],
   
   use: {
