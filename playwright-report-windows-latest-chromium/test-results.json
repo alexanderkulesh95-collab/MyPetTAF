@@ -12,24 +12,24 @@
     "maxFailures": 0,
     "metadata": {
       "ci": {
-        "commitHref": "https://github.com/alexanderkulesh95-collab/MyPetTAF/commit/61efd819a70cbc4f34688189abcce271255eb42e",
-        "commitHash": "61efd819a70cbc4f34688189abcce271255eb42e",
-        "buildHref": "https://github.com/alexanderkulesh95-collab/MyPetTAF/actions/runs/23597343276"
+        "commitHref": "https://github.com/alexanderkulesh95-collab/MyPetTAF/commit/233e056f9c34737c4fb61785782ed210ff60db05",
+        "commitHash": "233e056f9c34737c4fb61785782ed210ff60db05",
+        "buildHref": "https://github.com/alexanderkulesh95-collab/MyPetTAF/actions/runs/23600039862"
       },
       "gitCommit": {
-        "shortHash": "61efd81",
-        "hash": "61efd819a70cbc4f34688189abcce271255eb42e",
-        "subject": "Enhance debugging steps for Allure results in Playwright workflow to check for existence of reports directory and improve output clarity",
-        "body": "Enhance debugging steps for Allure results in Playwright workflow to check for existence of reports directory and improve output clarity\n",
+        "shortHash": "233e056",
+        "hash": "233e056f9c34737c4fb61785782ed210ff60db05",
+        "subject": "Update Playwright workflow to run schedule every 3 days and simplify Allure report generation command",
+        "body": "Update Playwright workflow to run schedule every 3 days and simplify Allure report generation command\n",
         "author": {
           "name": "Alexander Kulesh",
           "email": "a.kulesh@godeltech.com",
-          "time": 1774532288000
+          "time": 1774535616000
         },
         "committer": {
           "name": "Alexander Kulesh",
           "email": "a.kulesh@godeltech.com",
-          "time": 1774532288000
+          "time": 1774535616000
         },
         "branch": "main"
       },
@@ -79,24 +79,24 @@
         "retries": 2,
         "metadata": {
           "ci": {
-            "commitHref": "https://github.com/alexanderkulesh95-collab/MyPetTAF/commit/61efd819a70cbc4f34688189abcce271255eb42e",
-            "commitHash": "61efd819a70cbc4f34688189abcce271255eb42e",
-            "buildHref": "https://github.com/alexanderkulesh95-collab/MyPetTAF/actions/runs/23597343276"
+            "commitHref": "https://github.com/alexanderkulesh95-collab/MyPetTAF/commit/233e056f9c34737c4fb61785782ed210ff60db05",
+            "commitHash": "233e056f9c34737c4fb61785782ed210ff60db05",
+            "buildHref": "https://github.com/alexanderkulesh95-collab/MyPetTAF/actions/runs/23600039862"
           },
           "gitCommit": {
-            "shortHash": "61efd81",
-            "hash": "61efd819a70cbc4f34688189abcce271255eb42e",
-            "subject": "Enhance debugging steps for Allure results in Playwright workflow to check for existence of reports directory and improve output clarity",
-            "body": "Enhance debugging steps for Allure results in Playwright workflow to check for existence of reports directory and improve output clarity\n",
+            "shortHash": "233e056",
+            "hash": "233e056f9c34737c4fb61785782ed210ff60db05",
+            "subject": "Update Playwright workflow to run schedule every 3 days and simplify Allure report generation command",
+            "body": "Update Playwright workflow to run schedule every 3 days and simplify Allure report generation command\n",
             "author": {
               "name": "Alexander Kulesh",
               "email": "a.kulesh@godeltech.com",
-              "time": 1774532288000
+              "time": 1774535616000
             },
             "committer": {
               "name": "Alexander Kulesh",
               "email": "a.kulesh@godeltech.com",
-              "time": 1774532288000
+              "time": 1774535616000
             },
             "branch": "main"
           },
@@ -150,37 +150,37 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 4659,
+                      "duration": 4176,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "[2026-03-26 13:43:06] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Login Test ==========\r\n"
+                          "text": "[2026-03-26 14:37:41] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Login Test ==========\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:06] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\r\n"
+                          "text": "[2026-03-26 14:37:41] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:09] \u001b[32MINFO\u001b[39M: Test Case: TC-001 - Successful login\r\n"
+                          "text": "[2026-03-26 14:37:44] \u001b[32MINFO\u001b[39M: Test Case: TC-001 - Successful login\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:09] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\r\n"
+                          "text": "[2026-03-26 14:37:44] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:09] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\r\n"
+                          "text": "[2026-03-26 14:37:44] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:09] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\r\n"
+                          "text": "[2026-03-26 14:37:44] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:10] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: User successfully logged in\r\n"
+                          "text": "[2026-03-26 14:37:44] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: User successfully logged in\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:10] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Login Test - Completed ==========\r\n"
+                          "text": "[2026-03-26 14:37:44] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Login Test - Completed ==========\r\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-26T13:43:06.115Z",
+                      "startTime": "2026-03-26T14:37:40.941Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -209,52 +209,52 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 5207,
+                      "duration": 4950,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "[2026-03-26 13:43:06] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Login Test ==========\r\n"
+                          "text": "[2026-03-26 14:37:41] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Login Test ==========\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:06] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\r\n"
+                          "text": "[2026-03-26 14:37:41] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:09] \u001b[32MINFO\u001b[39M: Test Case: TC-002 - Login with invalid username\r\n"
+                          "text": "[2026-03-26 14:37:44] \u001b[32MINFO\u001b[39M: Test Case: TC-002 - Login with invalid username\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:09] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: invalid_user\r\n"
+                          "text": "[2026-03-26 14:37:44] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: invalid_user\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:09] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\r\n"
+                          "text": "[2026-03-26 14:37:44] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:09] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\r\n"
+                          "text": "[2026-03-26 14:37:44] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:10] \u001b[32MINFO\u001b[39M: STEP: Waiting for 1000ms\r\n"
+                          "text": "[2026-03-26 14:37:44] \u001b[32MINFO\u001b[39M: STEP: Waiting for 1000ms\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:11] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: .error-message-container\r\n"
+                          "text": "[2026-03-26 14:37:45] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: .error-message-container\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:11] \u001b[32MINFO\u001b[39M: Text from .error-message-container: Epic sadface: Username and password do not match any user in this service\r\n"
+                          "text": "[2026-03-26 14:37:45] \u001b[32MINFO\u001b[39M: Text from .error-message-container: Epic sadface: Username and password do not match any user in this service\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:11] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: .error-message-container\r\n"
+                          "text": "[2026-03-26 14:37:45] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: .error-message-container\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:11] \u001b[32MINFO\u001b[39M: Text from .error-message-container: Epic sadface: Username and password do not match any user in this service\r\n"
+                          "text": "[2026-03-26 14:37:45] \u001b[32MINFO\u001b[39M: Text from .error-message-container: Epic sadface: Username and password do not match any user in this service\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:11] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Error message displayed for invalid username\r\n"
+                          "text": "[2026-03-26 14:37:45] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Error message displayed for invalid username\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:11] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Login Test - Completed ==========\r\n"
+                          "text": "[2026-03-26 14:37:45] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Login Test - Completed ==========\r\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-26T13:43:06.102Z",
+                      "startTime": "2026-03-26T14:37:40.932Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -283,52 +283,52 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1766,
+                      "duration": 1699,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "[2026-03-26 13:43:11] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Login Test ==========\r\n"
+                          "text": "[2026-03-26 14:37:45] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Login Test ==========\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:11] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\r\n"
+                          "text": "[2026-03-26 14:37:45] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:11] \u001b[32MINFO\u001b[39M: Test Case: TC-003 - Login with invalid password\r\n"
+                          "text": "[2026-03-26 14:37:45] \u001b[32MINFO\u001b[39M: Test Case: TC-003 - Login with invalid password\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:11] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\r\n"
+                          "text": "[2026-03-26 14:37:45] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:11] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: wrong_password\r\n"
+                          "text": "[2026-03-26 14:37:45] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: wrong_password\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:11] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\r\n"
+                          "text": "[2026-03-26 14:37:45] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:11] \u001b[32MINFO\u001b[39M: STEP: Waiting for 1000ms\r\n"
+                          "text": "[2026-03-26 14:37:45] \u001b[32MINFO\u001b[39M: STEP: Waiting for 1000ms\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:12] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: .error-message-container\r\n"
+                          "text": "[2026-03-26 14:37:46] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: .error-message-container\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:12] \u001b[32MINFO\u001b[39M: Text from .error-message-container: Epic sadface: Username and password do not match any user in this service\r\n"
+                          "text": "[2026-03-26 14:37:46] \u001b[32MINFO\u001b[39M: Text from .error-message-container: Epic sadface: Username and password do not match any user in this service\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:12] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: .error-message-container\r\n"
+                          "text": "[2026-03-26 14:37:46] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: .error-message-container\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:12] \u001b[32MINFO\u001b[39M: Text from .error-message-container: Epic sadface: Username and password do not match any user in this service\r\n"
+                          "text": "[2026-03-26 14:37:46] \u001b[32MINFO\u001b[39M: Text from .error-message-container: Epic sadface: Username and password do not match any user in this service\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:12] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Error message displayed for invalid password\r\n"
+                          "text": "[2026-03-26 14:37:46] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Error message displayed for invalid password\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:12] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Login Test - Completed ==========\r\n"
+                          "text": "[2026-03-26 14:37:46] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Login Test - Completed ==========\r\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-26T13:43:10.970Z",
+                      "startTime": "2026-03-26T14:37:45.347Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -357,49 +357,49 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1848,
+                      "duration": 1695,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "[2026-03-26 13:43:11] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Login Test ==========\r\n"
+                          "text": "[2026-03-26 14:37:46] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Login Test ==========\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:11] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\r\n"
+                          "text": "[2026-03-26 14:37:46] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:11] \u001b[32MINFO\u001b[39M: Test Case: TC-004 - Login with empty username\r\n"
+                          "text": "[2026-03-26 14:37:46] \u001b[32MINFO\u001b[39M: Test Case: TC-004 - Login with empty username\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:11] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\r\n"
+                          "text": "[2026-03-26 14:37:46] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:11] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\r\n"
+                          "text": "[2026-03-26 14:37:46] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:11] \u001b[32MINFO\u001b[39M: STEP: Waiting for 1000ms\r\n"
+                          "text": "[2026-03-26 14:37:46] \u001b[32MINFO\u001b[39M: STEP: Waiting for 1000ms\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:12] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: .error-message-container\r\n"
+                          "text": "[2026-03-26 14:37:47] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: .error-message-container\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:12] \u001b[32MINFO\u001b[39M: Text from .error-message-container: Epic sadface: Username is required\r\n"
+                          "text": "[2026-03-26 14:37:47] \u001b[32MINFO\u001b[39M: Text from .error-message-container: Epic sadface: Username is required\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:12] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: .error-message-container\r\n"
+                          "text": "[2026-03-26 14:37:47] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: .error-message-container\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:12] \u001b[32MINFO\u001b[39M: Text from .error-message-container: Epic sadface: Username is required\r\n"
+                          "text": "[2026-03-26 14:37:47] \u001b[32MINFO\u001b[39M: Text from .error-message-container: Epic sadface: Username is required\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:12] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Error message displayed for empty username\r\n"
+                          "text": "[2026-03-26 14:37:47] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Error message displayed for empty username\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:12] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Login Test - Completed ==========\r\n"
+                          "text": "[2026-03-26 14:37:47] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Login Test - Completed ==========\r\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-26T13:43:11.498Z",
+                      "startTime": "2026-03-26T14:37:46.113Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -428,49 +428,49 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1866,
+                      "duration": 1744,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "[2026-03-26 13:43:12] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Login Test ==========\r\n"
+                          "text": "[2026-03-26 14:37:47] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Login Test ==========\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:12] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\r\n"
+                          "text": "[2026-03-26 14:37:47] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:13] \u001b[32MINFO\u001b[39M: Test Case: TC-005 - Login with empty password\r\n"
+                          "text": "[2026-03-26 14:37:47] \u001b[32MINFO\u001b[39M: Test Case: TC-005 - Login with empty password\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:13] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\r\n"
+                          "text": "[2026-03-26 14:37:47] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:13] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\r\n"
+                          "text": "[2026-03-26 14:37:47] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:13] \u001b[32MINFO\u001b[39M: STEP: Waiting for 1000ms\r\n"
+                          "text": "[2026-03-26 14:37:47] \u001b[32MINFO\u001b[39M: STEP: Waiting for 1000ms\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:14] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: .error-message-container\r\n"
+                          "text": "[2026-03-26 14:37:48] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: .error-message-container\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:14] \u001b[32MINFO\u001b[39M: Text from .error-message-container: Epic sadface: Password is required\r\n"
+                          "text": "[2026-03-26 14:37:48] \u001b[32MINFO\u001b[39M: Text from .error-message-container: Epic sadface: Password is required\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:14] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: .error-message-container\r\n"
+                          "text": "[2026-03-26 14:37:48] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: .error-message-container\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:14] \u001b[32MINFO\u001b[39M: Text from .error-message-container: Epic sadface: Password is required\r\n"
+                          "text": "[2026-03-26 14:37:48] \u001b[32MINFO\u001b[39M: Text from .error-message-container: Epic sadface: Password is required\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:14] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Error message displayed for empty password\r\n"
+                          "text": "[2026-03-26 14:37:48] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Error message displayed for empty password\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:14] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Login Test - Completed ==========\r\n"
+                          "text": "[2026-03-26 14:37:48] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Login Test - Completed ==========\r\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-26T13:43:12.755Z",
+                      "startTime": "2026-03-26T14:37:47.065Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -499,46 +499,46 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1257,
+                      "duration": 1261,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "[2026-03-26 13:43:13] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Login Test ==========\r\n"
+                          "text": "[2026-03-26 14:37:47] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Login Test ==========\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:13] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\r\n"
+                          "text": "[2026-03-26 14:37:47] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:13] \u001b[32MINFO\u001b[39M: Test Case: TC-006 - Successful logout\r\n"
+                          "text": "[2026-03-26 14:37:48] \u001b[32MINFO\u001b[39M: Test Case: TC-006 - Successful logout\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:13] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\r\n"
+                          "text": "[2026-03-26 14:37:48] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:13] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\r\n"
+                          "text": "[2026-03-26 14:37:48] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:13] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\r\n"
+                          "text": "[2026-03-26 14:37:48] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:13] \u001b[32MINFO\u001b[39M: STEP: Clicking element: #react-burger-menu-btn\r\n"
+                          "text": "[2026-03-26 14:37:48] \u001b[32MINFO\u001b[39M: STEP: Clicking element: #react-burger-menu-btn\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:13] \u001b[32MINFO\u001b[39M: STEP: Waiting for 500ms\r\n"
+                          "text": "[2026-03-26 14:37:48] \u001b[32MINFO\u001b[39M: STEP: Waiting for 500ms\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:14] \u001b[32MINFO\u001b[39M: STEP: Clicking element: #logout_sidebar_link\r\n"
+                          "text": "[2026-03-26 14:37:48] \u001b[32MINFO\u001b[39M: STEP: Clicking element: #logout_sidebar_link\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:14] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: User successfully logged out\r\n"
+                          "text": "[2026-03-26 14:37:48] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: User successfully logged out\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:14] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Login Test - Completed ==========\r\n"
+                          "text": "[2026-03-26 14:37:48] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Login Test - Completed ==========\r\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-26T13:43:13.369Z",
+                      "startTime": "2026-03-26T14:37:47.827Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -567,52 +567,52 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2310,
+                      "duration": 2181,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "[2026-03-26 13:43:14] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Login Test ==========\r\n"
+                          "text": "[2026-03-26 14:37:48] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Login Test ==========\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:14] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\r\n"
+                          "text": "[2026-03-26 14:37:48] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:14] \u001b[32MINFO\u001b[39M: Test Case: TC-007 - Locked out user login attempt\r\n"
+                          "text": "[2026-03-26 14:37:49] \u001b[32MINFO\u001b[39M: Test Case: TC-007 - Locked out user login attempt\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:14] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: locked_out_user\r\n"
+                          "text": "[2026-03-26 14:37:49] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: locked_out_user\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:15] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\r\n"
+                          "text": "[2026-03-26 14:37:49] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:15] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\r\n"
+                          "text": "[2026-03-26 14:37:49] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:15] \u001b[32MINFO\u001b[39M: STEP: Waiting for 1000ms\r\n"
+                          "text": "[2026-03-26 14:37:49] \u001b[32MINFO\u001b[39M: STEP: Waiting for 1000ms\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:16] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: .error-message-container\r\n"
+                          "text": "[2026-03-26 14:37:50] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: .error-message-container\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:16] \u001b[32MINFO\u001b[39M: Text from .error-message-container: Epic sadface: Sorry, this user has been locked out.\r\n"
+                          "text": "[2026-03-26 14:37:50] \u001b[32MINFO\u001b[39M: Text from .error-message-container: Epic sadface: Sorry, this user has been locked out.\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:16] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: .error-message-container\r\n"
+                          "text": "[2026-03-26 14:37:50] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: .error-message-container\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:16] \u001b[32MINFO\u001b[39M: Text from .error-message-container: Epic sadface: Sorry, this user has been locked out.\r\n"
+                          "text": "[2026-03-26 14:37:50] \u001b[32MINFO\u001b[39M: Text from .error-message-container: Epic sadface: Sorry, this user has been locked out.\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:16] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Locked out user error message displayed\r\n"
+                          "text": "[2026-03-26 14:37:50] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Locked out user error message displayed\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:16] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Login Test - Completed ==========\r\n"
+                          "text": "[2026-03-26 14:37:50] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Login Test - Completed ==========\r\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-26T13:43:14.639Z",
+                      "startTime": "2026-03-26T14:37:48.832Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -658,97 +658,97 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1151,
+                      "duration": 1074,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "[2026-03-26 13:43:14] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\r\n"
+                          "text": "[2026-03-26 14:37:49] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:15] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\r\n"
+                          "text": "[2026-03-26 14:37:49] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:15] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\r\n"
+                          "text": "[2026-03-26 14:37:49] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:15] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\r\n"
+                          "text": "[2026-03-26 14:37:49] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:15] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Cart Test ==========\r\n"
+                          "text": "[2026-03-26 14:37:49] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Cart Test ==========\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:15] \u001b[32MINFO\u001b[39M: Test Case: TC-001 - Verify cart displays correct product details (name, description, price, quantity)\r\n"
+                          "text": "[2026-03-26 14:37:49] \u001b[32MINFO\u001b[39M: Test Case: TC-001 - Verify cart displays correct product details (name, description, price, quantity)\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:15] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Inventory container is visible\r\n"
+                          "text": "[2026-03-26 14:37:49] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Inventory container is visible\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:15] \u001b[32MINFO\u001b[39M: Selected random product: Sauce Labs Bike Light (index: 1)\r\n"
+                          "text": "[2026-03-26 14:37:49] \u001b[32MINFO\u001b[39M: Selected random product: Sauce Labs Fleece Jacket (index: 3)\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:15] \u001b[32MINFO\u001b[39M: Product details from inventory - Name: Sauce Labs Bike Light, Price: $9.99\r\n"
+                          "text": "[2026-03-26 14:37:49] \u001b[32MINFO\u001b[39M: Product details from inventory - Name: Sauce Labs Fleece Jacket, Price: $49.99\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:15] \u001b[32MINFO\u001b[39M: Product description: A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.\r\n"
+                          "text": "[2026-03-26 14:37:49] \u001b[32MINFO\u001b[39M: Product description: It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:15] \u001b[32MINFO\u001b[39M: Added Sauce Labs Bike Light to cart\r\n"
+                          "text": "[2026-03-26 14:37:49] \u001b[32MINFO\u001b[39M: Added Sauce Labs Fleece Jacket to cart\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:15] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"shopping-cart-link\"]\r\n"
+                          "text": "[2026-03-26 14:37:49] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"shopping-cart-link\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:15] \u001b[32MINFO\u001b[39M: Clicked cart icon\r\n"
+                          "text": "[2026-03-26 14:37:49] \u001b[32MINFO\u001b[39M: Clicked cart icon\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:15] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"cart-contents-container\"]\r\n"
+                          "text": "[2026-03-26 14:37:49] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"cart-contents-container\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:15] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart page is displayed\r\n"
+                          "text": "[2026-03-26 14:37:49] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart page is displayed\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:15] \u001b[32MINFO\u001b[39M: Text from [data-test=\"title\"]: Your Cart\r\n"
+                          "text": "[2026-03-26 14:37:49] \u001b[32MINFO\u001b[39M: Text from [data-test=\"title\"]: Your Cart\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:15] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart page title is \"Your Cart\"\r\n"
+                          "text": "[2026-03-26 14:37:49] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart page title is \"Your Cart\"\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:15] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Quantity label (QTY) is displayed\r\n"
+                          "text": "[2026-03-26 14:37:49] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Quantity label (QTY) is displayed\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:15] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Description label is displayed\r\n"
+                          "text": "[2026-03-26 14:37:49] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Description label is displayed\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:15] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Product \"Sauce Labs Bike Light\" is present in cart\r\n"
+                          "text": "[2026-03-26 14:37:50] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Product \"Sauce Labs Fleece Jacket\" is present in cart\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:15] \u001b[32MINFO\u001b[39M: Product details from cart - Name: Sauce Labs Bike Light, Price: $9.99, Quantity: 1\r\n"
+                          "text": "[2026-03-26 14:37:50] \u001b[32MINFO\u001b[39M: Product details from cart - Name: Sauce Labs Fleece Jacket, Price: $49.99, Quantity: 1\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:15] \u001b[32MINFO\u001b[39M: Product description in cart: A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.\r\n"
+                          "text": "[2026-03-26 14:37:50] \u001b[32MINFO\u001b[39M: Product description in cart: It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:15] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Product name matches: \"Sauce Labs Bike Light\"\r\n"
+                          "text": "[2026-03-26 14:37:50] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Product name matches: \"Sauce Labs Fleece Jacket\"\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:15] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Product description matches\r\n"
+                          "text": "[2026-03-26 14:37:50] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Product description matches\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:15] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Product price matches: $9.99\r\n"
+                          "text": "[2026-03-26 14:37:50] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Product price matches: $49.99\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:15] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Product quantity is 1\r\n"
+                          "text": "[2026-03-26 14:37:50] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Product quantity is 1\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:15] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart contains 1 item\r\n"
+                          "text": "[2026-03-26 14:37:50] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart contains 1 item\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:15] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Cart Test - Completed ==========\r\n"
+                          "text": "[2026-03-26 14:37:50] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Cart Test - Completed ==========\r\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-26T13:43:14.663Z",
+                      "startTime": "2026-03-26T14:37:49.125Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -777,88 +777,88 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1889,
+                      "duration": 1661,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "[2026-03-26 13:43:15] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\r\n"
+                          "text": "[2026-03-26 14:37:50] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:16] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\r\n"
+                          "text": "[2026-03-26 14:37:50] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:16] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\r\n"
+                          "text": "[2026-03-26 14:37:50] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:16] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\r\n"
+                          "text": "[2026-03-26 14:37:50] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:16] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Cart Test ==========\r\n"
+                          "text": "[2026-03-26 14:37:50] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Cart Test ==========\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:16] \u001b[32MINFO\u001b[39M: Test Case: TC-002 - Verify removing product from cart using \"Remove\" button\r\n"
+                          "text": "[2026-03-26 14:37:50] \u001b[32MINFO\u001b[39M: Test Case: TC-002 - Verify removing product from cart using \"Remove\" button\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:16] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Inventory container is visible\r\n"
+                          "text": "[2026-03-26 14:37:50] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Inventory container is visible\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:16] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Initial cart badge count is 0\r\n"
+                          "text": "[2026-03-26 14:37:50] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Initial cart badge count is 0\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:16] \u001b[32MINFO\u001b[39M: Clicked on product title: Sauce Labs Backpack\r\n"
+                          "text": "[2026-03-26 14:37:50] \u001b[32MINFO\u001b[39M: Clicked on product title: Sauce Labs Backpack\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:16] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"inventory-container\"]\r\n"
+                          "text": "[2026-03-26 14:37:50] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"inventory-container\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:16] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"add-to-cart-sauce-labs-backpack\"]\r\n"
+                          "text": "[2026-03-26 14:37:50] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"add-to-cart-sauce-labs-backpack\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:16] \u001b[32MINFO\u001b[39M: Added Sauce Labs Backpack to cart\r\n"
+                          "text": "[2026-03-26 14:37:50] \u001b[32MINFO\u001b[39M: Added Sauce Labs Backpack to cart\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:16] \u001b[32MINFO\u001b[39M: Text from .shopping_cart_badge: 1\r\n"
+                          "text": "[2026-03-26 14:37:50] \u001b[32MINFO\u001b[39M: Text from .shopping_cart_badge: 1\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:16] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart badge count is 1 after adding product\r\n"
+                          "text": "[2026-03-26 14:37:50] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart badge count is 1 after adding product\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:16] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"shopping-cart-link\"]\r\n"
+                          "text": "[2026-03-26 14:37:50] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"shopping-cart-link\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:16] \u001b[32MINFO\u001b[39M: Clicked cart icon to navigate to cart page\r\n"
+                          "text": "[2026-03-26 14:37:50] \u001b[32MINFO\u001b[39M: Clicked cart icon to navigate to cart page\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:16] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"cart-contents-container\"]\r\n"
+                          "text": "[2026-03-26 14:37:50] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"cart-contents-container\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:16] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart page is displayed\r\n"
+                          "text": "[2026-03-26 14:37:50] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart page is displayed\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:16] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Product \"Sauce Labs Backpack\" is in cart before removal\r\n"
+                          "text": "[2026-03-26 14:37:51] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Product \"Sauce Labs Backpack\" is in cart before removal\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:16] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart contains 1 item before removal\r\n"
+                          "text": "[2026-03-26 14:37:51] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart contains 1 item before removal\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:16] \u001b[32MINFO\u001b[39M: Clicked Remove button for Sauce Labs Backpack\r\n"
+                          "text": "[2026-03-26 14:37:51] \u001b[32MINFO\u001b[39M: Clicked Remove button for Sauce Labs Backpack\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:17] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Product \"Sauce Labs Backpack\" is removed from cart\r\n"
+                          "text": "[2026-03-26 14:37:51] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Product \"Sauce Labs Backpack\" is removed from cart\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:17] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart contains 0 items after removal\r\n"
+                          "text": "[2026-03-26 14:37:51] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart contains 0 items after removal\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:17] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart is empty after removing all items\r\n"
+                          "text": "[2026-03-26 14:37:51] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart is empty after removing all items\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:17] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Cart Test - Completed ==========\r\n"
+                          "text": "[2026-03-26 14:37:51] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Cart Test - Completed ==========\r\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-26T13:43:15.855Z",
+                      "startTime": "2026-03-26T14:37:50.229Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -887,76 +887,76 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1020,
+                      "duration": 961,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "[2026-03-26 13:43:17] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\r\n"
+                          "text": "[2026-03-26 14:37:51] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:17] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\r\n"
+                          "text": "[2026-03-26 14:37:51] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:17] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\r\n"
+                          "text": "[2026-03-26 14:37:51] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:17] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\r\n"
+                          "text": "[2026-03-26 14:37:51] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:17] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Cart Test ==========\r\n"
+                          "text": "[2026-03-26 14:37:51] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Cart Test ==========\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:17] \u001b[32MINFO\u001b[39M: Test Case: TC-003 - Verify \"Continue Shopping\" button navigates back to inventory page\r\n"
+                          "text": "[2026-03-26 14:37:51] \u001b[32MINFO\u001b[39M: Test Case: TC-003 - Verify \"Continue Shopping\" button navigates back to inventory page\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:17] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Inventory container is visible\r\n"
+                          "text": "[2026-03-26 14:37:51] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Inventory container is visible\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:17] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Initial cart badge count is 0\r\n"
+                          "text": "[2026-03-26 14:37:51] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Initial cart badge count is 0\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:17] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"shopping-cart-link\"]\r\n"
+                          "text": "[2026-03-26 14:37:51] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"shopping-cart-link\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:17] \u001b[32MINFO\u001b[39M: Clicked cart icon to navigate to cart page (empty cart)\r\n"
+                          "text": "[2026-03-26 14:37:51] \u001b[32MINFO\u001b[39M: Clicked cart icon to navigate to cart page (empty cart)\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:17] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"cart-contents-container\"]\r\n"
+                          "text": "[2026-03-26 14:37:51] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"cart-contents-container\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:17] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart page is displayed\r\n"
+                          "text": "[2026-03-26 14:37:51] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart page is displayed\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:17] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart is empty\r\n"
+                          "text": "[2026-03-26 14:37:51] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart is empty\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:17] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Continue Shopping button is visible\r\n"
+                          "text": "[2026-03-26 14:37:51] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Continue Shopping button is visible\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:17] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"continue-shopping\"]\r\n"
+                          "text": "[2026-03-26 14:37:51] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"continue-shopping\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:17] \u001b[32MINFO\u001b[39M: Clicked Continue Shopping button\r\n"
+                          "text": "[2026-03-26 14:37:51] \u001b[32MINFO\u001b[39M: Clicked Continue Shopping button\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:17] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"inventory-container\"]\r\n"
+                          "text": "[2026-03-26 14:37:51] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"inventory-container\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:17] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: URL contains inventory.html\r\n"
+                          "text": "[2026-03-26 14:37:51] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: URL contains inventory.html\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:17] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Successfully navigated back to inventory page\r\n"
+                          "text": "[2026-03-26 14:37:51] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Successfully navigated back to inventory page\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:17] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart badge count is still 0\r\n"
+                          "text": "[2026-03-26 14:37:51] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart badge count is still 0\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:17] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Cart Test - Completed ==========\r\n"
+                          "text": "[2026-03-26 14:37:51] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Cart Test - Completed ==========\r\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-26T13:43:16.974Z",
+                      "startTime": "2026-03-26T14:37:51.047Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -985,82 +985,82 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1140,
+                      "duration": 1416,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "[2026-03-26 13:43:17] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\r\n"
+                          "text": "[2026-03-26 14:37:51] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:18] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\r\n"
+                          "text": "[2026-03-26 14:37:52] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:18] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\r\n"
+                          "text": "[2026-03-26 14:37:52] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:18] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\r\n"
+                          "text": "[2026-03-26 14:37:52] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:18] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Cart Test ==========\r\n"
+                          "text": "[2026-03-26 14:37:52] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Cart Test ==========\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:18] \u001b[32MINFO\u001b[39M: Test Case: TC-004 - Verify \"Checkout\" button navigates to checkout page\r\n"
+                          "text": "[2026-03-26 14:37:52] \u001b[32MINFO\u001b[39M: Test Case: TC-004 - Verify \"Checkout\" button navigates to checkout page\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:18] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Inventory container is visible\r\n"
+                          "text": "[2026-03-26 14:37:52] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Inventory container is visible\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:18] \u001b[32MINFO\u001b[39M: Adding product to cart: Sauce Labs Backpack\r\n"
+                          "text": "[2026-03-26 14:37:52] \u001b[32MINFO\u001b[39M: Adding product to cart: Sauce Labs Backpack\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:18] \u001b[32MINFO\u001b[39M: Added Sauce Labs Backpack to cart\r\n"
+                          "text": "[2026-03-26 14:37:52] \u001b[32MINFO\u001b[39M: Added Sauce Labs Backpack to cart\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:18] \u001b[32MINFO\u001b[39M: Text from .shopping_cart_badge: 1\r\n"
+                          "text": "[2026-03-26 14:37:52] \u001b[32MINFO\u001b[39M: Text from .shopping_cart_badge: 1\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:18] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart badge count is 1 after adding product\r\n"
+                          "text": "[2026-03-26 14:37:52] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart badge count is 1 after adding product\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:18] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"shopping-cart-link\"]\r\n"
+                          "text": "[2026-03-26 14:37:52] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"shopping-cart-link\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:18] \u001b[32MINFO\u001b[39M: Clicked cart icon to navigate to cart page\r\n"
+                          "text": "[2026-03-26 14:37:52] \u001b[32MINFO\u001b[39M: Clicked cart icon to navigate to cart page\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:18] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"cart-contents-container\"]\r\n"
+                          "text": "[2026-03-26 14:37:52] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"cart-contents-container\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:18] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart page is displayed\r\n"
+                          "text": "[2026-03-26 14:37:52] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart page is displayed\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:18] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Product \"Sauce Labs Backpack\" is in cart\r\n"
+                          "text": "[2026-03-26 14:37:52] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Product \"Sauce Labs Backpack\" is in cart\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:18] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Checkout button is visible\r\n"
+                          "text": "[2026-03-26 14:37:52] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Checkout button is visible\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:18] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"checkout\"]\r\n"
+                          "text": "[2026-03-26 14:37:52] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"checkout\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:18] \u001b[32MINFO\u001b[39M: Clicked Checkout button\r\n"
+                          "text": "[2026-03-26 14:37:52] \u001b[32MINFO\u001b[39M: Clicked Checkout button\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:18] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"checkout-info-container\"]\r\n"
+                          "text": "[2026-03-26 14:37:52] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"checkout-info-container\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:18] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: URL contains checkout-step-one.html\r\n"
+                          "text": "[2026-03-26 14:37:52] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: URL contains checkout-step-one.html\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:18] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Checkout page is displayed\r\n"
+                          "text": "[2026-03-26 14:37:52] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Checkout page is displayed\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:18] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Cart Test - Completed ==========\r\n"
+                          "text": "[2026-03-26 14:37:52] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Cart Test - Completed ==========\r\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-26T13:43:17.776Z",
+                      "startTime": "2026-03-26T14:37:51.912Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1106,100 +1106,100 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1687,
+                      "duration": 1484,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "[2026-03-26 13:43:18] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\r\n"
+                          "text": "[2026-03-26 14:37:52] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:18] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\r\n"
+                          "text": "[2026-03-26 14:37:52] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:18] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\r\n"
+                          "text": "[2026-03-26 14:37:52] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:18] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\r\n"
+                          "text": "[2026-03-26 14:37:52] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:18] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Checkout Overview Page Test ==========\r\n"
+                          "text": "[2026-03-26 14:37:52] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Checkout Overview Page Test ==========\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:18] \u001b[32MINFO\u001b[39M: Selected product: Sauce Labs Backpack, Price: $29.99\r\n"
+                          "text": "[2026-03-26 14:37:52] \u001b[32MINFO\u001b[39M: Selected product: Sauce Labs Backpack, Price: $29.99\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:18] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"shopping-cart-link\"]\r\n"
+                          "text": "[2026-03-26 14:37:52] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"shopping-cart-link\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:18] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"checkout\"]\r\n"
+                          "text": "[2026-03-26 14:37:52] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"checkout\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:19] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"checkout-info-container\"]\r\n"
+                          "text": "[2026-03-26 14:37:52] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"checkout-info-container\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:19] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"firstName\"] with: John\r\n"
+                          "text": "[2026-03-26 14:37:52] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"firstName\"] with: John\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:19] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"lastName\"] with: Doe\r\n"
+                          "text": "[2026-03-26 14:37:53] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"lastName\"] with: Doe\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:19] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"postalCode\"] with: 12345\r\n"
+                          "text": "[2026-03-26 14:37:53] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"postalCode\"] with: 12345\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:19] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"continue\"]\r\n"
+                          "text": "[2026-03-26 14:37:53] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"continue\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:19] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"checkout-summary-container\"]\r\n"
+                          "text": "[2026-03-26 14:37:53] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"checkout-summary-container\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:19] \u001b[32MINFO\u001b[39M: Test Case: TC-001 - Verify product details and complete order\r\n"
+                          "text": "[2026-03-26 14:37:53] \u001b[32MINFO\u001b[39M: Test Case: TC-001 - Verify product details and complete order\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:19] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Checkout overview contains 1 item\r\n"
+                          "text": "[2026-03-26 14:37:53] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Checkout overview contains 1 item\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:19] \u001b[32MINFO\u001b[39M: Overview item details - Name: Sauce Labs Backpack, Price: $29.99, Quantity: 1\r\n"
+                          "text": "[2026-03-26 14:37:53] \u001b[32MINFO\u001b[39M: Overview item details - Name: Sauce Labs Backpack, Price: $29.99, Quantity: 1\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:19] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Product name matches: \"Sauce Labs Backpack\"\r\n"
+                          "text": "[2026-03-26 14:37:53] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Product name matches: \"Sauce Labs Backpack\"\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:19] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Product description matches\r\n"
+                          "text": "[2026-03-26 14:37:53] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Product description matches\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:19] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Product price matches: $29.99\r\n"
+                          "text": "[2026-03-26 14:37:53] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Product price matches: $29.99\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:19] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Product quantity is 1\r\n"
+                          "text": "[2026-03-26 14:37:53] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Product quantity is 1\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:19] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"finish\"]\r\n"
+                          "text": "[2026-03-26 14:37:53] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"finish\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:19] \u001b[32MINFO\u001b[39M: Clicked finish button\r\n"
+                          "text": "[2026-03-26 14:37:53] \u001b[32MINFO\u001b[39M: Clicked finish button\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:19] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Navigated to checkout complete page\r\n"
+                          "text": "[2026-03-26 14:37:53] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Navigated to checkout complete page\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:19] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Checkout complete page is displayed\r\n"
+                          "text": "[2026-03-26 14:37:53] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Checkout complete page is displayed\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:19] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Success header is displayed\r\n"
+                          "text": "[2026-03-26 14:37:53] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Success header is displayed\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:19] \u001b[32MINFO\u001b[39M: Text from [data-test=\"complete-header\"]: Thank you for your order!\r\n"
+                          "text": "[2026-03-26 14:37:53] \u001b[32MINFO\u001b[39M: Text from [data-test=\"complete-header\"]: Thank you for your order!\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:19] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Success message contains \"Thank you for your order\"\r\n"
+                          "text": "[2026-03-26 14:37:53] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Success message contains \"Thank you for your order\"\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:19] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Checkout Overview Page Test - Completed ==========\r\n"
+                          "text": "[2026-03-26 14:37:53] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Checkout Overview Page Test - Completed ==========\r\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-26T13:43:18.027Z",
+                      "startTime": "2026-03-26T14:37:52.042Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1228,76 +1228,76 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1626,
+                      "duration": 1449,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "[2026-03-26 13:43:19] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\r\n"
+                          "text": "[2026-03-26 14:37:53] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:19] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\r\n"
+                          "text": "[2026-03-26 14:37:53] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:19] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\r\n"
+                          "text": "[2026-03-26 14:37:53] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:19] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\r\n"
+                          "text": "[2026-03-26 14:37:53] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:19] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Checkout Overview Page Test ==========\r\n"
+                          "text": "[2026-03-26 14:37:53] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Checkout Overview Page Test ==========\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:19] \u001b[32MINFO\u001b[39M: Selected product: Sauce Labs Backpack, Price: $29.99\r\n"
+                          "text": "[2026-03-26 14:37:53] \u001b[32MINFO\u001b[39M: Selected product: Sauce Labs Backpack, Price: $29.99\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:19] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"shopping-cart-link\"]\r\n"
+                          "text": "[2026-03-26 14:37:54] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"shopping-cart-link\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:19] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"checkout\"]\r\n"
+                          "text": "[2026-03-26 14:37:54] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"checkout\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:19] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"checkout-info-container\"]\r\n"
+                          "text": "[2026-03-26 14:37:54] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"checkout-info-container\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:19] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"firstName\"] with: John\r\n"
+                          "text": "[2026-03-26 14:37:54] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"firstName\"] with: John\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:19] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"lastName\"] with: Doe\r\n"
+                          "text": "[2026-03-26 14:37:54] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"lastName\"] with: Doe\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:19] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"postalCode\"] with: 12345\r\n"
+                          "text": "[2026-03-26 14:37:54] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"postalCode\"] with: 12345\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:19] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"continue\"]\r\n"
+                          "text": "[2026-03-26 14:37:54] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"continue\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:20] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"checkout-summary-container\"]\r\n"
+                          "text": "[2026-03-26 14:37:54] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"checkout-summary-container\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:20] \u001b[32MINFO\u001b[39M: Test Case: TC-002 - Verify cancel button navigation\r\n"
+                          "text": "[2026-03-26 14:37:54] \u001b[32MINFO\u001b[39M: Test Case: TC-002 - Verify cancel button navigation\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:20] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"cancel\"]\r\n"
+                          "text": "[2026-03-26 14:37:54] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"cancel\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:20] \u001b[32MINFO\u001b[39M: Clicked cancel button\r\n"
+                          "text": "[2026-03-26 14:37:54] \u001b[32MINFO\u001b[39M: Clicked cancel button\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:20] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Navigated to inventory page\r\n"
+                          "text": "[2026-03-26 14:37:54] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Navigated to inventory page\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:20] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"inventory-container\"]\r\n"
+                          "text": "[2026-03-26 14:37:54] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"inventory-container\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:20] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Inventory page is displayed\r\n"
+                          "text": "[2026-03-26 14:37:54] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Inventory page is displayed\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:20] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Checkout Overview Page Test - Completed ==========\r\n"
+                          "text": "[2026-03-26 14:37:54] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Checkout Overview Page Test - Completed ==========\r\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-26T13:43:18.951Z",
+                      "startTime": "2026-03-26T14:37:53.359Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1343,73 +1343,73 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1281,
+                      "duration": 1265,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "[2026-03-26 13:43:19] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\r\n"
+                          "text": "[2026-03-26 14:37:53] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:20] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\r\n"
+                          "text": "[2026-03-26 14:37:53] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:20] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\r\n"
+                          "text": "[2026-03-26 14:37:54] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:20] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\r\n"
+                          "text": "[2026-03-26 14:37:54] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:20] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Checkout Page Test ==========\r\n"
+                          "text": "[2026-03-26 14:37:54] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Checkout Page Test ==========\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:20] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"shopping-cart-link\"]\r\n"
+                          "text": "[2026-03-26 14:37:54] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"shopping-cart-link\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:20] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"checkout\"]\r\n"
+                          "text": "[2026-03-26 14:37:54] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"checkout\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:20] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"checkout-info-container\"]\r\n"
+                          "text": "[2026-03-26 14:37:54] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"checkout-info-container\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:20] \u001b[32MINFO\u001b[39M: Test Case: TC-001 - Verify filling checkout form with valid data and continue to checkout overview\r\n"
+                          "text": "[2026-03-26 14:37:54] \u001b[32MINFO\u001b[39M: Test Case: TC-001 - Verify filling checkout form with valid data and continue to checkout overview\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:20] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"firstName\"] with: John\r\n"
+                          "text": "[2026-03-26 14:37:54] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"firstName\"] with: John\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:20] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"lastName\"] with: Doe\r\n"
+                          "text": "[2026-03-26 14:37:54] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"lastName\"] with: Doe\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:20] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"postalCode\"] with: 12345\r\n"
+                          "text": "[2026-03-26 14:37:54] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"postalCode\"] with: 12345\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:20] \u001b[32MINFO\u001b[39M: Filled checkout form with: John Doe, 12345\r\n"
+                          "text": "[2026-03-26 14:37:54] \u001b[32MINFO\u001b[39M: Filled checkout form with: John Doe, 12345\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:20] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: First name field contains correct value\r\n"
+                          "text": "[2026-03-26 14:37:54] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: First name field contains correct value\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:20] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Last name field contains correct value\r\n"
+                          "text": "[2026-03-26 14:37:54] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Last name field contains correct value\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:20] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Postal code field contains correct value\r\n"
+                          "text": "[2026-03-26 14:37:54] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Postal code field contains correct value\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:20] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"continue\"]\r\n"
+                          "text": "[2026-03-26 14:37:54] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"continue\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:20] \u001b[32MINFO\u001b[39M: Clicked continue button\r\n"
+                          "text": "[2026-03-26 14:37:54] \u001b[32MINFO\u001b[39M: Clicked continue button\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:20] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Navigated to checkout overview page\r\n"
+                          "text": "[2026-03-26 14:37:54] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Navigated to checkout overview page\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:20] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Checkout Page Test - Completed ==========\r\n"
+                          "text": "[2026-03-26 14:37:54] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Checkout Page Test - Completed ==========\r\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-26T13:43:19.750Z",
+                      "startTime": "2026-03-26T14:37:53.558Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1438,58 +1438,58 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1397,
+                      "duration": 1384,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "[2026-03-26 13:43:20] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\r\n"
+                          "text": "[2026-03-26 14:37:54] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:21] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\r\n"
+                          "text": "[2026-03-26 14:37:55] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:21] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\r\n"
+                          "text": "[2026-03-26 14:37:55] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:21] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\r\n"
+                          "text": "[2026-03-26 14:37:55] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:21] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Checkout Page Test ==========\r\n"
+                          "text": "[2026-03-26 14:37:55] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Checkout Page Test ==========\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:21] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"shopping-cart-link\"]\r\n"
+                          "text": "[2026-03-26 14:37:55] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"shopping-cart-link\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:21] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"checkout\"]\r\n"
+                          "text": "[2026-03-26 14:37:55] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"checkout\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:21] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"checkout-info-container\"]\r\n"
+                          "text": "[2026-03-26 14:37:55] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"checkout-info-container\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:21] \u001b[32MINFO\u001b[39M: Test Case: TC-002 - Verify cancel button returns to cart page\r\n"
+                          "text": "[2026-03-26 14:37:55] \u001b[32MINFO\u001b[39M: Test Case: TC-002 - Verify cancel button returns to cart page\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:21] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"cancel\"]\r\n"
+                          "text": "[2026-03-26 14:37:55] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"cancel\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:21] \u001b[32MINFO\u001b[39M: Clicked cancel button\r\n"
+                          "text": "[2026-03-26 14:37:55] \u001b[32MINFO\u001b[39M: Clicked cancel button\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:21] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Navigated back to cart page\r\n"
+                          "text": "[2026-03-26 14:37:55] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Navigated back to cart page\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:21] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart page is displayed\r\n"
+                          "text": "[2026-03-26 14:37:55] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart page is displayed\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:21] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart still contains 1 item\r\n"
+                          "text": "[2026-03-26 14:37:55] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart still contains 1 item\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:21] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Checkout Page Test - Completed ==========\r\n"
+                          "text": "[2026-03-26 14:37:55] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Checkout Page Test - Completed ==========\r\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-26T13:43:20.615Z",
+                      "startTime": "2026-03-26T14:37:54.837Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1518,121 +1518,121 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1830,
+                      "duration": 1715,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "[2026-03-26 13:43:21] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\r\n"
+                          "text": "[2026-03-26 14:37:54] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:21] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\r\n"
+                          "text": "[2026-03-26 14:37:55] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:21] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\r\n"
+                          "text": "[2026-03-26 14:37:55] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:21] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\r\n"
+                          "text": "[2026-03-26 14:37:55] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:21] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Checkout Page Test ==========\r\n"
+                          "text": "[2026-03-26 14:37:55] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Checkout Page Test ==========\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:21] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"shopping-cart-link\"]\r\n"
+                          "text": "[2026-03-26 14:37:55] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"shopping-cart-link\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:21] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"checkout\"]\r\n"
+                          "text": "[2026-03-26 14:37:55] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"checkout\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:21] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"checkout-info-container\"]\r\n"
+                          "text": "[2026-03-26 14:37:55] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"checkout-info-container\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:21] \u001b[32MINFO\u001b[39M: Test Case: TC-003 - Verify error messages for empty required fields\r\n"
+                          "text": "[2026-03-26 14:37:55] \u001b[32MINFO\u001b[39M: Test Case: TC-003 - Verify error messages for empty required fields\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:21] \u001b[32MINFO\u001b[39M: Testing validation for empty first name\r\n"
+                          "text": "[2026-03-26 14:37:55] \u001b[32MINFO\u001b[39M: Testing validation for empty first name\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:21] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"lastName\"] with: Doe\r\n"
+                          "text": "[2026-03-26 14:37:55] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"lastName\"] with: Doe\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:21] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"postalCode\"] with: 12345\r\n"
+                          "text": "[2026-03-26 14:37:55] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"postalCode\"] with: 12345\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:22] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"continue\"]\r\n"
+                          "text": "[2026-03-26 14:37:55] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"continue\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:22] \u001b[32MINFO\u001b[39M: Clicked continue button with empty first name\r\n"
+                          "text": "[2026-03-26 14:37:55] \u001b[32MINFO\u001b[39M: Clicked continue button with empty first name\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:22] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Error message is displayed for empty first name\r\n"
+                          "text": "[2026-03-26 14:37:55] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Error message is displayed for empty first name\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:22] \u001b[32MINFO\u001b[39M: Text from [data-test=\"error\"]: Error: First Name is required\r\n"
+                          "text": "[2026-03-26 14:37:55] \u001b[32MINFO\u001b[39M: Text from [data-test=\"error\"]: Error: First Name is required\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:22] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Error message contains \"First Name is required\"\r\n"
+                          "text": "[2026-03-26 14:37:55] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Error message contains \"First Name is required\"\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:22] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"checkout-info-container\"]\r\n"
+                          "text": "[2026-03-26 14:37:56] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"checkout-info-container\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:22] \u001b[32MINFO\u001b[39M: Testing validation for empty last name\r\n"
+                          "text": "[2026-03-26 14:37:56] \u001b[32MINFO\u001b[39M: Testing validation for empty last name\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:22] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"firstName\"] with: John\r\n"
+                          "text": "[2026-03-26 14:37:56] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"firstName\"] with: John\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:22] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"postalCode\"] with: 12345\r\n"
+                          "text": "[2026-03-26 14:37:56] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"postalCode\"] with: 12345\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:22] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"continue\"]\r\n"
+                          "text": "[2026-03-26 14:37:56] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"continue\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:22] \u001b[32MINFO\u001b[39M: Clicked continue button with empty last name\r\n"
+                          "text": "[2026-03-26 14:37:56] \u001b[32MINFO\u001b[39M: Clicked continue button with empty last name\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:22] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Error message is displayed for empty last name\r\n"
+                          "text": "[2026-03-26 14:37:56] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Error message is displayed for empty last name\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:22] \u001b[32MINFO\u001b[39M: Text from [data-test=\"error\"]: Error: Last Name is required\r\n"
+                          "text": "[2026-03-26 14:37:56] \u001b[32MINFO\u001b[39M: Text from [data-test=\"error\"]: Error: Last Name is required\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:22] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Error message contains \"Last Name is required\"\r\n"
+                          "text": "[2026-03-26 14:37:56] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Error message contains \"Last Name is required\"\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:22] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"checkout-info-container\"]\r\n"
+                          "text": "[2026-03-26 14:37:56] \u001b[32MINFO\u001b[39M: STEP: Waiting for element: [data-test=\"checkout-info-container\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:22] \u001b[32MINFO\u001b[39M: Testing validation for empty postal code\r\n"
+                          "text": "[2026-03-26 14:37:56] \u001b[32MINFO\u001b[39M: Testing validation for empty postal code\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:22] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"firstName\"] with: John\r\n"
+                          "text": "[2026-03-26 14:37:56] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"firstName\"] with: John\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:22] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"lastName\"] with: Doe\r\n"
+                          "text": "[2026-03-26 14:37:56] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"lastName\"] with: Doe\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:22] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"continue\"]\r\n"
+                          "text": "[2026-03-26 14:37:56] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"continue\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:22] \u001b[32MINFO\u001b[39M: Clicked continue button with empty postal code\r\n"
+                          "text": "[2026-03-26 14:37:56] \u001b[32MINFO\u001b[39M: Clicked continue button with empty postal code\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:22] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Error message is displayed for empty postal code\r\n"
+                          "text": "[2026-03-26 14:37:56] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Error message is displayed for empty postal code\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:22] \u001b[32MINFO\u001b[39M: Text from [data-test=\"error\"]: Error: Postal Code is required\r\n"
+                          "text": "[2026-03-26 14:37:56] \u001b[32MINFO\u001b[39M: Text from [data-test=\"error\"]: Error: Postal Code is required\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:22] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Error message contains \"Postal Code is required\"\r\n"
+                          "text": "[2026-03-26 14:37:56] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Error message contains \"Postal Code is required\"\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:22] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Checkout Page Test - Completed ==========\r\n"
+                          "text": "[2026-03-26 14:37:56] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Checkout Page Test - Completed ==========\r\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-26T13:43:21.063Z",
+                      "startTime": "2026-03-26T14:37:54.871Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1678,55 +1678,55 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1028,
+                      "duration": 1170,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "[2026-03-26 13:43:22] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\r\n"
+                          "text": "[2026-03-26 14:37:56] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:22] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\r\n"
+                          "text": "[2026-03-26 14:37:56] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:22] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\r\n"
+                          "text": "[2026-03-26 14:37:56] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:22] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\r\n"
+                          "text": "[2026-03-26 14:37:56] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:22] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Inventory Test ==========\r\n"
+                          "text": "[2026-03-26 14:37:56] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Inventory Test ==========\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:22] \u001b[32MINFO\u001b[39M: Test Case: TC-001 - All items are present in inventory page\r\n"
+                          "text": "[2026-03-26 14:37:56] \u001b[32MINFO\u001b[39M: Test Case: TC-001 - All items are present in inventory page\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:22] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Inventory container is visible\r\n"
+                          "text": "[2026-03-26 14:37:56] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Inventory container is visible\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:22] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Sauce Labs Backpack is displayed\r\n"
+                          "text": "[2026-03-26 14:37:56] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Sauce Labs Backpack is displayed\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:22] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Sauce Labs Bike Light is displayed\r\n"
+                          "text": "[2026-03-26 14:37:56] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Sauce Labs Bike Light is displayed\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:22] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Sauce Labs Bolt T-Shirt is displayed\r\n"
+                          "text": "[2026-03-26 14:37:56] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Sauce Labs Bolt T-Shirt is displayed\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:22] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Sauce Labs Fleece Jacket is displayed\r\n"
+                          "text": "[2026-03-26 14:37:56] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Sauce Labs Fleece Jacket is displayed\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:22] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Sauce Labs Onesie is displayed\r\n"
+                          "text": "[2026-03-26 14:37:56] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Sauce Labs Onesie is displayed\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:22] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Test.allTheThings() T-Shirt (Red) is displayed\r\n"
+                          "text": "[2026-03-26 14:37:56] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Test.allTheThings() T-Shirt (Red) is displayed\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:22] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Inventory Test - Completed ==========\r\n"
+                          "text": "[2026-03-26 14:37:56] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Inventory Test - Completed ==========\r\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-26T13:43:22.052Z",
+                      "startTime": "2026-03-26T14:37:56.259Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1755,73 +1755,73 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2072,
+                      "duration": 2054,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "[2026-03-26 13:43:23] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\r\n"
+                          "text": "[2026-03-26 14:37:56] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:23] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\r\n"
+                          "text": "[2026-03-26 14:37:57] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:23] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\r\n"
+                          "text": "[2026-03-26 14:37:57] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:23] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\r\n"
+                          "text": "[2026-03-26 14:37:57] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:23] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Inventory Test ==========\r\n"
+                          "text": "[2026-03-26 14:37:57] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Inventory Test ==========\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:23] \u001b[32MINFO\u001b[39M: Test Case: TC-002 - All navigation in inventory page\r\n"
+                          "text": "[2026-03-26 14:37:57] \u001b[32MINFO\u001b[39M: Test Case: TC-002 - All navigation in inventory page\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:23] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Inventory container is visible\r\n"
+                          "text": "[2026-03-26 14:37:57] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Inventory container is visible\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:23] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Sauce Labs Backpack name is displayed on product details page\r\n"
+                          "text": "[2026-03-26 14:37:57] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Sauce Labs Backpack name is displayed on product details page\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:23] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"back-to-products\"]\r\n"
+                          "text": "[2026-03-26 14:37:57] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"back-to-products\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:23] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Sauce Labs Bike Light name is displayed on product details page\r\n"
+                          "text": "[2026-03-26 14:37:57] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Sauce Labs Bike Light name is displayed on product details page\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:23] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"back-to-products\"]\r\n"
+                          "text": "[2026-03-26 14:37:57] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"back-to-products\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:23] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Sauce Labs Bolt T-Shirt name is displayed on product details page\r\n"
+                          "text": "[2026-03-26 14:37:57] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Sauce Labs Bolt T-Shirt name is displayed on product details page\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:23] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"back-to-products\"]\r\n"
+                          "text": "[2026-03-26 14:37:57] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"back-to-products\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:24] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Sauce Labs Fleece Jacket name is displayed on product details page\r\n"
+                          "text": "[2026-03-26 14:37:57] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Sauce Labs Fleece Jacket name is displayed on product details page\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:24] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"back-to-products\"]\r\n"
+                          "text": "[2026-03-26 14:37:57] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"back-to-products\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:24] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Sauce Labs Onesie name is displayed on product details page\r\n"
+                          "text": "[2026-03-26 14:37:58] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Sauce Labs Onesie name is displayed on product details page\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:24] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"back-to-products\"]\r\n"
+                          "text": "[2026-03-26 14:37:58] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"back-to-products\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:24] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Test.allTheThings() T-Shirt (Red) name is displayed on product details page\r\n"
+                          "text": "[2026-03-26 14:37:58] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Test.allTheThings() T-Shirt (Red) name is displayed on product details page\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:24] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"back-to-products\"]\r\n"
+                          "text": "[2026-03-26 14:37:58] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"back-to-products\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:24] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Inventory Test - Completed ==========\r\n"
+                          "text": "[2026-03-26 14:37:58] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Inventory Test - Completed ==========\r\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-26T13:43:22.936Z",
+                      "startTime": "2026-03-26T14:37:56.637Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1850,61 +1850,61 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1199,
+                      "duration": 1212,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "[2026-03-26 13:43:23] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\r\n"
+                          "text": "[2026-03-26 14:37:57] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:23] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\r\n"
+                          "text": "[2026-03-26 14:37:58] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:23] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\r\n"
+                          "text": "[2026-03-26 14:37:58] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:23] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\r\n"
+                          "text": "[2026-03-26 14:37:58] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:23] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Inventory Test ==========\r\n"
+                          "text": "[2026-03-26 14:37:58] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Inventory Test ==========\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:23] \u001b[32MINFO\u001b[39M: Test Case: TC-003 - Verify sorting products by Name (A to Z)\r\n"
+                          "text": "[2026-03-26 14:37:58] \u001b[32MINFO\u001b[39M: Test Case: TC-003 - Verify sorting products by Name (A to Z)\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:23] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Inventory container is visible\r\n"
+                          "text": "[2026-03-26 14:37:58] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Inventory container is visible\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:23] \u001b[32MINFO\u001b[39M: Text from [data-test=\"active-option\"]: Name (A to Z)\r\n"
+                          "text": "[2026-03-26 14:37:58] \u001b[32MINFO\u001b[39M: Text from [data-test=\"active-option\"]: Name (A to Z)\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:23] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Default active sort option is \"Name (A to Z)\"\r\n"
+                          "text": "[2026-03-26 14:37:58] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Default active sort option is \"Name (A to Z)\"\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:23] \u001b[32MINFO\u001b[39M: Products before sort: Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket, Sauce Labs Onesie, Test.allTheThings() T-Shirt (Red)\r\n"
+                          "text": "[2026-03-26 14:37:58] \u001b[32MINFO\u001b[39M: Products before sort: Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket, Sauce Labs Onesie, Test.allTheThings() T-Shirt (Red)\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:23] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Products are sorted by name A to Z by default\r\n"
+                          "text": "[2026-03-26 14:37:58] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Products are sorted by name A to Z by default\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:23] \u001b[32MINFO\u001b[39M: Text from [data-test=\"active-option\"]: Name (A to Z)\r\n"
+                          "text": "[2026-03-26 14:37:58] \u001b[32MINFO\u001b[39M: Text from [data-test=\"active-option\"]: Name (A to Z)\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:23] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Active sort option displays \"Name (A to Z)\"\r\n"
+                          "text": "[2026-03-26 14:37:58] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Active sort option displays \"Name (A to Z)\"\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:23] \u001b[32MINFO\u001b[39M: Products after sort: Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket, Sauce Labs Onesie, Test.allTheThings() T-Shirt (Red)\r\n"
+                          "text": "[2026-03-26 14:37:58] \u001b[32MINFO\u001b[39M: Products after sort: Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket, Sauce Labs Onesie, Test.allTheThings() T-Shirt (Red)\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:23] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Products are sorted by name A to Z\r\n"
+                          "text": "[2026-03-26 14:37:58] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Products are sorted by name A to Z\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:23] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Inventory Test - Completed ==========\r\n"
+                          "text": "[2026-03-26 14:37:58] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Inventory Test - Completed ==========\r\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-26T13:43:23.117Z",
+                      "startTime": "2026-03-26T14:37:57.460Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1933,52 +1933,52 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1016,
+                      "duration": 1109,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "[2026-03-26 13:43:24] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\r\n"
+                          "text": "[2026-03-26 14:37:58] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:24] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\r\n"
+                          "text": "[2026-03-26 14:37:59] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:24] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\r\n"
+                          "text": "[2026-03-26 14:37:59] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:24] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\r\n"
+                          "text": "[2026-03-26 14:37:59] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:24] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Inventory Test ==========\r\n"
+                          "text": "[2026-03-26 14:37:59] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Inventory Test ==========\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:24] \u001b[32MINFO\u001b[39M: Test Case: TC-004 - Verify sorting products by Name (Z to A)\r\n"
+                          "text": "[2026-03-26 14:37:59] \u001b[32MINFO\u001b[39M: Test Case: TC-004 - Verify sorting products by Name (Z to A)\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:24] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Inventory container is visible\r\n"
+                          "text": "[2026-03-26 14:37:59] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Inventory container is visible\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:25] \u001b[32MINFO\u001b[39M: Products before sort: Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket, Sauce Labs Onesie, Test.allTheThings() T-Shirt (Red)\r\n"
+                          "text": "[2026-03-26 14:37:59] \u001b[32MINFO\u001b[39M: Products before sort: Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket, Sauce Labs Onesie, Test.allTheThings() T-Shirt (Red)\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:25] \u001b[32MINFO\u001b[39M: Text from [data-test=\"active-option\"]: Name (Z to A)\r\n"
+                          "text": "[2026-03-26 14:37:59] \u001b[32MINFO\u001b[39M: Text from [data-test=\"active-option\"]: Name (Z to A)\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:25] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Active sort option displays \"Name (Z to A)\"\r\n"
+                          "text": "[2026-03-26 14:37:59] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Active sort option displays \"Name (Z to A)\"\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:25] \u001b[32MINFO\u001b[39M: Products after sort: Test.allTheThings() T-Shirt (Red), Sauce Labs Onesie, Sauce Labs Fleece Jacket, Sauce Labs Bolt T-Shirt, Sauce Labs Bike Light, Sauce Labs Backpack\r\n"
+                          "text": "[2026-03-26 14:37:59] \u001b[32MINFO\u001b[39M: Products after sort: Test.allTheThings() T-Shirt (Red), Sauce Labs Onesie, Sauce Labs Fleece Jacket, Sauce Labs Bolt T-Shirt, Sauce Labs Bike Light, Sauce Labs Backpack\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:25] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Products are sorted by name Z to A\r\n"
+                          "text": "[2026-03-26 14:37:59] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Products are sorted by name Z to A\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:25] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Inventory Test - Completed ==========\r\n"
+                          "text": "[2026-03-26 14:37:59] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Inventory Test - Completed ==========\r\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-26T13:43:24.345Z",
+                      "startTime": "2026-03-26T14:37:58.701Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -2007,52 +2007,52 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1272,
+                      "duration": 1112,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "[2026-03-26 13:43:25] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\r\n"
+                          "text": "[2026-03-26 14:37:58] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:25] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\r\n"
+                          "text": "[2026-03-26 14:37:59] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:25] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\r\n"
+                          "text": "[2026-03-26 14:37:59] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:25] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\r\n"
+                          "text": "[2026-03-26 14:37:59] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:25] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Inventory Test ==========\r\n"
+                          "text": "[2026-03-26 14:37:59] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Inventory Test ==========\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:25] \u001b[32MINFO\u001b[39M: Test Case: TC-005 - Verify sorting products by Price (low to high)\r\n"
+                          "text": "[2026-03-26 14:37:59] \u001b[32MINFO\u001b[39M: Test Case: TC-005 - Verify sorting products by Price (low to high)\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:25] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Inventory container is visible\r\n"
+                          "text": "[2026-03-26 14:37:59] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Inventory container is visible\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:25] \u001b[32MINFO\u001b[39M: Product prices before sort: $29.99, $9.99, $15.99, $49.99, $7.99, $15.99\r\n"
+                          "text": "[2026-03-26 14:37:59] \u001b[32MINFO\u001b[39M: Product prices before sort: $29.99, $9.99, $15.99, $49.99, $7.99, $15.99\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:25] \u001b[32MINFO\u001b[39M: Text from [data-test=\"active-option\"]: Price (low to high)\r\n"
+                          "text": "[2026-03-26 14:37:59] \u001b[32MINFO\u001b[39M: Text from [data-test=\"active-option\"]: Price (low to high)\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:25] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Active sort option displays \"Price (low to high)\"\r\n"
+                          "text": "[2026-03-26 14:37:59] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Active sort option displays \"Price (low to high)\"\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:25] \u001b[32MINFO\u001b[39M: Product prices after sort: $7.99, $9.99, $15.99, $15.99, $29.99, $49.99\r\n"
+                          "text": "[2026-03-26 14:37:59] \u001b[32MINFO\u001b[39M: Product prices after sort: $7.99, $9.99, $15.99, $15.99, $29.99, $49.99\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:25] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Products are sorted by price low to high\r\n"
+                          "text": "[2026-03-26 14:37:59] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Products are sorted by price low to high\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:25] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Inventory Test - Completed ==========\r\n"
+                          "text": "[2026-03-26 14:37:59] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Inventory Test - Completed ==========\r\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-26T13:43:25.037Z",
+                      "startTime": "2026-03-26T14:37:58.720Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -2081,52 +2081,52 @@
                       "workerIndex": 1,
                       "parallelIndex": 1,
                       "status": "passed",
-                      "duration": 1142,
+                      "duration": 1218,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "[2026-03-26 13:43:25] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\r\n"
+                          "text": "[2026-03-26 14:37:59] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:25] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\r\n"
+                          "text": "[2026-03-26 14:38:00] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:26] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\r\n"
+                          "text": "[2026-03-26 14:38:00] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:26] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\r\n"
+                          "text": "[2026-03-26 14:38:00] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:26] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Inventory Test ==========\r\n"
+                          "text": "[2026-03-26 14:38:00] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Inventory Test ==========\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:26] \u001b[32MINFO\u001b[39M: Test Case: TC-006 - Verify sorting products by Price (high to low)\r\n"
+                          "text": "[2026-03-26 14:38:00] \u001b[32MINFO\u001b[39M: Test Case: TC-006 - Verify sorting products by Price (high to low)\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:26] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Inventory container is visible\r\n"
+                          "text": "[2026-03-26 14:38:00] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Inventory container is visible\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:26] \u001b[32MINFO\u001b[39M: Product prices before sort: $29.99, $9.99, $15.99, $49.99, $7.99, $15.99\r\n"
+                          "text": "[2026-03-26 14:38:00] \u001b[32MINFO\u001b[39M: Product prices before sort: $29.99, $9.99, $15.99, $49.99, $7.99, $15.99\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:26] \u001b[32MINFO\u001b[39M: Text from [data-test=\"active-option\"]: Price (high to low)\r\n"
+                          "text": "[2026-03-26 14:38:00] \u001b[32MINFO\u001b[39M: Text from [data-test=\"active-option\"]: Price (high to low)\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:26] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Active sort option displays \"Price (high to low)\"\r\n"
+                          "text": "[2026-03-26 14:38:00] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Active sort option displays \"Price (high to low)\"\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:26] \u001b[32MINFO\u001b[39M: Product prices after sort: $49.99, $29.99, $15.99, $15.99, $9.99, $7.99\r\n"
+                          "text": "[2026-03-26 14:38:00] \u001b[32MINFO\u001b[39M: Product prices after sort: $49.99, $29.99, $15.99, $15.99, $9.99, $7.99\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:26] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Products are sorted by price high to low\r\n"
+                          "text": "[2026-03-26 14:38:00] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Products are sorted by price high to low\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:26] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Inventory Test - Completed ==========\r\n"
+                          "text": "[2026-03-26 14:38:00] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Inventory Test - Completed ==========\r\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-26T13:43:25.390Z",
+                      "startTime": "2026-03-26T14:37:59.833Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -2155,58 +2155,58 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1230,
+                      "duration": 1123,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "[2026-03-26 13:43:26] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\r\n"
+                          "text": "[2026-03-26 14:37:59] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:26] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\r\n"
+                          "text": "[2026-03-26 14:38:00] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:26] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\r\n"
+                          "text": "[2026-03-26 14:38:00] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:26] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\r\n"
+                          "text": "[2026-03-26 14:38:00] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:26] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Inventory Test ==========\r\n"
+                          "text": "[2026-03-26 14:38:00] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Inventory Test ==========\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:26] \u001b[32MINFO\u001b[39M: Test Case: TC-007 - Verify \"Add to cart\" button changes to \"Remove\" and cart badge updates\r\n"
+                          "text": "[2026-03-26 14:38:00] \u001b[32MINFO\u001b[39M: Test Case: TC-007 - Verify \"Add to cart\" button changes to \"Remove\" and cart badge updates\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:26] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Inventory container is visible\r\n"
+                          "text": "[2026-03-26 14:38:00] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Inventory container is visible\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:26] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Initial cart badge count is 0\r\n"
+                          "text": "[2026-03-26 14:38:00] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Initial cart badge count is 0\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:27] \u001b[32MINFO\u001b[39M: Selected random product: Sauce Labs Bike Light (index: 1)\r\n"
+                          "text": "[2026-03-26 14:38:00] \u001b[32MINFO\u001b[39M: Selected random product: Sauce Labs Bike Light (index: 1)\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:27] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Initial button text is \"Add to cart\" for Sauce Labs Bike Light\r\n"
+                          "text": "[2026-03-26 14:38:00] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Initial button text is \"Add to cart\" for Sauce Labs Bike Light\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:27] \u001b[32MINFO\u001b[39M: Added Sauce Labs Bike Light to cart\r\n"
+                          "text": "[2026-03-26 14:38:00] \u001b[32MINFO\u001b[39M: Added Sauce Labs Bike Light to cart\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:27] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Button text changed to \"Remove\" for Sauce Labs Bike Light\r\n"
+                          "text": "[2026-03-26 14:38:00] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Button text changed to \"Remove\" for Sauce Labs Bike Light\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:27] \u001b[32MINFO\u001b[39M: Text from .shopping_cart_badge: 1\r\n"
+                          "text": "[2026-03-26 14:38:00] \u001b[32MINFO\u001b[39M: Text from .shopping_cart_badge: 1\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:27] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart badge count updated to 1\r\n"
+                          "text": "[2026-03-26 14:38:00] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart badge count updated to 1\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:27] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Inventory Test - Completed ==========\r\n"
+                          "text": "[2026-03-26 14:38:00] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Inventory Test - Completed ==========\r\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-26T13:43:26.336Z",
+                      "startTime": "2026-03-26T14:37:59.860Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -2232,67 +2232,67 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 1,
-                      "parallelIndex": 1,
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1196,
+                      "duration": 997,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "[2026-03-26 13:43:26] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\r\n"
+                          "text": "[2026-03-26 14:38:01] \u001b[32MINFO\u001b[39M: STEP: Navigating to: https://www.saucedemo.com\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:26] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\r\n"
+                          "text": "[2026-03-26 14:38:01] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"username\"] with: standard_user\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:27] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\r\n"
+                          "text": "[2026-03-26 14:38:01] \u001b[32MINFO\u001b[39M: STEP: Filling element [data-test=\"password\"] with: secret_sauce\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:27] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\r\n"
+                          "text": "[2026-03-26 14:38:01] \u001b[32MINFO\u001b[39M: STEP: Clicking element: [data-test=\"login-button\"]\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:27] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Inventory Test ==========\r\n"
+                          "text": "[2026-03-26 14:38:01] \u001b[32MINFO\u001b[39M: ========== TEST STARTED: Inventory Test ==========\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:27] \u001b[32MINFO\u001b[39M: Test Case: TC-008 - Verify removing product from inventory page decreases cart count\r\n"
+                          "text": "[2026-03-26 14:38:01] \u001b[32MINFO\u001b[39M: Test Case: TC-008 - Verify removing product from inventory page decreases cart count\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:27] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Inventory container is visible\r\n"
+                          "text": "[2026-03-26 14:38:01] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Inventory container is visible\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:27] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Initial cart badge count is 0\r\n"
+                          "text": "[2026-03-26 14:38:01] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Initial cart badge count is 0\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:27] \u001b[32MINFO\u001b[39M: Selected random product: Sauce Labs Fleece Jacket (index: 3)\r\n"
+                          "text": "[2026-03-26 14:38:01] \u001b[32MINFO\u001b[39M: Selected random product: Sauce Labs Backpack (index: 0)\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:27] \u001b[32MINFO\u001b[39M: Added Sauce Labs Fleece Jacket to cart\r\n"
+                          "text": "[2026-03-26 14:38:01] \u001b[32MINFO\u001b[39M: Added Sauce Labs Backpack to cart\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:27] \u001b[32MINFO\u001b[39M: Text from .shopping_cart_badge: 1\r\n"
+                          "text": "[2026-03-26 14:38:01] \u001b[32MINFO\u001b[39M: Text from .shopping_cart_badge: 1\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:27] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart badge count is 1 after adding product\r\n"
+                          "text": "[2026-03-26 14:38:01] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart badge count is 1 after adding product\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:27] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Button text is \"Remove\" for Sauce Labs Fleece Jacket\r\n"
+                          "text": "[2026-03-26 14:38:01] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Button text is \"Remove\" for Sauce Labs Backpack\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:27] \u001b[32MINFO\u001b[39M: Removed Sauce Labs Fleece Jacket from cart\r\n"
+                          "text": "[2026-03-26 14:38:01] \u001b[32MINFO\u001b[39M: Removed Sauce Labs Backpack from cart\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:27] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Button text changed back to \"Add to cart\" for Sauce Labs Fleece Jacket\r\n"
+                          "text": "[2026-03-26 14:38:01] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Button text changed back to \"Add to cart\" for Sauce Labs Backpack\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:27] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart badge count decreased to 0\r\n"
+                          "text": "[2026-03-26 14:38:01] \u001b[32MINFO\u001b[39M: ✓ ASSERTION PASSED: Cart badge count decreased to 0\r\n"
                         },
                         {
-                          "text": "[2026-03-26 13:43:27] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Inventory Test - Completed ==========\r\n"
+                          "text": "[2026-03-26 14:38:01] \u001b[32MINFO\u001b[39M: ========== TEST ENDED: Inventory Test - Completed ==========\r\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-03-26T13:43:26.560Z",
+                      "startTime": "2026-03-26T14:38:01.011Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -2312,8 +2312,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-03-26T13:43:04.292Z",
-    "duration": 23568.074,
+    "startTime": "2026-03-26T14:37:39.247Z",
+    "duration": 22878.783,
     "expected": 24,
     "skipped": 0,
     "unexpected": 0,
