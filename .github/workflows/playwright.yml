@@ -9,7 +9,7 @@ on:
   pull_request:
     branches: [ main, master ]
   schedule:
-    - cron: '0 2 * * *'  # Run daily at 2 AM UTC
+    - cron: '0 2 */3 * *'  # Run every 3 days at 2 AM UTC
   workflow_dispatch:
 
 jobs:
@@ -90,7 +90,7 @@ jobs:
       if: always()
       run: |
         npm install -g allure-commandline
-        allure generate reports/allure-results -o reports/allure-report --clean
+        allure generate allure-results
     
     - name: Publish Allure Report
       uses: actions/upload-artifact@v4
