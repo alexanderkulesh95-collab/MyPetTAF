@@ -90,7 +90,7 @@ jobs:
       if: always()
       run: |
         npm install -g allure-commandline
-        allure generate allure-results
+        allure generate reports/allure-results -o reports/allure-report 
     
     - name: Publish Allure Report
       uses: actions/upload-artifact@v4
