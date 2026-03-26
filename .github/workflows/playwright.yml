@@ -43,6 +43,7 @@ jobs:
       env:
         ENV: demo
     
+    
     - name: Debug Allure results after tests (Linux/macOS)
       if: always() && runner.os != 'Windows'
       shell: bash
@@ -62,10 +63,12 @@ jobs:
         echo "PWD=$(Get-Location)"
         echo "Playwright version:"
         npx playwright --version
+
         echo "List reports folder:"
-        Get-ChildItem reports | Format-List
+        if (Test-Path "reports") { Get-ChildItem "reports" | Format-List } else { echo "reports/ does not exist" }
+
         echo "List reports/allure-results folder:"
-        Get-ChildItem reports/allure-results | Format-List
+        if (Test-Path "reports/allure-results") { Get-ChildItem "reports/allure-results" | Format-List } else { echo "reports/allure-results does not exist" }
 
     - name: Upload test results
       uses: actions/upload-artifact@v4
