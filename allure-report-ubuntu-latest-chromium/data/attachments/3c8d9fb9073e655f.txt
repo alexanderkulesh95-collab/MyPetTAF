@@ -1,0 +1,23 @@
+[2026-03-30 13:36:51] INFO: STEP: Navigating to: https://www.saucedemo.com
+[2026-03-30 13:36:52] INFO: STEP: Filling element [data-test="username"] with: standard_user
+[2026-03-30 13:36:52] INFO: STEP: Filling element [data-test="password"] with: secret_sauce
+[2026-03-30 13:36:52] INFO: STEP: Clicking element: [data-test="login-button"]
+[2026-03-30 13:36:52] INFO: ========== TEST STARTED: Cart Test ==========
+[2026-03-30 13:36:52] INFO: Test Case: TC-004 - Verify "Checkout" button navigates to checkout page
+[2026-03-30 13:36:52] INFO: ✓ ASSERTION PASSED: Inventory container is visible
+[2026-03-30 13:36:52] INFO: Adding product to cart: Sauce Labs Backpack
+[2026-03-30 13:36:52] INFO: Added Sauce Labs Backpack to cart
+[2026-03-30 13:36:52] INFO: Text from .shopping_cart_badge: 1
+[2026-03-30 13:36:52] INFO: ✓ ASSERTION PASSED: Cart badge count is 1 after adding product
+[2026-03-30 13:36:52] INFO: STEP: Clicking element: [data-test="shopping-cart-link"]
+[2026-03-30 13:36:52] INFO: Clicked cart icon to navigate to cart page
+[2026-03-30 13:36:52] INFO: STEP: Waiting for element: [data-test="cart-contents-container"]
+[2026-03-30 13:36:52] INFO: ✓ ASSERTION PASSED: Cart page is displayed
+[2026-03-30 13:36:52] INFO: ✓ ASSERTION PASSED: Product "Sauce Labs Backpack" is in cart
+[2026-03-30 13:36:52] INFO: ✓ ASSERTION PASSED: Checkout button is visible
+[2026-03-30 13:36:52] INFO: STEP: Clicking element: [data-test="checkout"]
+[2026-03-30 13:36:52] INFO: Clicked Checkout button
+[2026-03-30 13:36:52] INFO: STEP: Waiting for element: [data-test="checkout-info-container"]
+[2026-03-30 13:36:52] INFO: ✓ ASSERTION PASSED: URL contains checkout-step-one.html
+[2026-03-30 13:36:52] INFO: ✓ ASSERTION PASSED: Checkout page is displayed
+[2026-03-30 13:36:52] INFO: ========== TEST ENDED: Cart Test - Completed ==========

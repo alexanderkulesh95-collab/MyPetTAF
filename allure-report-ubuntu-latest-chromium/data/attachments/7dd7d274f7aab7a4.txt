@@ -1,0 +1,20 @@
+[2026-03-30 13:36:56] INFO: STEP: Navigating to: https://www.saucedemo.com
+[2026-03-30 13:36:57] INFO: STEP: Filling element [data-test="username"] with: standard_user
+[2026-03-30 13:36:57] INFO: STEP: Filling element [data-test="password"] with: secret_sauce
+[2026-03-30 13:36:57] INFO: STEP: Clicking element: [data-test="login-button"]
+[2026-03-30 13:36:57] INFO: ========== TEST STARTED: Inventory Test ==========
+[2026-03-30 13:36:57] INFO: Test Case: TC-002 - All navigation in inventory page
+[2026-03-30 13:36:57] INFO: ✓ ASSERTION PASSED: Inventory container is visible
+[2026-03-30 13:36:57] INFO: ✓ ASSERTION PASSED: Sauce Labs Backpack name is displayed on product details page
+[2026-03-30 13:36:57] INFO: STEP: Clicking element: [data-test="back-to-products"]
+[2026-03-30 13:36:57] INFO: ✓ ASSERTION PASSED: Sauce Labs Bike Light name is displayed on product details page
+[2026-03-30 13:36:57] INFO: STEP: Clicking element: [data-test="back-to-products"]
+[2026-03-30 13:36:57] INFO: ✓ ASSERTION PASSED: Sauce Labs Bolt T-Shirt name is displayed on product details page
+[2026-03-30 13:36:57] INFO: STEP: Clicking element: [data-test="back-to-products"]
+[2026-03-30 13:36:58] INFO: ✓ ASSERTION PASSED: Sauce Labs Fleece Jacket name is displayed on product details page
+[2026-03-30 13:36:58] INFO: STEP: Clicking element: [data-test="back-to-products"]
+[2026-03-30 13:36:58] INFO: ✓ ASSERTION PASSED: Sauce Labs Onesie name is displayed on product details page
+[2026-03-30 13:36:58] INFO: STEP: Clicking element: [data-test="back-to-products"]
+[2026-03-30 13:36:58] INFO: ✓ ASSERTION PASSED: Test.allTheThings() T-Shirt (Red) name is displayed on product details page
+[2026-03-30 13:36:58] INFO: STEP: Clicking element: [data-test="back-to-products"]
+[2026-03-30 13:36:58] INFO: ========== TEST ENDED: Inventory Test - Completed ==========
