@@ -44,31 +44,31 @@ jobs:
         ENV: demo
     
     
-    - name: Debug Allure results after tests (Linux/macOS)
-      if: always() && runner.os != 'Windows'
-      shell: bash
-      run: |
-        echo "PWD=$(pwd)"
-        echo "Playwright version:"
-        npx playwright --version || true
-        echo "List reports folder:"
-        ls -la reports || true
-        echo "List reports/allure-results folder:"
-        ls -la reports/allure-results || true
+    # - name: Debug Allure results after tests (Linux/macOS)
+    #   if: always() && runner.os != 'Windows'
+    #   shell: bash
+    #   run: |
+    #     echo "PWD=$(pwd)"
+    #     echo "Playwright version:"
+    #     npx playwright --version || true
+    #     echo "List reports folder:"
+    #     ls -la reports || true
+    #     echo "List reports/allure-results folder:"
+    #     ls -la reports/allure-results || true
 
-    - name: Debug Allure results after tests (Windows)
-      if: always() && runner.os == 'Windows'
-      shell: pwsh
-      run: |
-        echo "PWD=$(Get-Location)"
-        echo "Playwright version:"
-        npx playwright --version
+    # - name: Debug Allure results after tests (Windows)
+    #   if: always() && runner.os == 'Windows'
+    #   shell: pwsh
+    #   run: |
+    #     echo "PWD=$(Get-Location)"
+    #     echo "Playwright version:"
+    #     npx playwright --version
 
-        echo "List reports folder:"
-        if (Test-Path "reports") { Get-ChildItem "reports" | Format-List } else { echo "reports/ does not exist" }
+    #     echo "List reports folder:"
+    #     if (Test-Path "reports") { Get-ChildItem "reports" | Format-List } else { echo "reports/ does not exist" }
 
-        echo "List reports/allure-results folder:"
-        if (Test-Path "reports/allure-results") { Get-ChildItem "reports/allure-results" | Format-List } else { echo "reports/allure-results does not exist" }
+    #     echo "List reports/allure-results folder:"
+    #     if (Test-Path "reports/allure-results") { Get-ChildItem "reports/allure-results" | Format-List } else { echo "reports/allure-results does not exist" }
 
     - name: Upload test results
       uses: actions/upload-artifact@v4
@@ -90,14 +90,14 @@ jobs:
       if: always()
       run: |
         npm install -g allure-commandline
-        allure generate reports/allure-results -o reports/allure-report 
+        allure generate allure-results -o allure-report 
     
     - name: Publish Allure Report
       uses: actions/upload-artifact@v4
       if: always()
       with:
         name: allure-report-${{ matrix.os }}-${{ matrix.browser }}
-        path: reports/allure-report/
+        path: allure-report
         retention-days: 30
 
   deploy-report:
