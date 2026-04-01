@@ -1,551 +1,551 @@
-<testsuites id="" name="" tests="24" failures="0" skipped="0" errors="0" time="24.188937999999997">
-<testsuite name="auth\login.spec.js" timestamp="2026-03-31T04:37:45.732Z" hostname="chromium" tests="7" failures="0" skipped="0" time="19.424" errors="0">
-<testcase name="Authentication - Login Tests › TC-001: Verify successful login with valid credentials" classname="auth\login.spec.js" time="4.774">
+<testsuites id="" name="" tests="24" failures="0" skipped="0" errors="0" time="22.87891">
+<testsuite name="auth\login.spec.js" timestamp="2026-04-01T04:48:41.211Z" hostname="chromium" tests="7" failures="0" skipped="0" time="17.452" errors="0">
+<testcase name="Authentication - Login Tests › TC-001: Verify successful login with valid credentials" classname="auth\login.spec.js" time="4.11">
 <system-out>
-<![CDATA[[2026-03-31 04:37:47] [32MINFO[39M: ========== TEST STARTED: Login Test ==========
-[2026-03-31 04:37:47] [32MINFO[39M: STEP: Navigating to: https://www.saucedemo.com
-[2026-03-31 04:37:50] [32MINFO[39M: Test Case: TC-001 - Successful login
-[2026-03-31 04:37:50] [32MINFO[39M: STEP: Filling element [data-test="username"] with: standard_user
-[2026-03-31 04:37:50] [32MINFO[39M: STEP: Filling element [data-test="password"] with: secret_sauce
-[2026-03-31 04:37:50] [32MINFO[39M: STEP: Clicking element: [data-test="login-button"]
-[2026-03-31 04:37:51] [32MINFO[39M: ✓ ASSERTION PASSED: User successfully logged in
-[2026-03-31 04:37:51] [32MINFO[39M: ========== TEST ENDED: Login Test - Completed ==========
+<![CDATA[[2026-04-01 04:48:42] [32MINFO[39M: ========== TEST STARTED: Login Test ==========
+[2026-04-01 04:48:42] [32MINFO[39M: STEP: Navigating to: https://www.saucedemo.com
+[2026-04-01 04:48:45] [32MINFO[39M: Test Case: TC-001 - Successful login
+[2026-04-01 04:48:45] [32MINFO[39M: STEP: Filling element [data-test="username"] with: standard_user
+[2026-04-01 04:48:46] [32MINFO[39M: STEP: Filling element [data-test="password"] with: secret_sauce
+[2026-04-01 04:48:46] [32MINFO[39M: STEP: Clicking element: [data-test="login-button"]
+[2026-04-01 04:48:46] [32MINFO[39M: ✓ ASSERTION PASSED: User successfully logged in
+[2026-04-01 04:48:46] [32MINFO[39M: ========== TEST ENDED: Login Test - Completed ==========
 ]]>
 </system-out>
 </testcase>
-<testcase name="Authentication - Login Tests › TC-002: Verify login fails with invalid username" classname="auth\login.spec.js" time="5.38">
+<testcase name="Authentication - Login Tests › TC-002: Verify login fails with invalid username" classname="auth\login.spec.js" time="4.806">
 <system-out>
-<![CDATA[[2026-03-31 04:37:47] [32MINFO[39M: ========== TEST STARTED: Login Test ==========
-[2026-03-31 04:37:47] [32MINFO[39M: STEP: Navigating to: https://www.saucedemo.com
-[2026-03-31 04:37:50] [32MINFO[39M: Test Case: TC-002 - Login with invalid username
-[2026-03-31 04:37:50] [32MINFO[39M: STEP: Filling element [data-test="username"] with: invalid_user
-[2026-03-31 04:37:50] [32MINFO[39M: STEP: Filling element [data-test="password"] with: secret_sauce
-[2026-03-31 04:37:50] [32MINFO[39M: STEP: Clicking element: [data-test="login-button"]
-[2026-03-31 04:37:50] [32MINFO[39M: STEP: Waiting for 1000ms
-[2026-03-31 04:37:51] [32MINFO[39M: STEP: Waiting for element: .error-message-container
-[2026-03-31 04:37:51] [32MINFO[39M: Text from .error-message-container: Epic sadface: Username and password do not match any user in this service
-[2026-03-31 04:37:51] [32MINFO[39M: STEP: Waiting for element: .error-message-container
-[2026-03-31 04:37:51] [32MINFO[39M: Text from .error-message-container: Epic sadface: Username and password do not match any user in this service
-[2026-03-31 04:37:51] [32MINFO[39M: ✓ ASSERTION PASSED: Error message displayed for invalid username
-[2026-03-31 04:37:51] [32MINFO[39M: ========== TEST ENDED: Login Test - Completed ==========
+<![CDATA[[2026-04-01 04:48:42] [32MINFO[39M: ========== TEST STARTED: Login Test ==========
+[2026-04-01 04:48:42] [32MINFO[39M: STEP: Navigating to: https://www.saucedemo.com
+[2026-04-01 04:48:45] [32MINFO[39M: Test Case: TC-002 - Login with invalid username
+[2026-04-01 04:48:45] [32MINFO[39M: STEP: Filling element [data-test="username"] with: invalid_user
+[2026-04-01 04:48:46] [32MINFO[39M: STEP: Filling element [data-test="password"] with: secret_sauce
+[2026-04-01 04:48:46] [32MINFO[39M: STEP: Clicking element: [data-test="login-button"]
+[2026-04-01 04:48:46] [32MINFO[39M: STEP: Waiting for 1000ms
+[2026-04-01 04:48:47] [32MINFO[39M: STEP: Waiting for element: .error-message-container
+[2026-04-01 04:48:47] [32MINFO[39M: Text from .error-message-container: Epic sadface: Username and password do not match any user in this service
+[2026-04-01 04:48:47] [32MINFO[39M: STEP: Waiting for element: .error-message-container
+[2026-04-01 04:48:47] [32MINFO[39M: Text from .error-message-container: Epic sadface: Username and password do not match any user in this service
+[2026-04-01 04:48:47] [32MINFO[39M: ✓ ASSERTION PASSED: Error message displayed for invalid username
+[2026-04-01 04:48:47] [32MINFO[39M: ========== TEST ENDED: Login Test - Completed ==========
 ]]>
 </system-out>
 </testcase>
-<testcase name="Authentication - Login Tests › TC-003: Verify login fails with invalid password" classname="auth\login.spec.js" time="1.872">
+<testcase name="Authentication - Login Tests › TC-003: Verify login fails with invalid password" classname="auth\login.spec.js" time="1.671">
 <system-out>
-<![CDATA[[2026-03-31 04:37:51] [32MINFO[39M: ========== TEST STARTED: Login Test ==========
-[2026-03-31 04:37:51] [32MINFO[39M: STEP: Navigating to: https://www.saucedemo.com
-[2026-03-31 04:37:52] [32MINFO[39M: Test Case: TC-003 - Login with invalid password
-[2026-03-31 04:37:52] [32MINFO[39M: STEP: Filling element [data-test="username"] with: standard_user
-[2026-03-31 04:37:52] [32MINFO[39M: STEP: Filling element [data-test="password"] with: wrong_password
-[2026-03-31 04:37:52] [32MINFO[39M: STEP: Clicking element: [data-test="login-button"]
-[2026-03-31 04:37:52] [32MINFO[39M: STEP: Waiting for 1000ms
-[2026-03-31 04:37:53] [32MINFO[39M: STEP: Waiting for element: .error-message-container
-[2026-03-31 04:37:53] [32MINFO[39M: Text from .error-message-container: Epic sadface: Username and password do not match any user in this service
-[2026-03-31 04:37:53] [32MINFO[39M: STEP: Waiting for element: .error-message-container
-[2026-03-31 04:37:53] [32MINFO[39M: Text from .error-message-container: Epic sadface: Username and password do not match any user in this service
-[2026-03-31 04:37:53] [32MINFO[39M: ✓ ASSERTION PASSED: Error message displayed for invalid password
-[2026-03-31 04:37:53] [32MINFO[39M: ========== TEST ENDED: Login Test - Completed ==========
+<![CDATA[[2026-04-01 04:48:46] [32MINFO[39M: ========== TEST STARTED: Login Test ==========
+[2026-04-01 04:48:46] [32MINFO[39M: STEP: Navigating to: https://www.saucedemo.com
+[2026-04-01 04:48:46] [32MINFO[39M: Test Case: TC-003 - Login with invalid password
+[2026-04-01 04:48:46] [32MINFO[39M: STEP: Filling element [data-test="username"] with: standard_user
+[2026-04-01 04:48:47] [32MINFO[39M: STEP: Filling element [data-test="password"] with: wrong_password
+[2026-04-01 04:48:47] [32MINFO[39M: STEP: Clicking element: [data-test="login-button"]
+[2026-04-01 04:48:47] [32MINFO[39M: STEP: Waiting for 1000ms
+[2026-04-01 04:48:48] [32MINFO[39M: STEP: Waiting for element: .error-message-container
+[2026-04-01 04:48:48] [32MINFO[39M: Text from .error-message-container: Epic sadface: Username and password do not match any user in this service
+[2026-04-01 04:48:48] [32MINFO[39M: STEP: Waiting for element: .error-message-container
+[2026-04-01 04:48:48] [32MINFO[39M: Text from .error-message-container: Epic sadface: Username and password do not match any user in this service
+[2026-04-01 04:48:48] [32MINFO[39M: ✓ ASSERTION PASSED: Error message displayed for invalid password
+[2026-04-01 04:48:48] [32MINFO[39M: ========== TEST ENDED: Login Test - Completed ==========
 ]]>
 </system-out>
 </testcase>
-<testcase name="Authentication - Login Tests › TC-004: Verify login fails with empty username" classname="auth\login.spec.js" time="1.948">
+<testcase name="Authentication - Login Tests › TC-004: Verify login fails with empty username" classname="auth\login.spec.js" time="1.679">
 <system-out>
-<![CDATA[[2026-03-31 04:37:52] [32MINFO[39M: ========== TEST STARTED: Login Test ==========
-[2026-03-31 04:37:52] [32MINFO[39M: STEP: Navigating to: https://www.saucedemo.com
-[2026-03-31 04:37:52] [32MINFO[39M: Test Case: TC-004 - Login with empty username
-[2026-03-31 04:37:52] [32MINFO[39M: STEP: Filling element [data-test="password"] with: secret_sauce
-[2026-03-31 04:37:52] [32MINFO[39M: STEP: Clicking element: [data-test="login-button"]
-[2026-03-31 04:37:52] [32MINFO[39M: STEP: Waiting for 1000ms
-[2026-03-31 04:37:53] [32MINFO[39M: STEP: Waiting for element: .error-message-container
-[2026-03-31 04:37:54] [32MINFO[39M: Text from .error-message-container: Epic sadface: Username is required
-[2026-03-31 04:37:54] [32MINFO[39M: STEP: Waiting for element: .error-message-container
-[2026-03-31 04:37:54] [32MINFO[39M: Text from .error-message-container: Epic sadface: Username is required
-[2026-03-31 04:37:54] [32MINFO[39M: ✓ ASSERTION PASSED: Error message displayed for empty username
-[2026-03-31 04:37:54] [32MINFO[39M: ========== TEST ENDED: Login Test - Completed ==========
+<![CDATA[[2026-04-01 04:48:47] [32MINFO[39M: ========== TEST STARTED: Login Test ==========
+[2026-04-01 04:48:47] [32MINFO[39M: STEP: Navigating to: https://www.saucedemo.com
+[2026-04-01 04:48:47] [32MINFO[39M: Test Case: TC-004 - Login with empty username
+[2026-04-01 04:48:47] [32MINFO[39M: STEP: Filling element [data-test="password"] with: secret_sauce
+[2026-04-01 04:48:47] [32MINFO[39M: STEP: Clicking element: [data-test="login-button"]
+[2026-04-01 04:48:47] [32MINFO[39M: STEP: Waiting for 1000ms
+[2026-04-01 04:48:48] [32MINFO[39M: STEP: Waiting for element: .error-message-container
+[2026-04-01 04:48:48] [32MINFO[39M: Text from .error-message-container: Epic sadface: Username is required
+[2026-04-01 04:48:48] [32MINFO[39M: STEP: Waiting for element: .error-message-container
+[2026-04-01 04:48:48] [32MINFO[39M: Text from .error-message-container: Epic sadface: Username is required
+[2026-04-01 04:48:48] [32MINFO[39M: ✓ ASSERTION PASSED: Error message displayed for empty username
+[2026-04-01 04:48:48] [32MINFO[39M: ========== TEST ENDED: Login Test - Completed ==========
 ]]>
 </system-out>
 </testcase>
-<testcase name="Authentication - Login Tests › TC-005: Verify login fails with empty password" classname="auth\login.spec.js" time="1.8">
+<testcase name="Authentication - Login Tests › TC-005: Verify login fails with empty password" classname="auth\login.spec.js" time="1.75">
 <system-out>
-<![CDATA[[2026-03-31 04:37:53] [32MINFO[39M: ========== TEST STARTED: Login Test ==========
-[2026-03-31 04:37:53] [32MINFO[39M: STEP: Navigating to: https://www.saucedemo.com
-[2026-03-31 04:37:54] [32MINFO[39M: Test Case: TC-005 - Login with empty password
-[2026-03-31 04:37:54] [32MINFO[39M: STEP: Filling element [data-test="username"] with: standard_user
-[2026-03-31 04:37:54] [32MINFO[39M: STEP: Clicking element: [data-test="login-button"]
-[2026-03-31 04:37:54] [32MINFO[39M: STEP: Waiting for 1000ms
-[2026-03-31 04:37:55] [32MINFO[39M: STEP: Waiting for element: .error-message-container
-[2026-03-31 04:37:55] [32MINFO[39M: Text from .error-message-container: Epic sadface: Password is required
-[2026-03-31 04:37:55] [32MINFO[39M: STEP: Waiting for element: .error-message-container
-[2026-03-31 04:37:55] [32MINFO[39M: Text from .error-message-container: Epic sadface: Password is required
-[2026-03-31 04:37:55] [32MINFO[39M: ✓ ASSERTION PASSED: Error message displayed for empty password
-[2026-03-31 04:37:55] [32MINFO[39M: ========== TEST ENDED: Login Test - Completed ==========
+<![CDATA[[2026-04-01 04:48:48] [32MINFO[39M: ========== TEST STARTED: Login Test ==========
+[2026-04-01 04:48:48] [32MINFO[39M: STEP: Navigating to: https://www.saucedemo.com
+[2026-04-01 04:48:48] [32MINFO[39M: Test Case: TC-005 - Login with empty password
+[2026-04-01 04:48:48] [32MINFO[39M: STEP: Filling element [data-test="username"] with: standard_user
+[2026-04-01 04:48:48] [32MINFO[39M: STEP: Clicking element: [data-test="login-button"]
+[2026-04-01 04:48:48] [32MINFO[39M: STEP: Waiting for 1000ms
+[2026-04-01 04:48:49] [32MINFO[39M: STEP: Waiting for element: .error-message-container
+[2026-04-01 04:48:49] [32MINFO[39M: Text from .error-message-container: Epic sadface: Password is required
+[2026-04-01 04:48:49] [32MINFO[39M: STEP: Waiting for element: .error-message-container
+[2026-04-01 04:48:49] [32MINFO[39M: Text from .error-message-container: Epic sadface: Password is required
+[2026-04-01 04:48:49] [32MINFO[39M: ✓ ASSERTION PASSED: Error message displayed for empty password
+[2026-04-01 04:48:49] [32MINFO[39M: ========== TEST ENDED: Login Test - Completed ==========
 ]]>
 </system-out>
 </testcase>
-<testcase name="Authentication - Login Tests › TC-006: Verify successful logout" classname="auth\login.spec.js" time="1.35">
+<testcase name="Authentication - Login Tests › TC-006: Verify successful logout" classname="auth\login.spec.js" time="1.244">
 <system-out>
-<![CDATA[[2026-03-31 04:37:54] [32MINFO[39M: ========== TEST STARTED: Login Test ==========
-[2026-03-31 04:37:54] [32MINFO[39M: STEP: Navigating to: https://www.saucedemo.com
-[2026-03-31 04:37:54] [32MINFO[39M: Test Case: TC-006 - Successful logout
-[2026-03-31 04:37:54] [32MINFO[39M: STEP: Filling element [data-test="username"] with: standard_user
-[2026-03-31 04:37:54] [32MINFO[39M: STEP: Filling element [data-test="password"] with: secret_sauce
-[2026-03-31 04:37:54] [32MINFO[39M: STEP: Clicking element: [data-test="login-button"]
-[2026-03-31 04:37:54] [32MINFO[39M: STEP: Clicking element: #react-burger-menu-btn
-[2026-03-31 04:37:55] [32MINFO[39M: STEP: Waiting for 500ms
-[2026-03-31 04:37:55] [32MINFO[39M: STEP: Clicking element: #logout_sidebar_link
-[2026-03-31 04:37:55] [32MINFO[39M: ✓ ASSERTION PASSED: User successfully logged out
-[2026-03-31 04:37:55] [32MINFO[39M: ========== TEST ENDED: Login Test - Completed ==========
+<![CDATA[[2026-04-01 04:48:49] [32MINFO[39M: ========== TEST STARTED: Login Test ==========
+[2026-04-01 04:48:49] [32MINFO[39M: STEP: Navigating to: https://www.saucedemo.com
+[2026-04-01 04:48:49] [32MINFO[39M: Test Case: TC-006 - Successful logout
+[2026-04-01 04:48:49] [32MINFO[39M: STEP: Filling element [data-test="username"] with: standard_user
+[2026-04-01 04:48:49] [32MINFO[39M: STEP: Filling element [data-test="password"] with: secret_sauce
+[2026-04-01 04:48:49] [32MINFO[39M: STEP: Clicking element: [data-test="login-button"]
+[2026-04-01 04:48:49] [32MINFO[39M: STEP: Clicking element: #react-burger-menu-btn
+[2026-04-01 04:48:49] [32MINFO[39M: STEP: Waiting for 500ms
+[2026-04-01 04:48:50] [32MINFO[39M: STEP: Clicking element: #logout_sidebar_link
+[2026-04-01 04:48:50] [32MINFO[39M: ✓ ASSERTION PASSED: User successfully logged out
+[2026-04-01 04:48:50] [32MINFO[39M: ========== TEST ENDED: Login Test - Completed ==========
 ]]>
 </system-out>
 </testcase>
-<testcase name="Authentication - Login Tests › TC-007: Verify locked out user cannot login" classname="auth\login.spec.js" time="2.3">
+<testcase name="Authentication - Login Tests › TC-007: Verify locked out user cannot login" classname="auth\login.spec.js" time="2.192">
 <system-out>
-<![CDATA[[2026-03-31 04:37:55] [32MINFO[39M: ========== TEST STARTED: Login Test ==========
-[2026-03-31 04:37:55] [32MINFO[39M: STEP: Navigating to: https://www.saucedemo.com
-[2026-03-31 04:37:55] [32MINFO[39M: Test Case: TC-007 - Locked out user login attempt
-[2026-03-31 04:37:55] [32MINFO[39M: STEP: Filling element [data-test="username"] with: locked_out_user
-[2026-03-31 04:37:55] [32MINFO[39M: STEP: Filling element [data-test="password"] with: secret_sauce
-[2026-03-31 04:37:56] [32MINFO[39M: STEP: Clicking element: [data-test="login-button"]
-[2026-03-31 04:37:56] [32MINFO[39M: STEP: Waiting for 1000ms
-[2026-03-31 04:37:57] [32MINFO[39M: STEP: Waiting for element: .error-message-container
-[2026-03-31 04:37:57] [32MINFO[39M: Text from .error-message-container: Epic sadface: Sorry, this user has been locked out.
-[2026-03-31 04:37:57] [32MINFO[39M: STEP: Waiting for element: .error-message-container
-[2026-03-31 04:37:57] [32MINFO[39M: Text from .error-message-container: Epic sadface: Sorry, this user has been locked out.
-[2026-03-31 04:37:57] [32MINFO[39M: ✓ ASSERTION PASSED: Locked out user error message displayed
-[2026-03-31 04:37:57] [32MINFO[39M: ========== TEST ENDED: Login Test - Completed ==========
-]]>
-</system-out>
-</testcase>
-</testsuite>
-<testsuite name="cart\cart.spec.js" timestamp="2026-03-31T04:37:45.732Z" hostname="chromium" tests="4" failures="0" skipped="0" time="5.468" errors="0">
-<testcase name="Cart - Cart Tests › TC-001: Verify cart displays correct product details (name, description, price, quantity)" classname="cart\cart.spec.js" time="1.133">
-<system-out>
-<![CDATA[[2026-03-31 04:37:55] [32MINFO[39M: STEP: Navigating to: https://www.saucedemo.com
-[2026-03-31 04:37:56] [32MINFO[39M: STEP: Filling element [data-test="username"] with: standard_user
-[2026-03-31 04:37:56] [32MINFO[39M: STEP: Filling element [data-test="password"] with: secret_sauce
-[2026-03-31 04:37:56] [32MINFO[39M: STEP: Clicking element: [data-test="login-button"]
-[2026-03-31 04:37:56] [32MINFO[39M: ========== TEST STARTED: Cart Test ==========
-[2026-03-31 04:37:56] [32MINFO[39M: Test Case: TC-001 - Verify cart displays correct product details (name, description, price, quantity)
-[2026-03-31 04:37:56] [32MINFO[39M: ✓ ASSERTION PASSED: Inventory container is visible
-[2026-03-31 04:37:56] [32MINFO[39M: Selected random product: Sauce Labs Fleece Jacket (index: 3)
-[2026-03-31 04:37:56] [32MINFO[39M: Product details from inventory - Name: Sauce Labs Fleece Jacket, Price: $49.99
-[2026-03-31 04:37:56] [32MINFO[39M: Product description: It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.
-[2026-03-31 04:37:56] [32MINFO[39M: Added Sauce Labs Fleece Jacket to cart
-[2026-03-31 04:37:56] [32MINFO[39M: STEP: Clicking element: [data-test="shopping-cart-link"]
-[2026-03-31 04:37:56] [32MINFO[39M: Clicked cart icon
-[2026-03-31 04:37:56] [32MINFO[39M: STEP: Waiting for element: [data-test="cart-contents-container"]
-[2026-03-31 04:37:56] [32MINFO[39M: ✓ ASSERTION PASSED: Cart page is displayed
-[2026-03-31 04:37:56] [32MINFO[39M: Text from [data-test="title"]: Your Cart
-[2026-03-31 04:37:56] [32MINFO[39M: ✓ ASSERTION PASSED: Cart page title is "Your Cart"
-[2026-03-31 04:37:56] [32MINFO[39M: ✓ ASSERTION PASSED: Quantity label (QTY) is displayed
-[2026-03-31 04:37:56] [32MINFO[39M: ✓ ASSERTION PASSED: Description label is displayed
-[2026-03-31 04:37:56] [32MINFO[39M: ✓ ASSERTION PASSED: Product "Sauce Labs Fleece Jacket" is present in cart
-[2026-03-31 04:37:56] [32MINFO[39M: Product details from cart - Name: Sauce Labs Fleece Jacket, Price: $49.99, Quantity: 1
-[2026-03-31 04:37:56] [32MINFO[39M: Product description in cart: It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.
-[2026-03-31 04:37:56] [32MINFO[39M: ✓ ASSERTION PASSED: Product name matches: "Sauce Labs Fleece Jacket"
-[2026-03-31 04:37:56] [32MINFO[39M: ✓ ASSERTION PASSED: Product description matches
-[2026-03-31 04:37:56] [32MINFO[39M: ✓ ASSERTION PASSED: Product price matches: $49.99
-[2026-03-31 04:37:56] [32MINFO[39M: ✓ ASSERTION PASSED: Product quantity is 1
-[2026-03-31 04:37:56] [32MINFO[39M: ✓ ASSERTION PASSED: Cart contains 1 item
-[2026-03-31 04:37:56] [32MINFO[39M: ========== TEST ENDED: Cart Test - Completed ==========
-]]>
-</system-out>
-</testcase>
-<testcase name="Cart - Cart Tests › TC-002: Verify removing product from cart using &quot;Remove&quot; button" classname="cart\cart.spec.js" time="1.836">
-<system-out>
-<![CDATA[[2026-03-31 04:37:57] [32MINFO[39M: STEP: Navigating to: https://www.saucedemo.com
-[2026-03-31 04:37:57] [32MINFO[39M: STEP: Filling element [data-test="username"] with: standard_user
-[2026-03-31 04:37:57] [32MINFO[39M: STEP: Filling element [data-test="password"] with: secret_sauce
-[2026-03-31 04:37:57] [32MINFO[39M: STEP: Clicking element: [data-test="login-button"]
-[2026-03-31 04:37:57] [32MINFO[39M: ========== TEST STARTED: Cart Test ==========
-[2026-03-31 04:37:57] [32MINFO[39M: Test Case: TC-002 - Verify removing product from cart using "Remove" button
-[2026-03-31 04:37:57] [32MINFO[39M: ✓ ASSERTION PASSED: Inventory container is visible
-[2026-03-31 04:37:57] [32MINFO[39M: ✓ ASSERTION PASSED: Initial cart badge count is 0
-[2026-03-31 04:37:57] [32MINFO[39M: Clicked on product title: Sauce Labs Backpack
-[2026-03-31 04:37:57] [32MINFO[39M: STEP: Waiting for element: [data-test="inventory-container"]
-[2026-03-31 04:37:57] [32MINFO[39M: STEP: Clicking element: [data-test="add-to-cart-sauce-labs-backpack"]
-[2026-03-31 04:37:57] [32MINFO[39M: Added Sauce Labs Backpack to cart
-[2026-03-31 04:37:57] [32MINFO[39M: Text from .shopping_cart_badge: 1
-[2026-03-31 04:37:57] [32MINFO[39M: ✓ ASSERTION PASSED: Cart badge count is 1 after adding product
-[2026-03-31 04:37:57] [32MINFO[39M: STEP: Clicking element: [data-test="shopping-cart-link"]
-[2026-03-31 04:37:57] [32MINFO[39M: Clicked cart icon to navigate to cart page
-[2026-03-31 04:37:57] [32MINFO[39M: STEP: Waiting for element: [data-test="cart-contents-container"]
-[2026-03-31 04:37:57] [32MINFO[39M: ✓ ASSERTION PASSED: Cart page is displayed
-[2026-03-31 04:37:57] [32MINFO[39M: ✓ ASSERTION PASSED: Product "Sauce Labs Backpack" is in cart before removal
-[2026-03-31 04:37:57] [32MINFO[39M: ✓ ASSERTION PASSED: Cart contains 1 item before removal
-[2026-03-31 04:37:57] [32MINFO[39M: Clicked Remove button for Sauce Labs Backpack
-[2026-03-31 04:37:58] [32MINFO[39M: ✓ ASSERTION PASSED: Product "Sauce Labs Backpack" is removed from cart
-[2026-03-31 04:37:58] [32MINFO[39M: ✓ ASSERTION PASSED: Cart contains 0 items after removal
-[2026-03-31 04:37:58] [32MINFO[39M: ✓ ASSERTION PASSED: Cart is empty after removing all items
-[2026-03-31 04:37:58] [32MINFO[39M: ========== TEST ENDED: Cart Test - Completed ==========
-]]>
-</system-out>
-</testcase>
-<testcase name="Cart - Cart Tests › TC-003: Verify &quot;Continue Shopping&quot; button navigates back to inventory page" classname="cart\cart.spec.js" time="1.002">
-<system-out>
-<![CDATA[[2026-03-31 04:37:57] [32MINFO[39M: STEP: Navigating to: https://www.saucedemo.com
-[2026-03-31 04:37:58] [32MINFO[39M: STEP: Filling element [data-test="username"] with: standard_user
-[2026-03-31 04:37:58] [32MINFO[39M: STEP: Filling element [data-test="password"] with: secret_sauce
-[2026-03-31 04:37:58] [32MINFO[39M: STEP: Clicking element: [data-test="login-button"]
-[2026-03-31 04:37:58] [32MINFO[39M: ========== TEST STARTED: Cart Test ==========
-[2026-03-31 04:37:58] [32MINFO[39M: Test Case: TC-003 - Verify "Continue Shopping" button navigates back to inventory page
-[2026-03-31 04:37:58] [32MINFO[39M: ✓ ASSERTION PASSED: Inventory container is visible
-[2026-03-31 04:37:58] [32MINFO[39M: ✓ ASSERTION PASSED: Initial cart badge count is 0
-[2026-03-31 04:37:58] [32MINFO[39M: STEP: Clicking element: [data-test="shopping-cart-link"]
-[2026-03-31 04:37:58] [32MINFO[39M: Clicked cart icon to navigate to cart page (empty cart)
-[2026-03-31 04:37:58] [32MINFO[39M: STEP: Waiting for element: [data-test="cart-contents-container"]
-[2026-03-31 04:37:58] [32MINFO[39M: ✓ ASSERTION PASSED: Cart page is displayed
-[2026-03-31 04:37:58] [32MINFO[39M: ✓ ASSERTION PASSED: Cart is empty
-[2026-03-31 04:37:58] [32MINFO[39M: ✓ ASSERTION PASSED: Continue Shopping button is visible
-[2026-03-31 04:37:58] [32MINFO[39M: STEP: Clicking element: [data-test="continue-shopping"]
-[2026-03-31 04:37:58] [32MINFO[39M: Clicked Continue Shopping button
-[2026-03-31 04:37:58] [32MINFO[39M: STEP: Waiting for element: [data-test="inventory-container"]
-[2026-03-31 04:37:58] [32MINFO[39M: ✓ ASSERTION PASSED: URL contains inventory.html
-[2026-03-31 04:37:58] [32MINFO[39M: ✓ ASSERTION PASSED: Successfully navigated back to inventory page
-[2026-03-31 04:37:58] [32MINFO[39M: ✓ ASSERTION PASSED: Cart badge count is still 0
-[2026-03-31 04:37:58] [32MINFO[39M: ========== TEST ENDED: Cart Test - Completed ==========
-]]>
-</system-out>
-</testcase>
-<testcase name="Cart - Cart Tests › TC-004: Verify &quot;Checkout&quot; button navigates to checkout page" classname="cart\cart.spec.js" time="1.497">
-<system-out>
-<![CDATA[[2026-03-31 04:37:58] [32MINFO[39M: STEP: Navigating to: https://www.saucedemo.com
-[2026-03-31 04:37:59] [32MINFO[39M: STEP: Filling element [data-test="username"] with: standard_user
-[2026-03-31 04:37:59] [32MINFO[39M: STEP: Filling element [data-test="password"] with: secret_sauce
-[2026-03-31 04:37:59] [32MINFO[39M: STEP: Clicking element: [data-test="login-button"]
-[2026-03-31 04:37:59] [32MINFO[39M: ========== TEST STARTED: Cart Test ==========
-[2026-03-31 04:37:59] [32MINFO[39M: Test Case: TC-004 - Verify "Checkout" button navigates to checkout page
-[2026-03-31 04:37:59] [32MINFO[39M: ✓ ASSERTION PASSED: Inventory container is visible
-[2026-03-31 04:37:59] [32MINFO[39M: Adding product to cart: Sauce Labs Backpack
-[2026-03-31 04:37:59] [32MINFO[39M: Added Sauce Labs Backpack to cart
-[2026-03-31 04:37:59] [32MINFO[39M: Text from .shopping_cart_badge: 1
-[2026-03-31 04:37:59] [32MINFO[39M: ✓ ASSERTION PASSED: Cart badge count is 1 after adding product
-[2026-03-31 04:37:59] [32MINFO[39M: STEP: Clicking element: [data-test="shopping-cart-link"]
-[2026-03-31 04:37:59] [32MINFO[39M: Clicked cart icon to navigate to cart page
-[2026-03-31 04:37:59] [32MINFO[39M: STEP: Waiting for element: [data-test="cart-contents-container"]
-[2026-03-31 04:37:59] [32MINFO[39M: ✓ ASSERTION PASSED: Cart page is displayed
-[2026-03-31 04:38:00] [32MINFO[39M: ✓ ASSERTION PASSED: Product "Sauce Labs Backpack" is in cart
-[2026-03-31 04:38:00] [32MINFO[39M: ✓ ASSERTION PASSED: Checkout button is visible
-[2026-03-31 04:38:00] [32MINFO[39M: STEP: Clicking element: [data-test="checkout"]
-[2026-03-31 04:38:00] [32MINFO[39M: Clicked Checkout button
-[2026-03-31 04:38:00] [32MINFO[39M: STEP: Waiting for element: [data-test="checkout-info-container"]
-[2026-03-31 04:38:00] [32MINFO[39M: ✓ ASSERTION PASSED: URL contains checkout-step-one.html
-[2026-03-31 04:38:00] [32MINFO[39M: ✓ ASSERTION PASSED: Checkout page is displayed
-[2026-03-31 04:38:00] [32MINFO[39M: ========== TEST ENDED: Cart Test - Completed ==========
+<![CDATA[[2026-04-01 04:48:50] [32MINFO[39M: ========== TEST STARTED: Login Test ==========
+[2026-04-01 04:48:50] [32MINFO[39M: STEP: Navigating to: https://www.saucedemo.com
+[2026-04-01 04:48:50] [32MINFO[39M: Test Case: TC-007 - Locked out user login attempt
+[2026-04-01 04:48:50] [32MINFO[39M: STEP: Filling element [data-test="username"] with: locked_out_user
+[2026-04-01 04:48:50] [32MINFO[39M: STEP: Filling element [data-test="password"] with: secret_sauce
+[2026-04-01 04:48:50] [32MINFO[39M: STEP: Clicking element: [data-test="login-button"]
+[2026-04-01 04:48:50] [32MINFO[39M: STEP: Waiting for 1000ms
+[2026-04-01 04:48:51] [32MINFO[39M: STEP: Waiting for element: .error-message-container
+[2026-04-01 04:48:51] [32MINFO[39M: Text from .error-message-container: Epic sadface: Sorry, this user has been locked out.
+[2026-04-01 04:48:51] [32MINFO[39M: STEP: Waiting for element: .error-message-container
+[2026-04-01 04:48:51] [32MINFO[39M: Text from .error-message-container: Epic sadface: Sorry, this user has been locked out.
+[2026-04-01 04:48:51] [32MINFO[39M: ✓ ASSERTION PASSED: Locked out user error message displayed
+[2026-04-01 04:48:51] [32MINFO[39M: ========== TEST ENDED: Login Test - Completed ==========
 ]]>
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="checkout\checkout-overview.spec.js" timestamp="2026-03-31T04:37:45.732Z" hostname="chromium" tests="2" failures="0" skipped="0" time="3.114" errors="0">
-<testcase name="Checkout - Checkout Overview Page Tests › TC-001: Verify product details and complete order" classname="checkout\checkout-overview.spec.js" time="1.405">
+<testsuite name="cart\cart.spec.js" timestamp="2026-04-01T04:48:41.211Z" hostname="chromium" tests="4" failures="0" skipped="0" time="4.801" errors="0">
+<testcase name="Cart - Cart Tests › TC-001: Verify cart displays correct product details (name, description, price, quantity)" classname="cart\cart.spec.js" time="1.034">
 <system-out>
-<![CDATA[[2026-03-31 04:37:59] [32MINFO[39M: STEP: Navigating to: https://www.saucedemo.com
-[2026-03-31 04:37:59] [32MINFO[39M: STEP: Filling element [data-test="username"] with: standard_user
-[2026-03-31 04:37:59] [32MINFO[39M: STEP: Filling element [data-test="password"] with: secret_sauce
-[2026-03-31 04:37:59] [32MINFO[39M: STEP: Clicking element: [data-test="login-button"]
-[2026-03-31 04:37:59] [32MINFO[39M: ========== TEST STARTED: Checkout Overview Page Test ==========
-[2026-03-31 04:37:59] [32MINFO[39M: Selected product: Sauce Labs Backpack, Price: $29.99
-[2026-03-31 04:37:59] [32MINFO[39M: STEP: Clicking element: [data-test="shopping-cart-link"]
-[2026-03-31 04:37:59] [32MINFO[39M: STEP: Clicking element: [data-test="checkout"]
-[2026-03-31 04:37:59] [32MINFO[39M: STEP: Waiting for element: [data-test="checkout-info-container"]
-[2026-03-31 04:37:59] [32MINFO[39M: STEP: Filling element [data-test="firstName"] with: John
-[2026-03-31 04:37:59] [32MINFO[39M: STEP: Filling element [data-test="lastName"] with: Doe
-[2026-03-31 04:37:59] [32MINFO[39M: STEP: Filling element [data-test="postalCode"] with: 12345
-[2026-03-31 04:37:59] [32MINFO[39M: STEP: Clicking element: [data-test="continue"]
-[2026-03-31 04:37:59] [32MINFO[39M: STEP: Waiting for element: [data-test="checkout-summary-container"]
-[2026-03-31 04:37:59] [32MINFO[39M: Test Case: TC-001 - Verify product details and complete order
-[2026-03-31 04:38:00] [32MINFO[39M: ✓ ASSERTION PASSED: Checkout overview contains 1 item
-[2026-03-31 04:38:00] [32MINFO[39M: Overview item details - Name: Sauce Labs Backpack, Price: $29.99, Quantity: 1
-[2026-03-31 04:38:00] [32MINFO[39M: ✓ ASSERTION PASSED: Product name matches: "Sauce Labs Backpack"
-[2026-03-31 04:38:00] [32MINFO[39M: ✓ ASSERTION PASSED: Product description matches
-[2026-03-31 04:38:00] [32MINFO[39M: ✓ ASSERTION PASSED: Product price matches: $29.99
-[2026-03-31 04:38:00] [32MINFO[39M: ✓ ASSERTION PASSED: Product quantity is 1
-[2026-03-31 04:38:00] [32MINFO[39M: STEP: Clicking element: [data-test="finish"]
-[2026-03-31 04:38:00] [32MINFO[39M: Clicked finish button
-[2026-03-31 04:38:00] [32MINFO[39M: ✓ ASSERTION PASSED: Navigated to checkout complete page
-[2026-03-31 04:38:00] [32MINFO[39M: ✓ ASSERTION PASSED: Checkout complete page is displayed
-[2026-03-31 04:38:00] [32MINFO[39M: ✓ ASSERTION PASSED: Success header is displayed
-[2026-03-31 04:38:00] [32MINFO[39M: Text from [data-test="complete-header"]: Thank you for your order!
-[2026-03-31 04:38:00] [32MINFO[39M: ✓ ASSERTION PASSED: Success message contains "Thank you for your order"
-[2026-03-31 04:38:00] [32MINFO[39M: ========== TEST ENDED: Checkout Overview Page Test - Completed ==========
+<![CDATA[[2026-04-01 04:48:50] [32MINFO[39M: STEP: Navigating to: https://www.saucedemo.com
+[2026-04-01 04:48:50] [32MINFO[39M: STEP: Filling element [data-test="username"] with: standard_user
+[2026-04-01 04:48:50] [32MINFO[39M: STEP: Filling element [data-test="password"] with: secret_sauce
+[2026-04-01 04:48:50] [32MINFO[39M: STEP: Clicking element: [data-test="login-button"]
+[2026-04-01 04:48:51] [32MINFO[39M: ========== TEST STARTED: Cart Test ==========
+[2026-04-01 04:48:51] [32MINFO[39M: Test Case: TC-001 - Verify cart displays correct product details (name, description, price, quantity)
+[2026-04-01 04:48:51] [32MINFO[39M: ✓ ASSERTION PASSED: Inventory container is visible
+[2026-04-01 04:48:51] [32MINFO[39M: Selected random product: Sauce Labs Fleece Jacket (index: 3)
+[2026-04-01 04:48:51] [32MINFO[39M: Product details from inventory - Name: Sauce Labs Fleece Jacket, Price: $49.99
+[2026-04-01 04:48:51] [32MINFO[39M: Product description: It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.
+[2026-04-01 04:48:51] [32MINFO[39M: Added Sauce Labs Fleece Jacket to cart
+[2026-04-01 04:48:51] [32MINFO[39M: STEP: Clicking element: [data-test="shopping-cart-link"]
+[2026-04-01 04:48:51] [32MINFO[39M: Clicked cart icon
+[2026-04-01 04:48:51] [32MINFO[39M: STEP: Waiting for element: [data-test="cart-contents-container"]
+[2026-04-01 04:48:51] [32MINFO[39M: ✓ ASSERTION PASSED: Cart page is displayed
+[2026-04-01 04:48:51] [32MINFO[39M: Text from [data-test="title"]: Your Cart
+[2026-04-01 04:48:51] [32MINFO[39M: ✓ ASSERTION PASSED: Cart page title is "Your Cart"
+[2026-04-01 04:48:51] [32MINFO[39M: ✓ ASSERTION PASSED: Quantity label (QTY) is displayed
+[2026-04-01 04:48:51] [32MINFO[39M: ✓ ASSERTION PASSED: Description label is displayed
+[2026-04-01 04:48:51] [32MINFO[39M: ✓ ASSERTION PASSED: Product "Sauce Labs Fleece Jacket" is present in cart
+[2026-04-01 04:48:51] [32MINFO[39M: Product details from cart - Name: Sauce Labs Fleece Jacket, Price: $49.99, Quantity: 1
+[2026-04-01 04:48:51] [32MINFO[39M: Product description in cart: It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.
+[2026-04-01 04:48:51] [32MINFO[39M: ✓ ASSERTION PASSED: Product name matches: "Sauce Labs Fleece Jacket"
+[2026-04-01 04:48:51] [32MINFO[39M: ✓ ASSERTION PASSED: Product description matches
+[2026-04-01 04:48:51] [32MINFO[39M: ✓ ASSERTION PASSED: Product price matches: $49.99
+[2026-04-01 04:48:51] [32MINFO[39M: ✓ ASSERTION PASSED: Product quantity is 1
+[2026-04-01 04:48:51] [32MINFO[39M: ✓ ASSERTION PASSED: Cart contains 1 item
+[2026-04-01 04:48:51] [32MINFO[39M: ========== TEST ENDED: Cart Test - Completed ==========
 ]]>
 </system-out>
 </testcase>
-<testcase name="Checkout - Checkout Overview Page Tests › TC-002: Verify cancel button navigation" classname="checkout\checkout-overview.spec.js" time="1.709">
+<testcase name="Cart - Cart Tests › TC-002: Verify removing product from cart using &quot;Remove&quot; button" classname="cart\cart.spec.js" time="1.768">
 <system-out>
-<![CDATA[[2026-03-31 04:38:00] [32MINFO[39M: STEP: Navigating to: https://www.saucedemo.com
-[2026-03-31 04:38:00] [32MINFO[39M: STEP: Filling element [data-test="username"] with: standard_user
-[2026-03-31 04:38:00] [32MINFO[39M: STEP: Filling element [data-test="password"] with: secret_sauce
-[2026-03-31 04:38:00] [32MINFO[39M: STEP: Clicking element: [data-test="login-button"]
-[2026-03-31 04:38:01] [32MINFO[39M: ========== TEST STARTED: Checkout Overview Page Test ==========
-[2026-03-31 04:38:01] [32MINFO[39M: Selected product: Sauce Labs Backpack, Price: $29.99
-[2026-03-31 04:38:01] [32MINFO[39M: STEP: Clicking element: [data-test="shopping-cart-link"]
-[2026-03-31 04:38:01] [32MINFO[39M: STEP: Clicking element: [data-test="checkout"]
-[2026-03-31 04:38:01] [32MINFO[39M: STEP: Waiting for element: [data-test="checkout-info-container"]
-[2026-03-31 04:38:01] [32MINFO[39M: STEP: Filling element [data-test="firstName"] with: John
-[2026-03-31 04:38:01] [32MINFO[39M: STEP: Filling element [data-test="lastName"] with: Doe
-[2026-03-31 04:38:01] [32MINFO[39M: STEP: Filling element [data-test="postalCode"] with: 12345
-[2026-03-31 04:38:01] [32MINFO[39M: STEP: Clicking element: [data-test="continue"]
-[2026-03-31 04:38:01] [32MINFO[39M: STEP: Waiting for element: [data-test="checkout-summary-container"]
-[2026-03-31 04:38:01] [32MINFO[39M: Test Case: TC-002 - Verify cancel button navigation
-[2026-03-31 04:38:01] [32MINFO[39M: STEP: Clicking element: [data-test="cancel"]
-[2026-03-31 04:38:01] [32MINFO[39M: Clicked cancel button
-[2026-03-31 04:38:01] [32MINFO[39M: ✓ ASSERTION PASSED: Navigated to inventory page
-[2026-03-31 04:38:01] [32MINFO[39M: STEP: Waiting for element: [data-test="inventory-container"]
-[2026-03-31 04:38:01] [32MINFO[39M: ✓ ASSERTION PASSED: Inventory page is displayed
-[2026-03-31 04:38:01] [32MINFO[39M: ========== TEST ENDED: Checkout Overview Page Test - Completed ==========
+<![CDATA[[2026-04-01 04:48:51] [32MINFO[39M: STEP: Navigating to: https://www.saucedemo.com
+[2026-04-01 04:48:51] [32MINFO[39M: STEP: Filling element [data-test="username"] with: standard_user
+[2026-04-01 04:48:51] [32MINFO[39M: STEP: Filling element [data-test="password"] with: secret_sauce
+[2026-04-01 04:48:51] [32MINFO[39M: STEP: Clicking element: [data-test="login-button"]
+[2026-04-01 04:48:51] [32MINFO[39M: ========== TEST STARTED: Cart Test ==========
+[2026-04-01 04:48:51] [32MINFO[39M: Test Case: TC-002 - Verify removing product from cart using "Remove" button
+[2026-04-01 04:48:51] [32MINFO[39M: ✓ ASSERTION PASSED: Inventory container is visible
+[2026-04-01 04:48:51] [32MINFO[39M: ✓ ASSERTION PASSED: Initial cart badge count is 0
+[2026-04-01 04:48:52] [32MINFO[39M: Clicked on product title: Sauce Labs Backpack
+[2026-04-01 04:48:52] [32MINFO[39M: STEP: Waiting for element: [data-test="inventory-container"]
+[2026-04-01 04:48:52] [32MINFO[39M: STEP: Clicking element: [data-test="add-to-cart-sauce-labs-backpack"]
+[2026-04-01 04:48:52] [32MINFO[39M: Added Sauce Labs Backpack to cart
+[2026-04-01 04:48:52] [32MINFO[39M: Text from .shopping_cart_badge: 1
+[2026-04-01 04:48:52] [32MINFO[39M: ✓ ASSERTION PASSED: Cart badge count is 1 after adding product
+[2026-04-01 04:48:52] [32MINFO[39M: STEP: Clicking element: [data-test="shopping-cart-link"]
+[2026-04-01 04:48:52] [32MINFO[39M: Clicked cart icon to navigate to cart page
+[2026-04-01 04:48:52] [32MINFO[39M: STEP: Waiting for element: [data-test="cart-contents-container"]
+[2026-04-01 04:48:52] [32MINFO[39M: ✓ ASSERTION PASSED: Cart page is displayed
+[2026-04-01 04:48:52] [32MINFO[39M: ✓ ASSERTION PASSED: Product "Sauce Labs Backpack" is in cart before removal
+[2026-04-01 04:48:52] [32MINFO[39M: ✓ ASSERTION PASSED: Cart contains 1 item before removal
+[2026-04-01 04:48:52] [32MINFO[39M: Clicked Remove button for Sauce Labs Backpack
+[2026-04-01 04:48:52] [32MINFO[39M: ✓ ASSERTION PASSED: Product "Sauce Labs Backpack" is removed from cart
+[2026-04-01 04:48:52] [32MINFO[39M: ✓ ASSERTION PASSED: Cart contains 0 items after removal
+[2026-04-01 04:48:52] [32MINFO[39M: ✓ ASSERTION PASSED: Cart is empty after removing all items
+[2026-04-01 04:48:52] [32MINFO[39M: ========== TEST ENDED: Cart Test - Completed ==========
 ]]>
 </system-out>
 </testcase>
-</testsuite>
-<testsuite name="checkout\checkout.spec.js" timestamp="2026-03-31T04:37:45.732Z" hostname="chromium" tests="3" failures="0" skipped="0" time="4.623" errors="0">
-<testcase name="Checkout - Checkout Page Tests › TC-001: Verify filling checkout form with valid data and continue to checkout overview" classname="checkout\checkout.spec.js" time="1.384">
+<testcase name="Cart - Cart Tests › TC-003: Verify &quot;Continue Shopping&quot; button navigates back to inventory page" classname="cart\cart.spec.js" time="0.956">
 <system-out>
-<![CDATA[[2026-03-31 04:38:00] [32MINFO[39M: STEP: Navigating to: https://www.saucedemo.com
-[2026-03-31 04:38:00] [32MINFO[39M: STEP: Filling element [data-test="username"] with: standard_user
-[2026-03-31 04:38:00] [32MINFO[39M: STEP: Filling element [data-test="password"] with: secret_sauce
-[2026-03-31 04:38:00] [32MINFO[39M: STEP: Clicking element: [data-test="login-button"]
-[2026-03-31 04:38:01] [32MINFO[39M: ========== TEST STARTED: Checkout Page Test ==========
-[2026-03-31 04:38:01] [32MINFO[39M: STEP: Clicking element: [data-test="shopping-cart-link"]
-[2026-03-31 04:38:01] [32MINFO[39M: STEP: Clicking element: [data-test="checkout"]
-[2026-03-31 04:38:01] [32MINFO[39M: STEP: Waiting for element: [data-test="checkout-info-container"]
-[2026-03-31 04:38:01] [32MINFO[39M: Test Case: TC-001 - Verify filling checkout form with valid data and continue to checkout overview
-[2026-03-31 04:38:01] [32MINFO[39M: STEP: Filling element [data-test="firstName"] with: John
-[2026-03-31 04:38:01] [32MINFO[39M: STEP: Filling element [data-test="lastName"] with: Doe
-[2026-03-31 04:38:01] [32MINFO[39M: STEP: Filling element [data-test="postalCode"] with: 12345
-[2026-03-31 04:38:01] [32MINFO[39M: Filled checkout form with: John Doe, 12345
-[2026-03-31 04:38:01] [32MINFO[39M: ✓ ASSERTION PASSED: First name field contains correct value
-[2026-03-31 04:38:01] [32MINFO[39M: ✓ ASSERTION PASSED: Last name field contains correct value
-[2026-03-31 04:38:01] [32MINFO[39M: ✓ ASSERTION PASSED: Postal code field contains correct value
-[2026-03-31 04:38:01] [32MINFO[39M: STEP: Clicking element: [data-test="continue"]
-[2026-03-31 04:38:01] [32MINFO[39M: Clicked continue button
-[2026-03-31 04:38:01] [32MINFO[39M: ✓ ASSERTION PASSED: Navigated to checkout overview page
-[2026-03-31 04:38:01] [32MINFO[39M: ========== TEST ENDED: Checkout Page Test - Completed ==========
+<![CDATA[[2026-04-01 04:48:52] [32MINFO[39M: STEP: Navigating to: https://www.saucedemo.com
+[2026-04-01 04:48:52] [32MINFO[39M: STEP: Filling element [data-test="username"] with: standard_user
+[2026-04-01 04:48:52] [32MINFO[39M: STEP: Filling element [data-test="password"] with: secret_sauce
+[2026-04-01 04:48:52] [32MINFO[39M: STEP: Clicking element: [data-test="login-button"]
+[2026-04-01 04:48:52] [32MINFO[39M: ========== TEST STARTED: Cart Test ==========
+[2026-04-01 04:48:52] [32MINFO[39M: Test Case: TC-003 - Verify "Continue Shopping" button navigates back to inventory page
+[2026-04-01 04:48:52] [32MINFO[39M: ✓ ASSERTION PASSED: Inventory container is visible
+[2026-04-01 04:48:52] [32MINFO[39M: ✓ ASSERTION PASSED: Initial cart badge count is 0
+[2026-04-01 04:48:52] [32MINFO[39M: STEP: Clicking element: [data-test="shopping-cart-link"]
+[2026-04-01 04:48:52] [32MINFO[39M: Clicked cart icon to navigate to cart page (empty cart)
+[2026-04-01 04:48:52] [32MINFO[39M: STEP: Waiting for element: [data-test="cart-contents-container"]
+[2026-04-01 04:48:52] [32MINFO[39M: ✓ ASSERTION PASSED: Cart page is displayed
+[2026-04-01 04:48:52] [32MINFO[39M: ✓ ASSERTION PASSED: Cart is empty
+[2026-04-01 04:48:53] [32MINFO[39M: ✓ ASSERTION PASSED: Continue Shopping button is visible
+[2026-04-01 04:48:53] [32MINFO[39M: STEP: Clicking element: [data-test="continue-shopping"]
+[2026-04-01 04:48:53] [32MINFO[39M: Clicked Continue Shopping button
+[2026-04-01 04:48:53] [32MINFO[39M: STEP: Waiting for element: [data-test="inventory-container"]
+[2026-04-01 04:48:53] [32MINFO[39M: ✓ ASSERTION PASSED: URL contains inventory.html
+[2026-04-01 04:48:53] [32MINFO[39M: ✓ ASSERTION PASSED: Successfully navigated back to inventory page
+[2026-04-01 04:48:53] [32MINFO[39M: ✓ ASSERTION PASSED: Cart badge count is still 0
+[2026-04-01 04:48:53] [32MINFO[39M: ========== TEST ENDED: Cart Test - Completed ==========
 ]]>
 </system-out>
 </testcase>
-<testcase name="Checkout - Checkout Page Tests › TC-002: Verify cancel button returns to cart page" classname="checkout\checkout.spec.js" time="1.126">
+<testcase name="Cart - Cart Tests › TC-004: Verify &quot;Checkout&quot; button navigates to checkout page" classname="cart\cart.spec.js" time="1.043">
 <system-out>
-<![CDATA[[2026-03-31 04:38:01] [32MINFO[39M: STEP: Navigating to: https://www.saucedemo.com
-[2026-03-31 04:38:02] [32MINFO[39M: STEP: Filling element [data-test="username"] with: standard_user
-[2026-03-31 04:38:02] [32MINFO[39M: STEP: Filling element [data-test="password"] with: secret_sauce
-[2026-03-31 04:38:02] [32MINFO[39M: STEP: Clicking element: [data-test="login-button"]
-[2026-03-31 04:38:02] [32MINFO[39M: ========== TEST STARTED: Checkout Page Test ==========
-[2026-03-31 04:38:02] [32MINFO[39M: STEP: Clicking element: [data-test="shopping-cart-link"]
-[2026-03-31 04:38:02] [32MINFO[39M: STEP: Clicking element: [data-test="checkout"]
-[2026-03-31 04:38:02] [32MINFO[39M: STEP: Waiting for element: [data-test="checkout-info-container"]
-[2026-03-31 04:38:02] [32MINFO[39M: Test Case: TC-002 - Verify cancel button returns to cart page
-[2026-03-31 04:38:02] [32MINFO[39M: STEP: Clicking element: [data-test="cancel"]
-[2026-03-31 04:38:02] [32MINFO[39M: Clicked cancel button
-[2026-03-31 04:38:02] [32MINFO[39M: ✓ ASSERTION PASSED: Navigated back to cart page
-[2026-03-31 04:38:02] [32MINFO[39M: ✓ ASSERTION PASSED: Cart page is displayed
-[2026-03-31 04:38:02] [32MINFO[39M: ✓ ASSERTION PASSED: Cart still contains 1 item
-[2026-03-31 04:38:02] [32MINFO[39M: ========== TEST ENDED: Checkout Page Test - Completed ==========
-]]>
-</system-out>
-</testcase>
-<testcase name="Checkout - Checkout Page Tests › TC-003: Verify error messages for empty required fields" classname="checkout\checkout.spec.js" time="2.113">
-<system-out>
-<![CDATA[[2026-03-31 04:38:02] [32MINFO[39M: STEP: Navigating to: https://www.saucedemo.com
-[2026-03-31 04:38:02] [32MINFO[39M: STEP: Filling element [data-test="username"] with: standard_user
-[2026-03-31 04:38:02] [32MINFO[39M: STEP: Filling element [data-test="password"] with: secret_sauce
-[2026-03-31 04:38:02] [32MINFO[39M: STEP: Clicking element: [data-test="login-button"]
-[2026-03-31 04:38:03] [32MINFO[39M: ========== TEST STARTED: Checkout Page Test ==========
-[2026-03-31 04:38:03] [32MINFO[39M: STEP: Clicking element: [data-test="shopping-cart-link"]
-[2026-03-31 04:38:03] [32MINFO[39M: STEP: Clicking element: [data-test="checkout"]
-[2026-03-31 04:38:03] [32MINFO[39M: STEP: Waiting for element: [data-test="checkout-info-container"]
-[2026-03-31 04:38:03] [32MINFO[39M: Test Case: TC-003 - Verify error messages for empty required fields
-[2026-03-31 04:38:03] [32MINFO[39M: Testing validation for empty first name
-[2026-03-31 04:38:03] [32MINFO[39M: STEP: Filling element [data-test="lastName"] with: Doe
-[2026-03-31 04:38:03] [32MINFO[39M: STEP: Filling element [data-test="postalCode"] with: 12345
-[2026-03-31 04:38:03] [32MINFO[39M: STEP: Clicking element: [data-test="continue"]
-[2026-03-31 04:38:03] [32MINFO[39M: Clicked continue button with empty first name
-[2026-03-31 04:38:03] [32MINFO[39M: ✓ ASSERTION PASSED: Error message is displayed for empty first name
-[2026-03-31 04:38:03] [32MINFO[39M: Text from [data-test="error"]: Error: First Name is required
-[2026-03-31 04:38:03] [32MINFO[39M: ✓ ASSERTION PASSED: Error message contains "First Name is required"
-[2026-03-31 04:38:03] [32MINFO[39M: STEP: Waiting for element: [data-test="checkout-info-container"]
-[2026-03-31 04:38:03] [32MINFO[39M: Testing validation for empty last name
-[2026-03-31 04:38:03] [32MINFO[39M: STEP: Filling element [data-test="firstName"] with: John
-[2026-03-31 04:38:03] [32MINFO[39M: STEP: Filling element [data-test="postalCode"] with: 12345
-[2026-03-31 04:38:03] [32MINFO[39M: STEP: Clicking element: [data-test="continue"]
-[2026-03-31 04:38:03] [32MINFO[39M: Clicked continue button with empty last name
-[2026-03-31 04:38:03] [32MINFO[39M: ✓ ASSERTION PASSED: Error message is displayed for empty last name
-[2026-03-31 04:38:03] [32MINFO[39M: Text from [data-test="error"]: Error: Last Name is required
-[2026-03-31 04:38:03] [32MINFO[39M: ✓ ASSERTION PASSED: Error message contains "Last Name is required"
-[2026-03-31 04:38:03] [32MINFO[39M: STEP: Waiting for element: [data-test="checkout-info-container"]
-[2026-03-31 04:38:03] [32MINFO[39M: Testing validation for empty postal code
-[2026-03-31 04:38:03] [32MINFO[39M: STEP: Filling element [data-test="firstName"] with: John
-[2026-03-31 04:38:03] [32MINFO[39M: STEP: Filling element [data-test="lastName"] with: Doe
-[2026-03-31 04:38:03] [32MINFO[39M: STEP: Clicking element: [data-test="continue"]
-[2026-03-31 04:38:04] [32MINFO[39M: Clicked continue button with empty postal code
-[2026-03-31 04:38:04] [32MINFO[39M: ✓ ASSERTION PASSED: Error message is displayed for empty postal code
-[2026-03-31 04:38:04] [32MINFO[39M: Text from [data-test="error"]: Error: Postal Code is required
-[2026-03-31 04:38:04] [32MINFO[39M: ✓ ASSERTION PASSED: Error message contains "Postal Code is required"
-[2026-03-31 04:38:04] [32MINFO[39M: ========== TEST ENDED: Checkout Page Test - Completed ==========
+<![CDATA[[2026-04-01 04:48:53] [32MINFO[39M: STEP: Navigating to: https://www.saucedemo.com
+[2026-04-01 04:48:53] [32MINFO[39M: STEP: Filling element [data-test="username"] with: standard_user
+[2026-04-01 04:48:53] [32MINFO[39M: STEP: Filling element [data-test="password"] with: secret_sauce
+[2026-04-01 04:48:53] [32MINFO[39M: STEP: Clicking element: [data-test="login-button"]
+[2026-04-01 04:48:53] [32MINFO[39M: ========== TEST STARTED: Cart Test ==========
+[2026-04-01 04:48:53] [32MINFO[39M: Test Case: TC-004 - Verify "Checkout" button navigates to checkout page
+[2026-04-01 04:48:53] [32MINFO[39M: ✓ ASSERTION PASSED: Inventory container is visible
+[2026-04-01 04:48:53] [32MINFO[39M: Adding product to cart: Sauce Labs Backpack
+[2026-04-01 04:48:53] [32MINFO[39M: Added Sauce Labs Backpack to cart
+[2026-04-01 04:48:53] [32MINFO[39M: Text from .shopping_cart_badge: 1
+[2026-04-01 04:48:53] [32MINFO[39M: ✓ ASSERTION PASSED: Cart badge count is 1 after adding product
+[2026-04-01 04:48:53] [32MINFO[39M: STEP: Clicking element: [data-test="shopping-cart-link"]
+[2026-04-01 04:48:53] [32MINFO[39M: Clicked cart icon to navigate to cart page
+[2026-04-01 04:48:53] [32MINFO[39M: STEP: Waiting for element: [data-test="cart-contents-container"]
+[2026-04-01 04:48:54] [32MINFO[39M: ✓ ASSERTION PASSED: Cart page is displayed
+[2026-04-01 04:48:54] [32MINFO[39M: ✓ ASSERTION PASSED: Product "Sauce Labs Backpack" is in cart
+[2026-04-01 04:48:54] [32MINFO[39M: ✓ ASSERTION PASSED: Checkout button is visible
+[2026-04-01 04:48:54] [32MINFO[39M: STEP: Clicking element: [data-test="checkout"]
+[2026-04-01 04:48:54] [32MINFO[39M: Clicked Checkout button
+[2026-04-01 04:48:54] [32MINFO[39M: STEP: Waiting for element: [data-test="checkout-info-container"]
+[2026-04-01 04:48:54] [32MINFO[39M: ✓ ASSERTION PASSED: URL contains checkout-step-one.html
+[2026-04-01 04:48:54] [32MINFO[39M: ✓ ASSERTION PASSED: Checkout page is displayed
+[2026-04-01 04:48:54] [32MINFO[39M: ========== TEST ENDED: Cart Test - Completed ==========
 ]]>
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="inventory\inventory.spec.js" timestamp="2026-03-31T04:37:45.732Z" hostname="chromium" tests="8" failures="0" skipped="0" time="10.393" errors="0">
-<testcase name="Inventory - Inventory Tests › TC-001: Verify all items are present in inventory page" classname="inventory\inventory.spec.js" time="1.194">
+<testsuite name="checkout\checkout-overview.spec.js" timestamp="2026-04-01T04:48:41.211Z" hostname="chromium" tests="2" failures="0" skipped="0" time="3.431" errors="0">
+<testcase name="Checkout - Checkout Overview Page Tests › TC-001: Verify product details and complete order" classname="checkout\checkout-overview.spec.js" time="1.771">
 <system-out>
-<![CDATA[[2026-03-31 04:38:03] [32MINFO[39M: STEP: Navigating to: https://www.saucedemo.com
-[2026-03-31 04:38:03] [32MINFO[39M: STEP: Filling element [data-test="username"] with: standard_user
-[2026-03-31 04:38:03] [32MINFO[39M: STEP: Filling element [data-test="password"] with: secret_sauce
-[2026-03-31 04:38:03] [32MINFO[39M: STEP: Clicking element: [data-test="login-button"]
-[2026-03-31 04:38:03] [32MINFO[39M: ========== TEST STARTED: Inventory Test ==========
-[2026-03-31 04:38:03] [32MINFO[39M: Test Case: TC-001 - All items are present in inventory page
-[2026-03-31 04:38:03] [32MINFO[39M: ✓ ASSERTION PASSED: Inventory container is visible
-[2026-03-31 04:38:03] [32MINFO[39M: ✓ ASSERTION PASSED: Sauce Labs Backpack is displayed
-[2026-03-31 04:38:03] [32MINFO[39M: ✓ ASSERTION PASSED: Sauce Labs Bike Light is displayed
-[2026-03-31 04:38:03] [32MINFO[39M: ✓ ASSERTION PASSED: Sauce Labs Bolt T-Shirt is displayed
-[2026-03-31 04:38:03] [32MINFO[39M: ✓ ASSERTION PASSED: Sauce Labs Fleece Jacket is displayed
-[2026-03-31 04:38:03] [32MINFO[39M: ✓ ASSERTION PASSED: Sauce Labs Onesie is displayed
-[2026-03-31 04:38:03] [32MINFO[39M: ✓ ASSERTION PASSED: Test.allTheThings() T-Shirt (Red) is displayed
-[2026-03-31 04:38:03] [32MINFO[39M: ========== TEST ENDED: Inventory Test - Completed ==========
+<![CDATA[[2026-04-01 04:48:53] [32MINFO[39M: STEP: Navigating to: https://www.saucedemo.com
+[2026-04-01 04:48:53] [32MINFO[39M: STEP: Filling element [data-test="username"] with: standard_user
+[2026-04-01 04:48:53] [32MINFO[39M: STEP: Filling element [data-test="password"] with: secret_sauce
+[2026-04-01 04:48:53] [32MINFO[39M: STEP: Clicking element: [data-test="login-button"]
+[2026-04-01 04:48:54] [32MINFO[39M: ========== TEST STARTED: Checkout Overview Page Test ==========
+[2026-04-01 04:48:54] [32MINFO[39M: Selected product: Sauce Labs Backpack, Price: $29.99
+[2026-04-01 04:48:54] [32MINFO[39M: STEP: Clicking element: [data-test="shopping-cart-link"]
+[2026-04-01 04:48:54] [32MINFO[39M: STEP: Clicking element: [data-test="checkout"]
+[2026-04-01 04:48:54] [32MINFO[39M: STEP: Waiting for element: [data-test="checkout-info-container"]
+[2026-04-01 04:48:54] [32MINFO[39M: STEP: Filling element [data-test="firstName"] with: John
+[2026-04-01 04:48:54] [32MINFO[39M: STEP: Filling element [data-test="lastName"] with: Doe
+[2026-04-01 04:48:54] [32MINFO[39M: STEP: Filling element [data-test="postalCode"] with: 12345
+[2026-04-01 04:48:54] [32MINFO[39M: STEP: Clicking element: [data-test="continue"]
+[2026-04-01 04:48:54] [32MINFO[39M: STEP: Waiting for element: [data-test="checkout-summary-container"]
+[2026-04-01 04:48:54] [32MINFO[39M: Test Case: TC-001 - Verify product details and complete order
+[2026-04-01 04:48:54] [32MINFO[39M: ✓ ASSERTION PASSED: Checkout overview contains 1 item
+[2026-04-01 04:48:54] [32MINFO[39M: Overview item details - Name: Sauce Labs Backpack, Price: $29.99, Quantity: 1
+[2026-04-01 04:48:54] [32MINFO[39M: ✓ ASSERTION PASSED: Product name matches: "Sauce Labs Backpack"
+[2026-04-01 04:48:54] [32MINFO[39M: ✓ ASSERTION PASSED: Product description matches
+[2026-04-01 04:48:54] [32MINFO[39M: ✓ ASSERTION PASSED: Product price matches: $29.99
+[2026-04-01 04:48:54] [32MINFO[39M: ✓ ASSERTION PASSED: Product quantity is 1
+[2026-04-01 04:48:54] [32MINFO[39M: STEP: Clicking element: [data-test="finish"]
+[2026-04-01 04:48:54] [32MINFO[39M: Clicked finish button
+[2026-04-01 04:48:54] [32MINFO[39M: ✓ ASSERTION PASSED: Navigated to checkout complete page
+[2026-04-01 04:48:54] [32MINFO[39M: ✓ ASSERTION PASSED: Checkout complete page is displayed
+[2026-04-01 04:48:54] [32MINFO[39M: ✓ ASSERTION PASSED: Success header is displayed
+[2026-04-01 04:48:54] [32MINFO[39M: Text from [data-test="complete-header"]: Thank you for your order!
+[2026-04-01 04:48:54] [32MINFO[39M: ✓ ASSERTION PASSED: Success message contains "Thank you for your order"
+[2026-04-01 04:48:54] [32MINFO[39M: ========== TEST ENDED: Checkout Overview Page Test - Completed ==========
 ]]>
 </system-out>
 </testcase>
-<testcase name="Inventory - Inventory Tests › TC-002: Verify all navigation in inventory page" classname="inventory\inventory.spec.js" time="1.781">
+<testcase name="Checkout - Checkout Overview Page Tests › TC-002: Verify cancel button navigation" classname="checkout\checkout-overview.spec.js" time="1.66">
 <system-out>
-<![CDATA[[2026-03-31 04:38:04] [32MINFO[39M: STEP: Navigating to: https://www.saucedemo.com
-[2026-03-31 04:38:04] [32MINFO[39M: STEP: Filling element [data-test="username"] with: standard_user
-[2026-03-31 04:38:04] [32MINFO[39M: STEP: Filling element [data-test="password"] with: secret_sauce
-[2026-03-31 04:38:04] [32MINFO[39M: STEP: Clicking element: [data-test="login-button"]
-[2026-03-31 04:38:04] [32MINFO[39M: ========== TEST STARTED: Inventory Test ==========
-[2026-03-31 04:38:04] [32MINFO[39M: Test Case: TC-002 - All navigation in inventory page
-[2026-03-31 04:38:04] [32MINFO[39M: ✓ ASSERTION PASSED: Inventory container is visible
-[2026-03-31 04:38:04] [32MINFO[39M: ✓ ASSERTION PASSED: Sauce Labs Backpack name is displayed on product details page
-[2026-03-31 04:38:04] [32MINFO[39M: STEP: Clicking element: [data-test="back-to-products"]
-[2026-03-31 04:38:05] [32MINFO[39M: ✓ ASSERTION PASSED: Sauce Labs Bike Light name is displayed on product details page
-[2026-03-31 04:38:05] [32MINFO[39M: STEP: Clicking element: [data-test="back-to-products"]
-[2026-03-31 04:38:05] [32MINFO[39M: ✓ ASSERTION PASSED: Sauce Labs Bolt T-Shirt name is displayed on product details page
-[2026-03-31 04:38:05] [32MINFO[39M: STEP: Clicking element: [data-test="back-to-products"]
-[2026-03-31 04:38:05] [32MINFO[39M: ✓ ASSERTION PASSED: Sauce Labs Fleece Jacket name is displayed on product details page
-[2026-03-31 04:38:05] [32MINFO[39M: STEP: Clicking element: [data-test="back-to-products"]
-[2026-03-31 04:38:05] [32MINFO[39M: ✓ ASSERTION PASSED: Sauce Labs Onesie name is displayed on product details page
-[2026-03-31 04:38:05] [32MINFO[39M: STEP: Clicking element: [data-test="back-to-products"]
-[2026-03-31 04:38:05] [32MINFO[39M: ✓ ASSERTION PASSED: Test.allTheThings() T-Shirt (Red) name is displayed on product details page
-[2026-03-31 04:38:05] [32MINFO[39M: STEP: Clicking element: [data-test="back-to-products"]
-[2026-03-31 04:38:05] [32MINFO[39M: ========== TEST ENDED: Inventory Test - Completed ==========
+<![CDATA[[2026-04-01 04:48:54] [32MINFO[39M: STEP: Navigating to: https://www.saucedemo.com
+[2026-04-01 04:48:54] [32MINFO[39M: STEP: Filling element [data-test="username"] with: standard_user
+[2026-04-01 04:48:54] [32MINFO[39M: STEP: Filling element [data-test="password"] with: secret_sauce
+[2026-04-01 04:48:54] [32MINFO[39M: STEP: Clicking element: [data-test="login-button"]
+[2026-04-01 04:48:55] [32MINFO[39M: ========== TEST STARTED: Checkout Overview Page Test ==========
+[2026-04-01 04:48:55] [32MINFO[39M: Selected product: Sauce Labs Backpack, Price: $29.99
+[2026-04-01 04:48:55] [32MINFO[39M: STEP: Clicking element: [data-test="shopping-cart-link"]
+[2026-04-01 04:48:55] [32MINFO[39M: STEP: Clicking element: [data-test="checkout"]
+[2026-04-01 04:48:55] [32MINFO[39M: STEP: Waiting for element: [data-test="checkout-info-container"]
+[2026-04-01 04:48:55] [32MINFO[39M: STEP: Filling element [data-test="firstName"] with: John
+[2026-04-01 04:48:55] [32MINFO[39M: STEP: Filling element [data-test="lastName"] with: Doe
+[2026-04-01 04:48:55] [32MINFO[39M: STEP: Filling element [data-test="postalCode"] with: 12345
+[2026-04-01 04:48:55] [32MINFO[39M: STEP: Clicking element: [data-test="continue"]
+[2026-04-01 04:48:55] [32MINFO[39M: STEP: Waiting for element: [data-test="checkout-summary-container"]
+[2026-04-01 04:48:55] [32MINFO[39M: Test Case: TC-002 - Verify cancel button navigation
+[2026-04-01 04:48:55] [32MINFO[39M: STEP: Clicking element: [data-test="cancel"]
+[2026-04-01 04:48:55] [32MINFO[39M: Clicked cancel button
+[2026-04-01 04:48:55] [32MINFO[39M: ✓ ASSERTION PASSED: Navigated to inventory page
+[2026-04-01 04:48:55] [32MINFO[39M: STEP: Waiting for element: [data-test="inventory-container"]
+[2026-04-01 04:48:55] [32MINFO[39M: ✓ ASSERTION PASSED: Inventory page is displayed
+[2026-04-01 04:48:55] [32MINFO[39M: ========== TEST ENDED: Checkout Overview Page Test - Completed ==========
 ]]>
 </system-out>
 </testcase>
-<testcase name="Inventory - Inventory Tests › TC-003: Verify sorting products by Name (A to Z)" classname="inventory\inventory.spec.js" time="1.288">
+</testsuite>
+<testsuite name="checkout\checkout.spec.js" timestamp="2026-04-01T04:48:41.211Z" hostname="chromium" tests="3" failures="0" skipped="0" time="4.394" errors="0">
+<testcase name="Checkout - Checkout Page Tests › TC-001: Verify filling checkout form with valid data and continue to checkout overview" classname="checkout\checkout.spec.js" time="1.319">
 <system-out>
-<![CDATA[[2026-03-31 04:38:04] [32MINFO[39M: STEP: Navigating to: https://www.saucedemo.com
-[2026-03-31 04:38:04] [32MINFO[39M: STEP: Filling element [data-test="username"] with: standard_user
-[2026-03-31 04:38:04] [32MINFO[39M: STEP: Filling element [data-test="password"] with: secret_sauce
-[2026-03-31 04:38:04] [32MINFO[39M: STEP: Clicking element: [data-test="login-button"]
-[2026-03-31 04:38:05] [32MINFO[39M: ========== TEST STARTED: Inventory Test ==========
-[2026-03-31 04:38:05] [32MINFO[39M: Test Case: TC-003 - Verify sorting products by Name (A to Z)
-[2026-03-31 04:38:05] [32MINFO[39M: ✓ ASSERTION PASSED: Inventory container is visible
-[2026-03-31 04:38:05] [32MINFO[39M: Text from [data-test="active-option"]: Name (A to Z)
-[2026-03-31 04:38:05] [32MINFO[39M: ✓ ASSERTION PASSED: Default active sort option is "Name (A to Z)"
-[2026-03-31 04:38:05] [32MINFO[39M: Products before sort: Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket, Sauce Labs Onesie, Test.allTheThings() T-Shirt (Red)
-[2026-03-31 04:38:05] [32MINFO[39M: ✓ ASSERTION PASSED: Products are sorted by name A to Z by default
-[2026-03-31 04:38:05] [32MINFO[39M: Text from [data-test="active-option"]: Name (A to Z)
-[2026-03-31 04:38:05] [32MINFO[39M: ✓ ASSERTION PASSED: Active sort option displays "Name (A to Z)"
-[2026-03-31 04:38:05] [32MINFO[39M: Products after sort: Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket, Sauce Labs Onesie, Test.allTheThings() T-Shirt (Red)
-[2026-03-31 04:38:05] [32MINFO[39M: ✓ ASSERTION PASSED: Products are sorted by name A to Z
-[2026-03-31 04:38:05] [32MINFO[39M: ========== TEST ENDED: Inventory Test - Completed ==========
+<![CDATA[[2026-04-01 04:48:55] [32MINFO[39M: STEP: Navigating to: https://www.saucedemo.com
+[2026-04-01 04:48:55] [32MINFO[39M: STEP: Filling element [data-test="username"] with: standard_user
+[2026-04-01 04:48:55] [32MINFO[39M: STEP: Filling element [data-test="password"] with: secret_sauce
+[2026-04-01 04:48:55] [32MINFO[39M: STEP: Clicking element: [data-test="login-button"]
+[2026-04-01 04:48:55] [32MINFO[39M: ========== TEST STARTED: Checkout Page Test ==========
+[2026-04-01 04:48:55] [32MINFO[39M: STEP: Clicking element: [data-test="shopping-cart-link"]
+[2026-04-01 04:48:56] [32MINFO[39M: STEP: Clicking element: [data-test="checkout"]
+[2026-04-01 04:48:56] [32MINFO[39M: STEP: Waiting for element: [data-test="checkout-info-container"]
+[2026-04-01 04:48:56] [32MINFO[39M: Test Case: TC-001 - Verify filling checkout form with valid data and continue to checkout overview
+[2026-04-01 04:48:56] [32MINFO[39M: STEP: Filling element [data-test="firstName"] with: John
+[2026-04-01 04:48:56] [32MINFO[39M: STEP: Filling element [data-test="lastName"] with: Doe
+[2026-04-01 04:48:56] [32MINFO[39M: STEP: Filling element [data-test="postalCode"] with: 12345
+[2026-04-01 04:48:56] [32MINFO[39M: Filled checkout form with: John Doe, 12345
+[2026-04-01 04:48:56] [32MINFO[39M: ✓ ASSERTION PASSED: First name field contains correct value
+[2026-04-01 04:48:56] [32MINFO[39M: ✓ ASSERTION PASSED: Last name field contains correct value
+[2026-04-01 04:48:56] [32MINFO[39M: ✓ ASSERTION PASSED: Postal code field contains correct value
+[2026-04-01 04:48:56] [32MINFO[39M: STEP: Clicking element: [data-test="continue"]
+[2026-04-01 04:48:56] [32MINFO[39M: Clicked continue button
+[2026-04-01 04:48:56] [32MINFO[39M: ✓ ASSERTION PASSED: Navigated to checkout overview page
+[2026-04-01 04:48:56] [32MINFO[39M: ========== TEST ENDED: Checkout Page Test - Completed ==========
 ]]>
 </system-out>
 </testcase>
-<testcase name="Inventory - Inventory Tests › TC-004: Verify sorting products by Name (Z to A)" classname="inventory\inventory.spec.js" time="1.37">
+<testcase name="Checkout - Checkout Page Tests › TC-002: Verify cancel button returns to cart page" classname="checkout\checkout.spec.js" time="1.297">
 <system-out>
-<![CDATA[[2026-03-31 04:38:05] [32MINFO[39M: STEP: Navigating to: https://www.saucedemo.com
-[2026-03-31 04:38:06] [32MINFO[39M: STEP: Filling element [data-test="username"] with: standard_user
-[2026-03-31 04:38:06] [32MINFO[39M: STEP: Filling element [data-test="password"] with: secret_sauce
-[2026-03-31 04:38:06] [32MINFO[39M: STEP: Clicking element: [data-test="login-button"]
-[2026-03-31 04:38:06] [32MINFO[39M: ========== TEST STARTED: Inventory Test ==========
-[2026-03-31 04:38:06] [32MINFO[39M: Test Case: TC-004 - Verify sorting products by Name (Z to A)
-[2026-03-31 04:38:06] [32MINFO[39M: ✓ ASSERTION PASSED: Inventory container is visible
-[2026-03-31 04:38:06] [32MINFO[39M: Products before sort: Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket, Sauce Labs Onesie, Test.allTheThings() T-Shirt (Red)
-[2026-03-31 04:38:06] [32MINFO[39M: Text from [data-test="active-option"]: Name (Z to A)
-[2026-03-31 04:38:06] [32MINFO[39M: ✓ ASSERTION PASSED: Active sort option displays "Name (Z to A)"
-[2026-03-31 04:38:06] [32MINFO[39M: Products after sort: Test.allTheThings() T-Shirt (Red), Sauce Labs Onesie, Sauce Labs Fleece Jacket, Sauce Labs Bolt T-Shirt, Sauce Labs Bike Light, Sauce Labs Backpack
-[2026-03-31 04:38:06] [32MINFO[39M: ✓ ASSERTION PASSED: Products are sorted by name Z to A
-[2026-03-31 04:38:06] [32MINFO[39M: ========== TEST ENDED: Inventory Test - Completed ==========
+<![CDATA[[2026-04-01 04:48:56] [32MINFO[39M: STEP: Navigating to: https://www.saucedemo.com
+[2026-04-01 04:48:56] [32MINFO[39M: STEP: Filling element [data-test="username"] with: standard_user
+[2026-04-01 04:48:56] [32MINFO[39M: STEP: Filling element [data-test="password"] with: secret_sauce
+[2026-04-01 04:48:56] [32MINFO[39M: STEP: Clicking element: [data-test="login-button"]
+[2026-04-01 04:48:56] [32MINFO[39M: ========== TEST STARTED: Checkout Page Test ==========
+[2026-04-01 04:48:56] [32MINFO[39M: STEP: Clicking element: [data-test="shopping-cart-link"]
+[2026-04-01 04:48:56] [32MINFO[39M: STEP: Clicking element: [data-test="checkout"]
+[2026-04-01 04:48:56] [32MINFO[39M: STEP: Waiting for element: [data-test="checkout-info-container"]
+[2026-04-01 04:48:56] [32MINFO[39M: Test Case: TC-002 - Verify cancel button returns to cart page
+[2026-04-01 04:48:56] [32MINFO[39M: STEP: Clicking element: [data-test="cancel"]
+[2026-04-01 04:48:56] [32MINFO[39M: Clicked cancel button
+[2026-04-01 04:48:56] [32MINFO[39M: ✓ ASSERTION PASSED: Navigated back to cart page
+[2026-04-01 04:48:56] [32MINFO[39M: ✓ ASSERTION PASSED: Cart page is displayed
+[2026-04-01 04:48:57] [32MINFO[39M: ✓ ASSERTION PASSED: Cart still contains 1 item
+[2026-04-01 04:48:57] [32MINFO[39M: ========== TEST ENDED: Checkout Page Test - Completed ==========
 ]]>
 </system-out>
 </testcase>
-<testcase name="Inventory - Inventory Tests › TC-005: Verify sorting products by Price (low to high)" classname="inventory\inventory.spec.js" time="1.2">
+<testcase name="Checkout - Checkout Page Tests › TC-003: Verify error messages for empty required fields" classname="checkout\checkout.spec.js" time="1.778">
 <system-out>
-<![CDATA[[2026-03-31 04:38:06] [32MINFO[39M: STEP: Navigating to: https://www.saucedemo.com
-[2026-03-31 04:38:06] [32MINFO[39M: STEP: Filling element [data-test="username"] with: standard_user
-[2026-03-31 04:38:06] [32MINFO[39M: STEP: Filling element [data-test="password"] with: secret_sauce
-[2026-03-31 04:38:06] [32MINFO[39M: STEP: Clicking element: [data-test="login-button"]
-[2026-03-31 04:38:06] [32MINFO[39M: ========== TEST STARTED: Inventory Test ==========
-[2026-03-31 04:38:06] [32MINFO[39M: Test Case: TC-005 - Verify sorting products by Price (low to high)
-[2026-03-31 04:38:06] [32MINFO[39M: ✓ ASSERTION PASSED: Inventory container is visible
-[2026-03-31 04:38:06] [32MINFO[39M: Product prices before sort: $29.99, $9.99, $15.99, $49.99, $7.99, $15.99
-[2026-03-31 04:38:06] [32MINFO[39M: Text from [data-test="active-option"]: Price (low to high)
-[2026-03-31 04:38:06] [32MINFO[39M: ✓ ASSERTION PASSED: Active sort option displays "Price (low to high)"
-[2026-03-31 04:38:06] [32MINFO[39M: Product prices after sort: $7.99, $9.99, $15.99, $15.99, $29.99, $49.99
-[2026-03-31 04:38:06] [32MINFO[39M: ✓ ASSERTION PASSED: Products are sorted by price low to high
-[2026-03-31 04:38:06] [32MINFO[39M: ========== TEST ENDED: Inventory Test - Completed ==========
+<![CDATA[[2026-04-01 04:48:56] [32MINFO[39M: STEP: Navigating to: https://www.saucedemo.com
+[2026-04-01 04:48:57] [32MINFO[39M: STEP: Filling element [data-test="username"] with: standard_user
+[2026-04-01 04:48:57] [32MINFO[39M: STEP: Filling element [data-test="password"] with: secret_sauce
+[2026-04-01 04:48:57] [32MINFO[39M: STEP: Clicking element: [data-test="login-button"]
+[2026-04-01 04:48:57] [32MINFO[39M: ========== TEST STARTED: Checkout Page Test ==========
+[2026-04-01 04:48:57] [32MINFO[39M: STEP: Clicking element: [data-test="shopping-cart-link"]
+[2026-04-01 04:48:57] [32MINFO[39M: STEP: Clicking element: [data-test="checkout"]
+[2026-04-01 04:48:57] [32MINFO[39M: STEP: Waiting for element: [data-test="checkout-info-container"]
+[2026-04-01 04:48:57] [32MINFO[39M: Test Case: TC-003 - Verify error messages for empty required fields
+[2026-04-01 04:48:57] [32MINFO[39M: Testing validation for empty first name
+[2026-04-01 04:48:57] [32MINFO[39M: STEP: Filling element [data-test="lastName"] with: Doe
+[2026-04-01 04:48:57] [32MINFO[39M: STEP: Filling element [data-test="postalCode"] with: 12345
+[2026-04-01 04:48:57] [32MINFO[39M: STEP: Clicking element: [data-test="continue"]
+[2026-04-01 04:48:57] [32MINFO[39M: Clicked continue button with empty first name
+[2026-04-01 04:48:57] [32MINFO[39M: ✓ ASSERTION PASSED: Error message is displayed for empty first name
+[2026-04-01 04:48:57] [32MINFO[39M: Text from [data-test="error"]: Error: First Name is required
+[2026-04-01 04:48:57] [32MINFO[39M: ✓ ASSERTION PASSED: Error message contains "First Name is required"
+[2026-04-01 04:48:57] [32MINFO[39M: STEP: Waiting for element: [data-test="checkout-info-container"]
+[2026-04-01 04:48:57] [32MINFO[39M: Testing validation for empty last name
+[2026-04-01 04:48:57] [32MINFO[39M: STEP: Filling element [data-test="firstName"] with: John
+[2026-04-01 04:48:57] [32MINFO[39M: STEP: Filling element [data-test="postalCode"] with: 12345
+[2026-04-01 04:48:57] [32MINFO[39M: STEP: Clicking element: [data-test="continue"]
+[2026-04-01 04:48:57] [32MINFO[39M: Clicked continue button with empty last name
+[2026-04-01 04:48:57] [32MINFO[39M: ✓ ASSERTION PASSED: Error message is displayed for empty last name
+[2026-04-01 04:48:57] [32MINFO[39M: Text from [data-test="error"]: Error: Last Name is required
+[2026-04-01 04:48:57] [32MINFO[39M: ✓ ASSERTION PASSED: Error message contains "Last Name is required"
+[2026-04-01 04:48:57] [32MINFO[39M: STEP: Waiting for element: [data-test="checkout-info-container"]
+[2026-04-01 04:48:58] [32MINFO[39M: Testing validation for empty postal code
+[2026-04-01 04:48:58] [32MINFO[39M: STEP: Filling element [data-test="firstName"] with: John
+[2026-04-01 04:48:58] [32MINFO[39M: STEP: Filling element [data-test="lastName"] with: Doe
+[2026-04-01 04:48:58] [32MINFO[39M: STEP: Clicking element: [data-test="continue"]
+[2026-04-01 04:48:58] [32MINFO[39M: Clicked continue button with empty postal code
+[2026-04-01 04:48:58] [32MINFO[39M: ✓ ASSERTION PASSED: Error message is displayed for empty postal code
+[2026-04-01 04:48:58] [32MINFO[39M: Text from [data-test="error"]: Error: Postal Code is required
+[2026-04-01 04:48:58] [32MINFO[39M: ✓ ASSERTION PASSED: Error message contains "Postal Code is required"
+[2026-04-01 04:48:58] [32MINFO[39M: ========== TEST ENDED: Checkout Page Test - Completed ==========
 ]]>
 </system-out>
 </testcase>
-<testcase name="Inventory - Inventory Tests › TC-006: Verify sorting products by Price (high to low)" classname="inventory\inventory.spec.js" time="1.073">
+</testsuite>
+<testsuite name="inventory\inventory.spec.js" timestamp="2026-04-01T04:48:41.211Z" hostname="chromium" tests="8" failures="0" skipped="0" time="10.093" errors="0">
+<testcase name="Inventory - Inventory Tests › TC-001: Verify all items are present in inventory page" classname="inventory\inventory.spec.js" time="0.989">
 <system-out>
-<![CDATA[[2026-03-31 04:38:07] [32MINFO[39M: STEP: Navigating to: https://www.saucedemo.com
-[2026-03-31 04:38:07] [32MINFO[39M: STEP: Filling element [data-test="username"] with: standard_user
-[2026-03-31 04:38:07] [32MINFO[39M: STEP: Filling element [data-test="password"] with: secret_sauce
-[2026-03-31 04:38:07] [32MINFO[39M: STEP: Clicking element: [data-test="login-button"]
-[2026-03-31 04:38:07] [32MINFO[39M: ========== TEST STARTED: Inventory Test ==========
-[2026-03-31 04:38:07] [32MINFO[39M: Test Case: TC-006 - Verify sorting products by Price (high to low)
-[2026-03-31 04:38:07] [32MINFO[39M: ✓ ASSERTION PASSED: Inventory container is visible
-[2026-03-31 04:38:07] [32MINFO[39M: Product prices before sort: $29.99, $9.99, $15.99, $49.99, $7.99, $15.99
-[2026-03-31 04:38:07] [32MINFO[39M: Text from [data-test="active-option"]: Price (high to low)
-[2026-03-31 04:38:07] [32MINFO[39M: ✓ ASSERTION PASSED: Active sort option displays "Price (high to low)"
-[2026-03-31 04:38:07] [32MINFO[39M: Product prices after sort: $49.99, $29.99, $15.99, $15.99, $9.99, $7.99
-[2026-03-31 04:38:07] [32MINFO[39M: ✓ ASSERTION PASSED: Products are sorted by price high to low
-[2026-03-31 04:38:07] [32MINFO[39M: ========== TEST ENDED: Inventory Test - Completed ==========
+<![CDATA[[2026-04-01 04:48:57] [32MINFO[39M: STEP: Navigating to: https://www.saucedemo.com
+[2026-04-01 04:48:57] [32MINFO[39M: STEP: Filling element [data-test="username"] with: standard_user
+[2026-04-01 04:48:57] [32MINFO[39M: STEP: Filling element [data-test="password"] with: secret_sauce
+[2026-04-01 04:48:57] [32MINFO[39M: STEP: Clicking element: [data-test="login-button"]
+[2026-04-01 04:48:58] [32MINFO[39M: ========== TEST STARTED: Inventory Test ==========
+[2026-04-01 04:48:58] [32MINFO[39M: Test Case: TC-001 - All items are present in inventory page
+[2026-04-01 04:48:58] [32MINFO[39M: ✓ ASSERTION PASSED: Inventory container is visible
+[2026-04-01 04:48:58] [32MINFO[39M: ✓ ASSERTION PASSED: Sauce Labs Backpack is displayed
+[2026-04-01 04:48:58] [32MINFO[39M: ✓ ASSERTION PASSED: Sauce Labs Bike Light is displayed
+[2026-04-01 04:48:58] [32MINFO[39M: ✓ ASSERTION PASSED: Sauce Labs Bolt T-Shirt is displayed
+[2026-04-01 04:48:58] [32MINFO[39M: ✓ ASSERTION PASSED: Sauce Labs Fleece Jacket is displayed
+[2026-04-01 04:48:58] [32MINFO[39M: ✓ ASSERTION PASSED: Sauce Labs Onesie is displayed
+[2026-04-01 04:48:58] [32MINFO[39M: ✓ ASSERTION PASSED: Test.allTheThings() T-Shirt (Red) is displayed
+[2026-04-01 04:48:58] [32MINFO[39M: ========== TEST ENDED: Inventory Test - Completed ==========
 ]]>
 </system-out>
 </testcase>
-<testcase name="Inventory - Inventory Tests › TC-007: Verify &quot;Add to cart&quot; button changes to &quot;Remove&quot; and cart badge updates" classname="inventory\inventory.spec.js" time="1.313">
+<testcase name="Inventory - Inventory Tests › TC-002: Verify all navigation in inventory page" classname="inventory\inventory.spec.js" time="1.828">
 <system-out>
-<![CDATA[[2026-03-31 04:38:07] [32MINFO[39M: STEP: Navigating to: https://www.saucedemo.com
-[2026-03-31 04:38:07] [32MINFO[39M: STEP: Filling element [data-test="username"] with: standard_user
-[2026-03-31 04:38:07] [32MINFO[39M: STEP: Filling element [data-test="password"] with: secret_sauce
-[2026-03-31 04:38:07] [32MINFO[39M: STEP: Clicking element: [data-test="login-button"]
-[2026-03-31 04:38:08] [32MINFO[39M: ========== TEST STARTED: Inventory Test ==========
-[2026-03-31 04:38:08] [32MINFO[39M: Test Case: TC-007 - Verify "Add to cart" button changes to "Remove" and cart badge updates
-[2026-03-31 04:38:08] [32MINFO[39M: ✓ ASSERTION PASSED: Inventory container is visible
-[2026-03-31 04:38:08] [32MINFO[39M: ✓ ASSERTION PASSED: Initial cart badge count is 0
-[2026-03-31 04:38:08] [32MINFO[39M: Selected random product: Test.allTheThings() T-Shirt (Red) (index: 5)
-[2026-03-31 04:38:08] [32MINFO[39M: ✓ ASSERTION PASSED: Initial button text is "Add to cart" for Test.allTheThings() T-Shirt (Red)
-[2026-03-31 04:38:08] [32MINFO[39M: Added Test.allTheThings() T-Shirt (Red) to cart
-[2026-03-31 04:38:08] [32MINFO[39M: ✓ ASSERTION PASSED: Button text changed to "Remove" for Test.allTheThings() T-Shirt (Red)
-[2026-03-31 04:38:08] [32MINFO[39M: Text from .shopping_cart_badge: 1
-[2026-03-31 04:38:08] [32MINFO[39M: ✓ ASSERTION PASSED: Cart badge count updated to 1
-[2026-03-31 04:38:08] [32MINFO[39M: ========== TEST ENDED: Inventory Test - Completed ==========
+<![CDATA[[2026-04-01 04:48:58] [32MINFO[39M: STEP: Navigating to: https://www.saucedemo.com
+[2026-04-01 04:48:58] [32MINFO[39M: STEP: Filling element [data-test="username"] with: standard_user
+[2026-04-01 04:48:58] [32MINFO[39M: STEP: Filling element [data-test="password"] with: secret_sauce
+[2026-04-01 04:48:58] [32MINFO[39M: STEP: Clicking element: [data-test="login-button"]
+[2026-04-01 04:48:58] [32MINFO[39M: ========== TEST STARTED: Inventory Test ==========
+[2026-04-01 04:48:58] [32MINFO[39M: Test Case: TC-002 - All navigation in inventory page
+[2026-04-01 04:48:58] [32MINFO[39M: ✓ ASSERTION PASSED: Inventory container is visible
+[2026-04-01 04:48:59] [32MINFO[39M: ✓ ASSERTION PASSED: Sauce Labs Backpack name is displayed on product details page
+[2026-04-01 04:48:59] [32MINFO[39M: STEP: Clicking element: [data-test="back-to-products"]
+[2026-04-01 04:48:59] [32MINFO[39M: ✓ ASSERTION PASSED: Sauce Labs Bike Light name is displayed on product details page
+[2026-04-01 04:48:59] [32MINFO[39M: STEP: Clicking element: [data-test="back-to-products"]
+[2026-04-01 04:48:59] [32MINFO[39M: ✓ ASSERTION PASSED: Sauce Labs Bolt T-Shirt name is displayed on product details page
+[2026-04-01 04:48:59] [32MINFO[39M: STEP: Clicking element: [data-test="back-to-products"]
+[2026-04-01 04:48:59] [32MINFO[39M: ✓ ASSERTION PASSED: Sauce Labs Fleece Jacket name is displayed on product details page
+[2026-04-01 04:48:59] [32MINFO[39M: STEP: Clicking element: [data-test="back-to-products"]
+[2026-04-01 04:48:59] [32MINFO[39M: ✓ ASSERTION PASSED: Sauce Labs Onesie name is displayed on product details page
+[2026-04-01 04:48:59] [32MINFO[39M: STEP: Clicking element: [data-test="back-to-products"]
+[2026-04-01 04:48:59] [32MINFO[39M: ✓ ASSERTION PASSED: Test.allTheThings() T-Shirt (Red) name is displayed on product details page
+[2026-04-01 04:48:59] [32MINFO[39M: STEP: Clicking element: [data-test="back-to-products"]
+[2026-04-01 04:48:59] [32MINFO[39M: ========== TEST ENDED: Inventory Test - Completed ==========
 ]]>
 </system-out>
 </testcase>
-<testcase name="Inventory - Inventory Tests › TC-008: Verify removing product from inventory page decreases cart count" classname="inventory\inventory.spec.js" time="1.174">
+<testcase name="Inventory - Inventory Tests › TC-003: Verify sorting products by Name (A to Z)" classname="inventory\inventory.spec.js" time="1.517">
 <system-out>
-<![CDATA[[2026-03-31 04:38:08] [32MINFO[39M: STEP: Navigating to: https://www.saucedemo.com
-[2026-03-31 04:38:08] [32MINFO[39M: STEP: Filling element [data-test="username"] with: standard_user
-[2026-03-31 04:38:08] [32MINFO[39M: STEP: Filling element [data-test="password"] with: secret_sauce
-[2026-03-31 04:38:08] [32MINFO[39M: STEP: Clicking element: [data-test="login-button"]
-[2026-03-31 04:38:08] [32MINFO[39M: ========== TEST STARTED: Inventory Test ==========
-[2026-03-31 04:38:08] [32MINFO[39M: Test Case: TC-008 - Verify removing product from inventory page decreases cart count
-[2026-03-31 04:38:08] [32MINFO[39M: ✓ ASSERTION PASSED: Inventory container is visible
-[2026-03-31 04:38:08] [32MINFO[39M: ✓ ASSERTION PASSED: Initial cart badge count is 0
-[2026-03-31 04:38:08] [32MINFO[39M: Selected random product: Sauce Labs Backpack (index: 0)
-[2026-03-31 04:38:08] [32MINFO[39M: Added Sauce Labs Backpack to cart
-[2026-03-31 04:38:08] [32MINFO[39M: Text from .shopping_cart_badge: 1
-[2026-03-31 04:38:08] [32MINFO[39M: ✓ ASSERTION PASSED: Cart badge count is 1 after adding product
-[2026-03-31 04:38:08] [32MINFO[39M: ✓ ASSERTION PASSED: Button text is "Remove" for Sauce Labs Backpack
-[2026-03-31 04:38:09] [32MINFO[39M: Removed Sauce Labs Backpack from cart
-[2026-03-31 04:38:09] [32MINFO[39M: ✓ ASSERTION PASSED: Button text changed back to "Add to cart" for Sauce Labs Backpack
-[2026-03-31 04:38:09] [32MINFO[39M: ✓ ASSERTION PASSED: Cart badge count decreased to 0
-[2026-03-31 04:38:09] [32MINFO[39M: ========== TEST ENDED: Inventory Test - Completed ==========
+<![CDATA[[2026-04-01 04:48:58] [32MINFO[39M: STEP: Navigating to: https://www.saucedemo.com
+[2026-04-01 04:48:58] [32MINFO[39M: STEP: Filling element [data-test="username"] with: standard_user
+[2026-04-01 04:48:59] [32MINFO[39M: STEP: Filling element [data-test="password"] with: secret_sauce
+[2026-04-01 04:48:59] [32MINFO[39M: STEP: Clicking element: [data-test="login-button"]
+[2026-04-01 04:48:59] [32MINFO[39M: ========== TEST STARTED: Inventory Test ==========
+[2026-04-01 04:48:59] [32MINFO[39M: Test Case: TC-003 - Verify sorting products by Name (A to Z)
+[2026-04-01 04:48:59] [32MINFO[39M: ✓ ASSERTION PASSED: Inventory container is visible
+[2026-04-01 04:48:59] [32MINFO[39M: Text from [data-test="active-option"]: Name (A to Z)
+[2026-04-01 04:48:59] [32MINFO[39M: ✓ ASSERTION PASSED: Default active sort option is "Name (A to Z)"
+[2026-04-01 04:48:59] [32MINFO[39M: Products before sort: Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket, Sauce Labs Onesie, Test.allTheThings() T-Shirt (Red)
+[2026-04-01 04:48:59] [32MINFO[39M: ✓ ASSERTION PASSED: Products are sorted by name A to Z by default
+[2026-04-01 04:48:59] [32MINFO[39M: Text from [data-test="active-option"]: Name (A to Z)
+[2026-04-01 04:48:59] [32MINFO[39M: ✓ ASSERTION PASSED: Active sort option displays "Name (A to Z)"
+[2026-04-01 04:48:59] [32MINFO[39M: Products after sort: Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket, Sauce Labs Onesie, Test.allTheThings() T-Shirt (Red)
+[2026-04-01 04:48:59] [32MINFO[39M: ✓ ASSERTION PASSED: Products are sorted by name A to Z
+[2026-04-01 04:48:59] [32MINFO[39M: ========== TEST ENDED: Inventory Test - Completed ==========
+]]>
+</system-out>
+</testcase>
+<testcase name="Inventory - Inventory Tests › TC-004: Verify sorting products by Name (Z to A)" classname="inventory\inventory.spec.js" time="1.293">
+<system-out>
+<![CDATA[[2026-04-01 04:49:00] [32MINFO[39M: STEP: Navigating to: https://www.saucedemo.com
+[2026-04-01 04:49:00] [32MINFO[39M: STEP: Filling element [data-test="username"] with: standard_user
+[2026-04-01 04:49:00] [32MINFO[39M: STEP: Filling element [data-test="password"] with: secret_sauce
+[2026-04-01 04:49:00] [32MINFO[39M: STEP: Clicking element: [data-test="login-button"]
+[2026-04-01 04:49:00] [32MINFO[39M: ========== TEST STARTED: Inventory Test ==========
+[2026-04-01 04:49:00] [32MINFO[39M: Test Case: TC-004 - Verify sorting products by Name (Z to A)
+[2026-04-01 04:49:00] [32MINFO[39M: ✓ ASSERTION PASSED: Inventory container is visible
+[2026-04-01 04:49:00] [32MINFO[39M: Products before sort: Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket, Sauce Labs Onesie, Test.allTheThings() T-Shirt (Red)
+[2026-04-01 04:49:00] [32MINFO[39M: Text from [data-test="active-option"]: Name (Z to A)
+[2026-04-01 04:49:00] [32MINFO[39M: ✓ ASSERTION PASSED: Active sort option displays "Name (Z to A)"
+[2026-04-01 04:49:00] [32MINFO[39M: Products after sort: Test.allTheThings() T-Shirt (Red), Sauce Labs Onesie, Sauce Labs Fleece Jacket, Sauce Labs Bolt T-Shirt, Sauce Labs Bike Light, Sauce Labs Backpack
+[2026-04-01 04:49:00] [32MINFO[39M: ✓ ASSERTION PASSED: Products are sorted by name Z to A
+[2026-04-01 04:49:00] [32MINFO[39M: ========== TEST ENDED: Inventory Test - Completed ==========
+]]>
+</system-out>
+</testcase>
+<testcase name="Inventory - Inventory Tests › TC-005: Verify sorting products by Price (low to high)" classname="inventory\inventory.spec.js" time="1.17">
+<system-out>
+<![CDATA[[2026-04-01 04:49:00] [32MINFO[39M: STEP: Navigating to: https://www.saucedemo.com
+[2026-04-01 04:49:00] [32MINFO[39M: STEP: Filling element [data-test="username"] with: standard_user
+[2026-04-01 04:49:00] [32MINFO[39M: STEP: Filling element [data-test="password"] with: secret_sauce
+[2026-04-01 04:49:00] [32MINFO[39M: STEP: Clicking element: [data-test="login-button"]
+[2026-04-01 04:49:01] [32MINFO[39M: ========== TEST STARTED: Inventory Test ==========
+[2026-04-01 04:49:01] [32MINFO[39M: Test Case: TC-005 - Verify sorting products by Price (low to high)
+[2026-04-01 04:49:01] [32MINFO[39M: ✓ ASSERTION PASSED: Inventory container is visible
+[2026-04-01 04:49:01] [32MINFO[39M: Product prices before sort: $29.99, $9.99, $15.99, $49.99, $7.99, $15.99
+[2026-04-01 04:49:01] [32MINFO[39M: Text from [data-test="active-option"]: Price (low to high)
+[2026-04-01 04:49:01] [32MINFO[39M: ✓ ASSERTION PASSED: Active sort option displays "Price (low to high)"
+[2026-04-01 04:49:01] [32MINFO[39M: Product prices after sort: $7.99, $9.99, $15.99, $15.99, $29.99, $49.99
+[2026-04-01 04:49:01] [32MINFO[39M: ✓ ASSERTION PASSED: Products are sorted by price low to high
+[2026-04-01 04:49:01] [32MINFO[39M: ========== TEST ENDED: Inventory Test - Completed ==========
+]]>
+</system-out>
+</testcase>
+<testcase name="Inventory - Inventory Tests › TC-006: Verify sorting products by Price (high to low)" classname="inventory\inventory.spec.js" time="1.052">
+<system-out>
+<![CDATA[[2026-04-01 04:49:01] [32MINFO[39M: STEP: Navigating to: https://www.saucedemo.com
+[2026-04-01 04:49:01] [32MINFO[39M: STEP: Filling element [data-test="username"] with: standard_user
+[2026-04-01 04:49:01] [32MINFO[39M: STEP: Filling element [data-test="password"] with: secret_sauce
+[2026-04-01 04:49:01] [32MINFO[39M: STEP: Clicking element: [data-test="login-button"]
+[2026-04-01 04:49:01] [32MINFO[39M: ========== TEST STARTED: Inventory Test ==========
+[2026-04-01 04:49:01] [32MINFO[39M: Test Case: TC-006 - Verify sorting products by Price (high to low)
+[2026-04-01 04:49:01] [32MINFO[39M: ✓ ASSERTION PASSED: Inventory container is visible
+[2026-04-01 04:49:01] [32MINFO[39M: Product prices before sort: $29.99, $9.99, $15.99, $49.99, $7.99, $15.99
+[2026-04-01 04:49:01] [32MINFO[39M: Text from [data-test="active-option"]: Price (high to low)
+[2026-04-01 04:49:01] [32MINFO[39M: ✓ ASSERTION PASSED: Active sort option displays "Price (high to low)"
+[2026-04-01 04:49:01] [32MINFO[39M: Product prices after sort: $49.99, $29.99, $15.99, $15.99, $9.99, $7.99
+[2026-04-01 04:49:01] [32MINFO[39M: ✓ ASSERTION PASSED: Products are sorted by price high to low
+[2026-04-01 04:49:01] [32MINFO[39M: ========== TEST ENDED: Inventory Test - Completed ==========
+]]>
+</system-out>
+</testcase>
+<testcase name="Inventory - Inventory Tests › TC-007: Verify &quot;Add to cart&quot; button changes to &quot;Remove&quot; and cart badge updates" classname="inventory\inventory.spec.js" time="1.18">
+<system-out>
+<![CDATA[[2026-04-01 04:49:01] [32MINFO[39M: STEP: Navigating to: https://www.saucedemo.com
+[2026-04-01 04:49:01] [32MINFO[39M: STEP: Filling element [data-test="username"] with: standard_user
+[2026-04-01 04:49:01] [32MINFO[39M: STEP: Filling element [data-test="password"] with: secret_sauce
+[2026-04-01 04:49:01] [32MINFO[39M: STEP: Clicking element: [data-test="login-button"]
+[2026-04-01 04:49:02] [32MINFO[39M: ========== TEST STARTED: Inventory Test ==========
+[2026-04-01 04:49:02] [32MINFO[39M: Test Case: TC-007 - Verify "Add to cart" button changes to "Remove" and cart badge updates
+[2026-04-01 04:49:02] [32MINFO[39M: ✓ ASSERTION PASSED: Inventory container is visible
+[2026-04-01 04:49:02] [32MINFO[39M: ✓ ASSERTION PASSED: Initial cart badge count is 0
+[2026-04-01 04:49:02] [32MINFO[39M: Selected random product: Sauce Labs Bolt T-Shirt (index: 2)
+[2026-04-01 04:49:02] [32MINFO[39M: ✓ ASSERTION PASSED: Initial button text is "Add to cart" for Sauce Labs Bolt T-Shirt
+[2026-04-01 04:49:02] [32MINFO[39M: Added Sauce Labs Bolt T-Shirt to cart
+[2026-04-01 04:49:02] [32MINFO[39M: ✓ ASSERTION PASSED: Button text changed to "Remove" for Sauce Labs Bolt T-Shirt
+[2026-04-01 04:49:02] [32MINFO[39M: Text from .shopping_cart_badge: 1
+[2026-04-01 04:49:02] [32MINFO[39M: ✓ ASSERTION PASSED: Cart badge count updated to 1
+[2026-04-01 04:49:02] [32MINFO[39M: ========== TEST ENDED: Inventory Test - Completed ==========
+]]>
+</system-out>
+</testcase>
+<testcase name="Inventory - Inventory Tests › TC-008: Verify removing product from inventory page decreases cart count" classname="inventory\inventory.spec.js" time="1.064">
+<system-out>
+<![CDATA[[2026-04-01 04:49:02] [32MINFO[39M: STEP: Navigating to: https://www.saucedemo.com
+[2026-04-01 04:49:02] [32MINFO[39M: STEP: Filling element [data-test="username"] with: standard_user
+[2026-04-01 04:49:02] [32MINFO[39M: STEP: Filling element [data-test="password"] with: secret_sauce
+[2026-04-01 04:49:02] [32MINFO[39M: STEP: Clicking element: [data-test="login-button"]
+[2026-04-01 04:49:02] [32MINFO[39M: ========== TEST STARTED: Inventory Test ==========
+[2026-04-01 04:49:02] [32MINFO[39M: Test Case: TC-008 - Verify removing product from inventory page decreases cart count
+[2026-04-01 04:49:02] [32MINFO[39M: ✓ ASSERTION PASSED: Inventory container is visible
+[2026-04-01 04:49:02] [32MINFO[39M: ✓ ASSERTION PASSED: Initial cart badge count is 0
+[2026-04-01 04:49:03] [32MINFO[39M: Selected random product: Sauce Labs Bolt T-Shirt (index: 2)
+[2026-04-01 04:49:03] [32MINFO[39M: Added Sauce Labs Bolt T-Shirt to cart
+[2026-04-01 04:49:03] [32MINFO[39M: Text from .shopping_cart_badge: 1
+[2026-04-01 04:49:03] [32MINFO[39M: ✓ ASSERTION PASSED: Cart badge count is 1 after adding product
+[2026-04-01 04:49:03] [32MINFO[39M: ✓ ASSERTION PASSED: Button text is "Remove" for Sauce Labs Bolt T-Shirt
+[2026-04-01 04:49:03] [32MINFO[39M: Removed Sauce Labs Bolt T-Shirt from cart
+[2026-04-01 04:49:03] [32MINFO[39M: ✓ ASSERTION PASSED: Button text changed back to "Add to cart" for Sauce Labs Bolt T-Shirt
+[2026-04-01 04:49:03] [32MINFO[39M: ✓ ASSERTION PASSED: Cart badge count decreased to 0
+[2026-04-01 04:49:03] [32MINFO[39M: ========== TEST ENDED: Inventory Test - Completed ==========
 ]]>
 </system-out>
 </testcase>

@@ -1,0 +1,13 @@
+[2026-04-01 04:45:41] INFO: ========== TEST STARTED: Login Test ==========
+[2026-04-01 04:45:41] INFO: STEP: Navigating to: https://www.saucedemo.com
+[2026-04-01 04:45:41] INFO: Test Case: TC-007 - Locked out user login attempt
+[2026-04-01 04:45:41] INFO: STEP: Filling element [data-test="username"] with: locked_out_user
+[2026-04-01 04:45:41] INFO: STEP: Filling element [data-test="password"] with: secret_sauce
+[2026-04-01 04:45:42] INFO: STEP: Clicking element: [data-test="login-button"]
+[2026-04-01 04:45:42] INFO: STEP: Waiting for 1000ms
+[2026-04-01 04:45:43] INFO: STEP: Waiting for element: .error-message-container
+[2026-04-01 04:45:43] INFO: Text from .error-message-container: Epic sadface: Sorry, this user has been locked out.
+[2026-04-01 04:45:43] INFO: STEP: Waiting for element: .error-message-container
+[2026-04-01 04:45:43] INFO: Text from .error-message-container: Epic sadface: Sorry, this user has been locked out.
+[2026-04-01 04:45:43] INFO: ✓ ASSERTION PASSED: Locked out user error message displayed
+[2026-04-01 04:45:43] INFO: ========== TEST ENDED: Login Test - Completed ==========

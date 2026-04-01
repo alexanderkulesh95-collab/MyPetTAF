@@ -1,0 +1,13 @@
+[2026-04-01 04:45:36] INFO: STEP: Navigating to: https://www.saucedemo.com
+[2026-04-01 04:45:36] INFO: STEP: Filling element [data-test="username"] with: standard_user
+[2026-04-01 04:45:36] INFO: STEP: Filling element [data-test="password"] with: secret_sauce
+[2026-04-01 04:45:36] INFO: STEP: Clicking element: [data-test="login-button"]
+[2026-04-01 04:45:37] INFO: ========== TEST STARTED: Inventory Test ==========
+[2026-04-01 04:45:37] INFO: Test Case: TC-004 - Verify sorting products by Name (Z to A)
+[2026-04-01 04:45:37] INFO: ✓ ASSERTION PASSED: Inventory container is visible
+[2026-04-01 04:45:37] INFO: Products before sort: Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket, Sauce Labs Onesie, Test.allTheThings() T-Shirt (Red)
+[2026-04-01 04:45:37] INFO: Text from [data-test="active-option"]: Name (Z to A)
+[2026-04-01 04:45:37] INFO: ✓ ASSERTION PASSED: Active sort option displays "Name (Z to A)"
+[2026-04-01 04:45:37] INFO: Products after sort: Test.allTheThings() T-Shirt (Red), Sauce Labs Onesie, Sauce Labs Fleece Jacket, Sauce Labs Bolt T-Shirt, Sauce Labs Bike Light, Sauce Labs Backpack
+[2026-04-01 04:45:37] INFO: ✓ ASSERTION PASSED: Products are sorted by name Z to A
+[2026-04-01 04:45:37] INFO: ========== TEST ENDED: Inventory Test - Completed ==========

@@ -1,0 +1,29 @@
+[2026-04-01 04:45:44] INFO: STEP: Navigating to: https://www.saucedemo.com
+[2026-04-01 04:45:45] INFO: STEP: Filling element [data-test="username"] with: standard_user
+[2026-04-01 04:45:45] INFO: STEP: Filling element [data-test="password"] with: secret_sauce
+[2026-04-01 04:45:45] INFO: STEP: Clicking element: [data-test="login-button"]
+[2026-04-01 04:45:45] INFO: ========== TEST STARTED: Checkout Overview Page Test ==========
+[2026-04-01 04:45:45] INFO: Selected product: Sauce Labs Backpack, Price: $29.99
+[2026-04-01 04:45:45] INFO: STEP: Clicking element: [data-test="shopping-cart-link"]
+[2026-04-01 04:45:45] INFO: STEP: Clicking element: [data-test="checkout"]
+[2026-04-01 04:45:45] INFO: STEP: Waiting for element: [data-test="checkout-info-container"]
+[2026-04-01 04:45:45] INFO: STEP: Filling element [data-test="firstName"] with: John
+[2026-04-01 04:45:45] INFO: STEP: Filling element [data-test="lastName"] with: Doe
+[2026-04-01 04:45:45] INFO: STEP: Filling element [data-test="postalCode"] with: 12345
+[2026-04-01 04:45:45] INFO: STEP: Clicking element: [data-test="continue"]
+[2026-04-01 04:45:45] INFO: STEP: Waiting for element: [data-test="checkout-summary-container"]
+[2026-04-01 04:45:45] INFO: Test Case: TC-001 - Verify product details and complete order
+[2026-04-01 04:45:45] INFO: ✓ ASSERTION PASSED: Checkout overview contains 1 item
+[2026-04-01 04:45:45] INFO: Overview item details - Name: Sauce Labs Backpack, Price: $29.99, Quantity: 1
+[2026-04-01 04:45:45] INFO: ✓ ASSERTION PASSED: Product name matches: "Sauce Labs Backpack"
+[2026-04-01 04:45:45] INFO: ✓ ASSERTION PASSED: Product description matches
+[2026-04-01 04:45:45] INFO: ✓ ASSERTION PASSED: Product price matches: $29.99
+[2026-04-01 04:45:45] INFO: ✓ ASSERTION PASSED: Product quantity is 1
+[2026-04-01 04:45:45] INFO: STEP: Clicking element: [data-test="finish"]
+[2026-04-01 04:45:45] INFO: Clicked finish button
+[2026-04-01 04:45:45] INFO: ✓ ASSERTION PASSED: Navigated to checkout complete page
+[2026-04-01 04:45:45] INFO: ✓ ASSERTION PASSED: Checkout complete page is displayed
+[2026-04-01 04:45:45] INFO: ✓ ASSERTION PASSED: Success header is displayed
+[2026-04-01 04:45:45] INFO: Text from [data-test="complete-header"]: Thank you for your order!
+[2026-04-01 04:45:45] INFO: ✓ ASSERTION PASSED: Success message contains "Thank you for your order"
+[2026-04-01 04:45:45] INFO: ========== TEST ENDED: Checkout Overview Page Test - Completed ==========
