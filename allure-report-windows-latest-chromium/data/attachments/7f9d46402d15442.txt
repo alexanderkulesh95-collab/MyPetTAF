@@ -1,0 +1,28 @@
+[2026-04-04 04:17:49] INFO: STEP: Navigating to: https://www.saucedemo.com
+[2026-04-04 04:17:49] INFO: STEP: Filling element [data-test="username"] with: standard_user
+[2026-04-04 04:17:49] INFO: STEP: Filling element [data-test="password"] with: secret_sauce
+[2026-04-04 04:17:49] INFO: STEP: Clicking element: [data-test="login-button"]
+[2026-04-04 04:17:49] INFO: ========== TEST STARTED: Cart Test ==========
+[2026-04-04 04:17:49] INFO: Test Case: TC-001 - Verify cart displays correct product details (name, description, price, quantity)
+[2026-04-04 04:17:49] INFO: ✓ ASSERTION PASSED: Inventory container is visible
+[2026-04-04 04:17:49] INFO: Selected random product: Sauce Labs Bolt T-Shirt (index: 2)
+[2026-04-04 04:17:49] INFO: Product details from inventory - Name: Sauce Labs Bolt T-Shirt, Price: $15.99
+[2026-04-04 04:17:49] INFO: Product description: Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.
+[2026-04-04 04:17:49] INFO: Added Sauce Labs Bolt T-Shirt to cart
+[2026-04-04 04:17:49] INFO: STEP: Clicking element: [data-test="shopping-cart-link"]
+[2026-04-04 04:17:49] INFO: Clicked cart icon
+[2026-04-04 04:17:49] INFO: STEP: Waiting for element: [data-test="cart-contents-container"]
+[2026-04-04 04:17:49] INFO: ✓ ASSERTION PASSED: Cart page is displayed
+[2026-04-04 04:17:50] INFO: Text from [data-test="title"]: Your Cart
+[2026-04-04 04:17:50] INFO: ✓ ASSERTION PASSED: Cart page title is "Your Cart"
+[2026-04-04 04:17:50] INFO: ✓ ASSERTION PASSED: Quantity label (QTY) is displayed
+[2026-04-04 04:17:50] INFO: ✓ ASSERTION PASSED: Description label is displayed
+[2026-04-04 04:17:50] INFO: ✓ ASSERTION PASSED: Product "Sauce Labs Bolt T-Shirt" is present in cart
+[2026-04-04 04:17:50] INFO: Product details from cart - Name: Sauce Labs Bolt T-Shirt, Price: $15.99, Quantity: 1
+[2026-04-04 04:17:50] INFO: Product description in cart: Get your testing superhero on with the Sauce Labs bolt T-shirt. From American Apparel, 100% ringspun combed cotton, heather gray with red bolt.
+[2026-04-04 04:17:50] INFO: ✓ ASSERTION PASSED: Product name matches: "Sauce Labs Bolt T-Shirt"
+[2026-04-04 04:17:50] INFO: ✓ ASSERTION PASSED: Product description matches
+[2026-04-04 04:17:50] INFO: ✓ ASSERTION PASSED: Product price matches: $15.99
+[2026-04-04 04:17:50] INFO: ✓ ASSERTION PASSED: Product quantity is 1
+[2026-04-04 04:17:50] INFO: ✓ ASSERTION PASSED: Cart contains 1 item
+[2026-04-04 04:17:50] INFO: ========== TEST ENDED: Cart Test - Completed ==========
