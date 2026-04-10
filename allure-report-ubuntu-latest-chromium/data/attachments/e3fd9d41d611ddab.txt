@@ -1,0 +1,11 @@
+[2026-04-10 04:49:28] INFO: ========== TEST STARTED: Login Test ==========
+[2026-04-10 04:49:28] INFO: STEP: Navigating to: https://www.saucedemo.com
+[2026-04-10 04:49:28] INFO: Test Case: TC-006 - Successful logout
+[2026-04-10 04:49:28] INFO: STEP: Filling element [data-test="username"] with: standard_user
+[2026-04-10 04:49:28] INFO: STEP: Filling element [data-test="password"] with: secret_sauce
+[2026-04-10 04:49:28] INFO: STEP: Clicking element: [data-test="login-button"]
+[2026-04-10 04:49:28] INFO: STEP: Clicking element: #react-burger-menu-btn
+[2026-04-10 04:49:28] INFO: STEP: Waiting for 500ms
+[2026-04-10 04:49:29] INFO: STEP: Clicking element: #logout_sidebar_link
+[2026-04-10 04:49:29] INFO: ✓ ASSERTION PASSED: User successfully logged out
+[2026-04-10 04:49:29] INFO: ========== TEST ENDED: Login Test - Completed ==========

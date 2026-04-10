@@ -1,0 +1,12 @@
+[2026-04-10 04:44:37] INFO: ========== TEST STARTED: Login Test ==========
+[2026-04-10 04:44:37] INFO: STEP: Navigating to: https://www.saucedemo.com
+[2026-04-10 04:44:37] INFO: Test Case: TC-005 - Login with empty password
+[2026-04-10 04:44:37] INFO: STEP: Filling element [data-test="username"] with: standard_user
+[2026-04-10 04:44:37] INFO: STEP: Clicking element: [data-test="login-button"]
+[2026-04-10 04:44:37] INFO: STEP: Waiting for 1000ms
+[2026-04-10 04:44:38] INFO: STEP: Waiting for element: .error-message-container
+[2026-04-10 04:44:38] INFO: Text from .error-message-container: Epic sadface: Password is required
+[2026-04-10 04:44:38] INFO: STEP: Waiting for element: .error-message-container
+[2026-04-10 04:44:38] INFO: Text from .error-message-container: Epic sadface: Password is required
+[2026-04-10 04:44:38] INFO: ✓ ASSERTION PASSED: Error message displayed for empty password
+[2026-04-10 04:44:38] INFO: ========== TEST ENDED: Login Test - Completed ==========

@@ -1,0 +1,13 @@
+[2026-04-10 04:48:06] INFO: ========== TEST STARTED: Login Test ==========
+[2026-04-10 04:48:06] INFO: STEP: Navigating to: https://www.saucedemo.com
+[2026-04-10 04:48:06] INFO: Test Case: TC-003 - Login with invalid password
+[2026-04-10 04:48:06] INFO: STEP: Filling element [data-test="username"] with: standard_user
+[2026-04-10 04:48:06] INFO: STEP: Filling element [data-test="password"] with: wrong_password
+[2026-04-10 04:48:06] INFO: STEP: Clicking element: [data-test="login-button"]
+[2026-04-10 04:48:06] INFO: STEP: Waiting for 1000ms
+[2026-04-10 04:48:07] INFO: STEP: Waiting for element: .error-message-container
+[2026-04-10 04:48:07] INFO: Text from .error-message-container: Epic sadface: Username and password do not match any user in this service
+[2026-04-10 04:48:07] INFO: STEP: Waiting for element: .error-message-container
+[2026-04-10 04:48:07] INFO: Text from .error-message-container: Epic sadface: Username and password do not match any user in this service
+[2026-04-10 04:48:07] INFO: ✓ ASSERTION PASSED: Error message displayed for invalid password
+[2026-04-10 04:48:07] INFO: ========== TEST ENDED: Login Test - Completed ==========

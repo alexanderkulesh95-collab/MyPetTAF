@@ -1,0 +1,15 @@
+[2026-04-10 04:49:39] INFO: STEP: Navigating to: https://www.saucedemo.com
+[2026-04-10 04:49:39] INFO: STEP: Filling element [data-test="username"] with: standard_user
+[2026-04-10 04:49:40] INFO: STEP: Filling element [data-test="password"] with: secret_sauce
+[2026-04-10 04:49:40] INFO: STEP: Clicking element: [data-test="login-button"]
+[2026-04-10 04:49:40] INFO: ========== TEST STARTED: Inventory Test ==========
+[2026-04-10 04:49:40] INFO: Test Case: TC-007 - Verify "Add to cart" button changes to "Remove" and cart badge updates
+[2026-04-10 04:49:40] INFO: ✓ ASSERTION PASSED: Inventory container is visible
+[2026-04-10 04:49:40] INFO: ✓ ASSERTION PASSED: Initial cart badge count is 0
+[2026-04-10 04:49:40] INFO: Selected random product: Sauce Labs Onesie (index: 4)
+[2026-04-10 04:49:40] INFO: ✓ ASSERTION PASSED: Initial button text is "Add to cart" for Sauce Labs Onesie
+[2026-04-10 04:49:40] INFO: Added Sauce Labs Onesie to cart
+[2026-04-10 04:49:40] INFO: ✓ ASSERTION PASSED: Button text changed to "Remove" for Sauce Labs Onesie
+[2026-04-10 04:49:40] INFO: Text from .shopping_cart_badge: 1
+[2026-04-10 04:49:40] INFO: ✓ ASSERTION PASSED: Cart badge count updated to 1
+[2026-04-10 04:49:40] INFO: ========== TEST ENDED: Inventory Test - Completed ==========
