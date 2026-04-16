@@ -1,0 +1,17 @@
+[2026-04-16 04:49:52] INFO: STEP: Navigating to: https://www.saucedemo.com
+[2026-04-16 04:49:52] INFO: STEP: Filling element [data-test="username"] with: standard_user
+[2026-04-16 04:49:52] INFO: STEP: Filling element [data-test="password"] with: secret_sauce
+[2026-04-16 04:49:52] INFO: STEP: Clicking element: [data-test="login-button"]
+[2026-04-16 04:49:52] INFO: ========== TEST STARTED: Inventory Test ==========
+[2026-04-16 04:49:52] INFO: Test Case: TC-008 - Verify removing product from inventory page decreases cart count
+[2026-04-16 04:49:52] INFO: ✓ ASSERTION PASSED: Inventory container is visible
+[2026-04-16 04:49:52] INFO: ✓ ASSERTION PASSED: Initial cart badge count is 0
+[2026-04-16 04:49:52] INFO: Selected random product: Sauce Labs Fleece Jacket (index: 3)
+[2026-04-16 04:49:52] INFO: Added Sauce Labs Fleece Jacket to cart
+[2026-04-16 04:49:52] INFO: Text from .shopping_cart_badge: 1
+[2026-04-16 04:49:52] INFO: ✓ ASSERTION PASSED: Cart badge count is 1 after adding product
+[2026-04-16 04:49:52] INFO: ✓ ASSERTION PASSED: Button text is "Remove" for Sauce Labs Fleece Jacket
+[2026-04-16 04:49:53] INFO: Removed Sauce Labs Fleece Jacket from cart
+[2026-04-16 04:49:53] INFO: ✓ ASSERTION PASSED: Button text changed back to "Add to cart" for Sauce Labs Fleece Jacket
+[2026-04-16 04:49:53] INFO: ✓ ASSERTION PASSED: Cart badge count decreased to 0
+[2026-04-16 04:49:53] INFO: ========== TEST ENDED: Inventory Test - Completed ==========
