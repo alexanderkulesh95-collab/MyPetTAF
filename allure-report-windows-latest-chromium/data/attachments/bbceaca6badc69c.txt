@@ -1,0 +1,20 @@
+[2026-04-19 04:52:16] INFO: STEP: Navigating to: https://www.saucedemo.com
+[2026-04-19 04:52:16] INFO: STEP: Filling element [data-test="username"] with: standard_user
+[2026-04-19 04:52:16] INFO: STEP: Filling element [data-test="password"] with: secret_sauce
+[2026-04-19 04:52:16] INFO: STEP: Clicking element: [data-test="login-button"]
+[2026-04-19 04:52:17] INFO: ========== TEST STARTED: Checkout Page Test ==========
+[2026-04-19 04:52:17] INFO: STEP: Clicking element: [data-test="shopping-cart-link"]
+[2026-04-19 04:52:17] INFO: STEP: Clicking element: [data-test="checkout"]
+[2026-04-19 04:52:17] INFO: STEP: Waiting for element: [data-test="checkout-info-container"]
+[2026-04-19 04:52:17] INFO: Test Case: TC-001 - Verify filling checkout form with valid data and continue to checkout overview
+[2026-04-19 04:52:17] INFO: STEP: Filling element [data-test="firstName"] with: John
+[2026-04-19 04:52:17] INFO: STEP: Filling element [data-test="lastName"] with: Doe
+[2026-04-19 04:52:17] INFO: STEP: Filling element [data-test="postalCode"] with: 12345
+[2026-04-19 04:52:17] INFO: Filled checkout form with: John Doe, 12345
+[2026-04-19 04:52:17] INFO: ✓ ASSERTION PASSED: First name field contains correct value
+[2026-04-19 04:52:17] INFO: ✓ ASSERTION PASSED: Last name field contains correct value
+[2026-04-19 04:52:17] INFO: ✓ ASSERTION PASSED: Postal code field contains correct value
+[2026-04-19 04:52:17] INFO: STEP: Clicking element: [data-test="continue"]
+[2026-04-19 04:52:17] INFO: Clicked continue button
+[2026-04-19 04:52:17] INFO: ✓ ASSERTION PASSED: Navigated to checkout overview page
+[2026-04-19 04:52:17] INFO: ========== TEST ENDED: Checkout Page Test - Completed ==========
