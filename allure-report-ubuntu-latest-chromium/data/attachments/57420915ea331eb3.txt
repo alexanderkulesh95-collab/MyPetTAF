@@ -1,0 +1,28 @@
+[2026-04-25 04:34:44] INFO: STEP: Navigating to: https://www.saucedemo.com
+[2026-04-25 04:34:44] INFO: STEP: Filling element [data-test="username"] with: standard_user
+[2026-04-25 04:34:44] INFO: STEP: Filling element [data-test="password"] with: secret_sauce
+[2026-04-25 04:34:44] INFO: STEP: Clicking element: [data-test="login-button"]
+[2026-04-25 04:34:45] INFO: ========== TEST STARTED: Cart Test ==========
+[2026-04-25 04:34:45] INFO: Test Case: TC-001 - Verify cart displays correct product details (name, description, price, quantity)
+[2026-04-25 04:34:45] INFO: ✓ ASSERTION PASSED: Inventory container is visible
+[2026-04-25 04:34:45] INFO: Selected random product: Test.allTheThings() T-Shirt (Red) (index: 5)
+[2026-04-25 04:34:45] INFO: Product details from inventory - Name: Test.allTheThings() T-Shirt (Red), Price: $15.99
+[2026-04-25 04:34:45] INFO: Product description: This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.
+[2026-04-25 04:34:45] INFO: Added Test.allTheThings() T-Shirt (Red) to cart
+[2026-04-25 04:34:45] INFO: STEP: Clicking element: [data-test="shopping-cart-link"]
+[2026-04-25 04:34:45] INFO: Clicked cart icon
+[2026-04-25 04:34:45] INFO: STEP: Waiting for element: [data-test="cart-contents-container"]
+[2026-04-25 04:34:45] INFO: ✓ ASSERTION PASSED: Cart page is displayed
+[2026-04-25 04:34:45] INFO: Text from [data-test="title"]: Your Cart
+[2026-04-25 04:34:45] INFO: ✓ ASSERTION PASSED: Cart page title is "Your Cart"
+[2026-04-25 04:34:45] INFO: ✓ ASSERTION PASSED: Quantity label (QTY) is displayed
+[2026-04-25 04:34:45] INFO: ✓ ASSERTION PASSED: Description label is displayed
+[2026-04-25 04:34:45] INFO: ✓ ASSERTION PASSED: Product "Test.allTheThings() T-Shirt (Red)" is present in cart
+[2026-04-25 04:34:45] INFO: Product details from cart - Name: Test.allTheThings() T-Shirt (Red), Price: $15.99, Quantity: 1
+[2026-04-25 04:34:45] INFO: Product description in cart: This classic Sauce Labs t-shirt is perfect to wear when cozying up to your keyboard to automate a few tests. Super-soft and comfy ringspun combed cotton.
+[2026-04-25 04:34:45] INFO: ✓ ASSERTION PASSED: Product name matches: "Test.allTheThings() T-Shirt (Red)"
+[2026-04-25 04:34:45] INFO: ✓ ASSERTION PASSED: Product description matches
+[2026-04-25 04:34:45] INFO: ✓ ASSERTION PASSED: Product price matches: $15.99
+[2026-04-25 04:34:45] INFO: ✓ ASSERTION PASSED: Product quantity is 1
+[2026-04-25 04:34:45] INFO: ✓ ASSERTION PASSED: Cart contains 1 item
+[2026-04-25 04:34:45] INFO: ========== TEST ENDED: Cart Test - Completed ==========

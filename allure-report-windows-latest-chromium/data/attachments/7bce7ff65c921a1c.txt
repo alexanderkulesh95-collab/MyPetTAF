@@ -1,0 +1,14 @@
+[2026-04-25 04:37:54] INFO: STEP: Navigating to: https://www.saucedemo.com
+[2026-04-25 04:37:54] INFO: STEP: Filling element [data-test="username"] with: standard_user
+[2026-04-25 04:37:54] INFO: STEP: Filling element [data-test="password"] with: secret_sauce
+[2026-04-25 04:37:54] INFO: STEP: Clicking element: [data-test="login-button"]
+[2026-04-25 04:37:55] INFO: ========== TEST STARTED: Inventory Test ==========
+[2026-04-25 04:37:55] INFO: Test Case: TC-001 - All items are present in inventory page
+[2026-04-25 04:37:55] INFO: ✓ ASSERTION PASSED: Inventory container is visible
+[2026-04-25 04:37:55] INFO: ✓ ASSERTION PASSED: Sauce Labs Backpack is displayed
+[2026-04-25 04:37:55] INFO: ✓ ASSERTION PASSED: Sauce Labs Bike Light is displayed
+[2026-04-25 04:37:55] INFO: ✓ ASSERTION PASSED: Sauce Labs Bolt T-Shirt is displayed
+[2026-04-25 04:37:55] INFO: ✓ ASSERTION PASSED: Sauce Labs Fleece Jacket is displayed
+[2026-04-25 04:37:55] INFO: ✓ ASSERTION PASSED: Sauce Labs Onesie is displayed
+[2026-04-25 04:37:55] INFO: ✓ ASSERTION PASSED: Test.allTheThings() T-Shirt (Red) is displayed
+[2026-04-25 04:37:55] INFO: ========== TEST ENDED: Inventory Test - Completed ==========

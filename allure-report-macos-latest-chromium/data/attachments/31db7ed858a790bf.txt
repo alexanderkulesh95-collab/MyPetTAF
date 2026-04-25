@@ -1,0 +1,13 @@
+[2026-04-25 04:34:27] INFO: STEP: Navigating to: https://www.saucedemo.com
+[2026-04-25 04:34:27] INFO: STEP: Filling element [data-test="username"] with: standard_user
+[2026-04-25 04:34:27] INFO: STEP: Filling element [data-test="password"] with: secret_sauce
+[2026-04-25 04:34:27] INFO: STEP: Clicking element: [data-test="login-button"]
+[2026-04-25 04:34:27] INFO: ========== TEST STARTED: Inventory Test ==========
+[2026-04-25 04:34:27] INFO: Test Case: TC-005 - Verify sorting products by Price (low to high)
+[2026-04-25 04:34:27] INFO: ✓ ASSERTION PASSED: Inventory container is visible
+[2026-04-25 04:34:27] INFO: Product prices before sort: $29.99, $9.99, $15.99, $49.99, $7.99, $15.99
+[2026-04-25 04:34:27] INFO: Text from [data-test="active-option"]: Price (low to high)
+[2026-04-25 04:34:27] INFO: ✓ ASSERTION PASSED: Active sort option displays "Price (low to high)"
+[2026-04-25 04:34:27] INFO: Product prices after sort: $7.99, $9.99, $15.99, $15.99, $29.99, $49.99
+[2026-04-25 04:34:27] INFO: ✓ ASSERTION PASSED: Products are sorted by price low to high
+[2026-04-25 04:34:27] INFO: ========== TEST ENDED: Inventory Test - Completed ==========
