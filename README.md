@@ -332,7 +332,7 @@ npm run report
 ### 2. Allure Report
 ```powershell
 # Generate and open Allure report
-allure serve reports/allure-results
+allure serve allure-results
 ```
 - Advanced reporting with trends and history
 - Test categorization and tags

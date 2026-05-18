@@ -17,7 +17,8 @@
     "test:parallel": "playwright test --workers=4",
     "test:serial": "playwright test --workers=1",
     "report": "playwright show-report",
-    "codegen": "playwright codegen"
+    "codegen": "playwright codegen",
+    "lint": "eslint"
   },
   "keywords": [
     "playwright",
@@ -29,15 +30,18 @@
   "author": "Automation Test Engineer",
   "license": "MIT",
   "devDependencies": {
+    "@eslint/js": "^9.39.4",
     "@playwright/test": "^1.48.0",
+    "allure-playwright": "^3.0.0",
     "dotenv": "^16.4.5",
-    "allure-playwright": "^3.0.0"
+    "eslint": "^9.39.4",
+    "globals": "^17.6.0"
   },
   "dependencies": {
     "faker": "^5.5.3",
+    "mongodb": "^6.10.0",
     "mysql2": "^3.11.5",
     "pg": "^8.13.1",
-    "mongodb": "^6.10.0",
     "winston": "^3.15.0"
   }
 }

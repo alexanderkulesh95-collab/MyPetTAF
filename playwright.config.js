@@ -1,8 +1,8 @@
 const { defineConfig, devices } = require('@playwright/test');
 const { getEnvironmentConfig } = require('./config/environments');
 
-// Get environment from ENV variable or default to 'dev'
-const environment = process.env.ENV || 'dev';
+// Get environment from ENV variable or default to 'demo'
+const environment = process.env.ENV || 'demo';
 const envConfig = getEnvironmentConfig(environment);
 
 module.exports = defineConfig({

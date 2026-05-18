@@ -19,37 +19,6 @@ const environments = {
     retries: 1
   },
   
-  staging: {
-    baseURL: 'https://staging.example.com',
-    apiURL: 'https://api-staging.example.com',
-    username: 'staging-user@test.com',
-    password: 'StagingPassword123!',
-    database: {
-      host: 'staging-db.example.com',
-      port: 5432,
-      database: 'testdb_staging',
-      user: 'staging_user',
-      password: 'staging_password'
-    },
-    timeout: 45000,
-    retries: 2
-  },
-  
-  prod: {
-    baseURL: 'https://www.example.com',
-    apiURL: 'https://api.example.com',
-    username: 'prod-user@test.com',
-    password: 'ProdPassword123!',
-    database: {
-      host: 'prod-db.example.com',
-      port: 5432,
-      database: 'testdb_prod',
-      user: 'prod_readonly_user',
-      password: 'prod_password'
-    },
-    timeout: 60000,
-    retries: 3
-  },
 
   // Demo site for testing
   demo: {
@@ -68,12 +37,12 @@ const environments = {
  * @param {string} env - Environment name (dev, staging, prod)
  * @returns {object} Environment configuration
  */
-function getEnvironmentConfig(env = 'dev') {
+function getEnvironmentConfig(env = 'demo') {
   const environment = env.toLowerCase();
   
   if (!environments[environment]) {
-    console.warn(`Environment '${environment}' not found. Using 'dev' as default.`);
-    return environments.dev;
+    console.warn(`Environment '${environment}' not found. Using 'demo' as default.`);
+    return environments.demo;
   }
   
   return environments[environment];
@@ -84,7 +53,7 @@ function getEnvironmentConfig(env = 'dev') {
  * @returns {string} Current environment
  */
 function getCurrentEnvironment() {
-  return process.env.ENV || 'dev';
+  return process.env.ENV || 'demo';
 }
 
 module.exports = {
