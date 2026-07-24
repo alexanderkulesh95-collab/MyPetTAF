@@ -6,6 +6,16 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Thi
 
 ## [Unreleased]
 
+## [2026-07-24]
+
+### Added
+- Claude Code hook (`.claude/hooks/check-commit-docs.sh`, `.claude/settings.json`) added to gate `git commit` behind a documentation review step.
+
+### Changed
+- `.gitignore` updated to exclude `.claude/.docs-reviewed`, the runtime sentinel file used by the doc-review hook.
+
+## [2026-07-23]
+
 ### Added
 - `CLAUDE.md` added with project overview, commands, architecture, and conventions for Claude Code.
 - `CHANGELOG.md` added to track notable changes going forward.

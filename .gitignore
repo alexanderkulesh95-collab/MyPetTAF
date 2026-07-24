@@ -58,3 +58,6 @@ temp/
 # Coverage
 coverage/
 .nyc_output/
+
+# Claude Code hook state
+.claude/.docs-reviewed
