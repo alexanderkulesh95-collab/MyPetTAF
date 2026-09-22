@@ -1,0 +1,7 @@
+[2026-09-22 07:13:35] INFO: STEP: Navigating to: https://www.saucedemo.com
+[2026-09-22 07:13:35] INFO: STEP: Filling element [data-test="username"] with: standard_user
+[2026-09-22 07:13:36] INFO: STEP: Filling element [data-test="password"] with: secret_sauce
+[2026-09-22 07:13:36] INFO: STEP: Clicking element: [data-test="login-button"]
+[2026-09-22 07:13:36] INFO: ========== TEST STARTED: Inventory Test ==========
+[2026-09-22 07:13:36] INFO: Test Case: TC-007 - Verify "Add to cart" button changes to "Remove" and cart badge updates
+[2026-09-22 07:13:36] INFO: ========== TEST ENDED: Inventory Test - Completed ==========

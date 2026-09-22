@@ -1,0 +1,6 @@
+[2026-09-22 07:13:22] INFO: STEP: Navigating to: https://www.saucedemo.com
+[2026-09-22 07:13:22] INFO: STEP: Filling element [data-test="username"] with: standard_user
+[2026-09-22 07:13:23] INFO: STEP: Filling element [data-test="password"] with: secret_sauce
+[2026-09-22 07:13:23] INFO: STEP: Clicking element: [data-test="login-button"]
+[2026-09-22 07:13:23] INFO: ========== TEST STARTED: Checkout Page Test ==========
+[2026-09-22 07:13:23] INFO: ========== TEST ENDED: Checkout Page Test - Completed ==========
